@@ -26,7 +26,7 @@ const App = () => {
   return (
     <div style={{height: "100vh", width: "100%"}}>
 				{/* <Menu/> */}
-				<Route exact path="/" component={Home}></Route>
+				<Route exact path="/" component={Mainpage}></Route>
 				<Switch>
 					<Route path="/main" component={Mainpage}/>
 					<Route path="/summary" component={Summary}/>

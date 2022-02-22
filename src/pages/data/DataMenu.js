@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 const DataMenu = ({history}) => {
   return (
-    <div style={{width: "100%", height: "60%", border: "1px solid #E2E2E2", display: "flex", justifyContent: "space-around", alignItems: "center"}}>
+    <div style={{width: "100%", height: "60%", minHeight: "30px", border: "1px solid #E2E2E2", display: "flex", justifyContent: "space-around", alignItems: "center"}}>
             <div className={history?.location.pathname === "/data" ? "clickedMenu" : ""} onClick={() => {history.push({
               pathname: "/data",
               state: {
