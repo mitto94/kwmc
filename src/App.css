@@ -42,11 +42,18 @@
     font-size: 1.25rem;
     line-height: 1.75;
 }
+.p-menuitem-link {
+    background-color: white !important;
+    margin: -1px !important;
+}
 @media screen and (min-width: 961px) {
     .p-menuitem {
         height: 100%;
+        /* max-height: 85%; */
     }.p-menuitem-link {
         height: 100%;
+        margin: 0 !important;
+
     }
     .introFont {
         font-size: 1.25vw;
