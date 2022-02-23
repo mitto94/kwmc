@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { Menubar } from 'primereact/menubar';
-
+import Logo from "../image/KWMClogo.png"
 const Header = ({history}) => {
 	const items = [
 		{
-		   label:'Main Page',
+		   label:'홈',
 		   command: () => history.push({
 				pathname: "/main",
 				state: {
@@ -213,57 +213,13 @@ const Header = ({history}) => {
 	
 			]
 		 },
-	 ];
-  return (
-    <div style={{display: "flex", flexDirection: "column", width: "108%"}}>
-      <div style={{display: "flex", justifyContent: "center"}}>Header</div>
-      {/* <div style={{display: "flex", justifyContent: "space-around", background: "#005b9a"}}>
-          <div className="menuText" style={{margin: "1rem"}} onClick={() => {history.push({
-				pathname: "/main",
-				state: {
-					from: "main"
-				}
-				})}}
-            >Main Page</div>
-            <div className="menuText" style={{margin: "1rem"}} onClick={() => {history.push({
-				pathname: "/summary",
-				state: {
-					from: "summary"
-				}
-				})}}
-            >대회개요</div>
-            <div className="menuText" style={{margin: "1rem"}} onClick={() => {history.push({
-				pathname: "/program",
-				state: {
-					from: "program"
-				}
-				})}}
-            >프로그램</div>
-			<div className="menuText" style={{margin: "1rem"}} onClick={() => {history.push({
-				pathname: "/guide",
-				state: {
-					from: "guide"
-				}
-				})}}
-            >대회안내</div>
-			<div className="menuText" style={{margin: "1rem"}} onClick={() => {history.push({
-				pathname: "/register",
-				state: {
-					from: "register"
-				}
-				})}}
-            >대회신청</div>
-			<div className="menuText" style={{margin: "1rem"}} onClick={() => {history.push({
-				pathname: "/data",
-				state: {
-					from: "data"
-				}
-				})}}
-            >자료실</div>
-      </div> */}
-	  <Menubar className="d-border" model={items} style={{display: "flex", justifyContent: "flex-end", outline: "none"}}/>
-    </div>
-  );
+	];
+	const start = <img style={{width: "25rem", maxWidth: "50vw"}} src={Logo} alt="KWMC"></img>;
+	return (
+		<div style={{display: "flex", flexDirection: "column", width: "100%", height: "10%", minHeight: "6rem"}}>
+		<Menubar start={start} className="d-border" model={items} style={{display: "flex", justifyContent: "space-between", background: "white", borderRadius: 0, marginBottom: "-1px", marginTop: "-1px", padding: 0, height: "15vh", paddingRight: "4.5%"}}/>
+		</div>
+	);
 }
 
 export default Header;

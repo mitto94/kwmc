@@ -1,12 +1,9 @@
-.menuText {
-    color: white;
-    cursor: pointer;
-    font-weight: 600;
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-style: normal;
 }
 
-.menuText:hover {
-    color: #c6a96f;
-}
 .clickedMenu {
     background: #EEF2FF;
     color: #6938CA;
@@ -14,8 +11,47 @@
 }
 .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:focus {
     box-shadow: none !important;
-    background: none !important;
-    border-bottom: 1px solid #b61c19 !important;
-    border-radius: 0%;
-    margin-top: 1px;
+}
+.p-menuitem-text {
+    color: black !important;
+    font-weight: 900;
+    font-family: GmarketSansMedium, sans-serif;
+    font-size: 1.25rem !important;
+}
+.p-menuitem:hover > .p-menuitem-link {
+    background: #002246 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    color: white !important;
+}
+.p-menuitem:hover > .p-menuitem-link > .p-menuitem-text {
+    color: white !important;
+}
+/* 메뉴바 크기 및 디자인 */
+.p-menubar > ul {
+    height: 100% !important;
+}
+.introFont {
+    font-family: GmarketSansMedium, sans-serif;
+    font-size: .85rem;
+    line-height: 1.75;
+    font-weight: 100;
+}
+.titleFont {
+    font-family: GmarketSansMedium, sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.75;
+}
+@media screen and (min-width: 961px) {
+    .p-menuitem {
+        height: 100%;
+    }.p-menuitem-link {
+        height: 100%;
+    }
+    .introFont {
+        font-size: 1.3vw;
+    }
+    .titleFont {
+        font-size: 2.5vw;
+    }
 }
