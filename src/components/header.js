@@ -261,7 +261,7 @@ const Header = ({history}) => {
 				})}}
             >자료실</div>
       </div> */}
-	  <Menubar model={items} style={{display: "flex", justifyContent: "flex-end"}}/>
+	  <Menubar className="d-border" model={items} style={{display: "flex", justifyContent: "flex-end", outline: "none"}}/>
     </div>
   );
 }
