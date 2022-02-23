@@ -222,7 +222,7 @@ const Header = ({history}) => {
 						}
 					})}></img>;
 	return (
-		<div style={{display: "flex", flexDirection: "column", width: "100%", height: "10%", minHeight: "6.5rem"}}>
+		<div style={{display: "flex", flexDirection: "column", width: "100%", height: "10%", minHeight: "6rem"}}>
 		<Menubar start={start} className="d-border" model={items} style={{display: "flex", justifyContent: "space-between", background: "white", borderRadius: 0, marginBottom: "-1px", marginTop: "-1px", padding: 0, height: "15vh", paddingRight: "4.5%"}}/>
 		</div>
 	);
