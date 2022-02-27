@@ -214,7 +214,7 @@ const Header = ({history}) => {
 			]
 		 },
 	];
-	const start = <img style={{width: "25rem", maxWidth: "50vw", marginLeft: "8%", cursor: "pointer"}} src={Logo} alt="KWMC Logo"
+	const start = <img style={{width: "20rem", maxWidth: "40vw", marginLeft: "4%", cursor: "pointer"}} src={Logo} alt="KWMC Logo"
 					onClick={() => history.push({
 						pathname: "/main",
 						state: {
@@ -222,8 +222,9 @@ const Header = ({history}) => {
 						}
 					})}></img>;
 	return (
-		<div style={{display: "flex", flexDirection: "column", width: "100%", height: "10%", minHeight: "6rem"}}>
-		<Menubar start={start} className="d-border" model={items} style={{display: "flex", justifyContent: "space-between", background: "white", borderRadius: 0, marginBottom: "-1px", marginTop: "-1px", padding: 0, height: "15vh", paddingRight: "4.5%"}}/>
+		<div style={{display: "flex", flexDirection: "column", width: "100%", height: "10vh"}}>
+			{/* <Menubar start={start} className="d-border" model={items} style={{display: "flex", justifyContent: "space-between", background: "white", borderRadius: 0,  padding: 0, height: "10vh", paddingRight: "4.5%"}}/> */}
+			<Menubar start={start} className="d-border" model={items} style={{display: "flex", justifyContent: "space-between", background: "white", borderRadius: 0, padding: 0, height: "10vh", paddingRight: "4.5%", pointerEvents: "none"}}/>
 		</div>
 	);
 }

@@ -3,7 +3,12 @@
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
     font-style: normal;
 }
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
+.notosanskr * {
+    font-family: Noto Sans KR, sans-serif;
+}
 .clickedMenu {
     background: #EEF2FF;
     color: #6938CA;
@@ -15,8 +20,8 @@
 .p-menuitem-text {
     color: black !important;
     font-weight: 900;
-    font-family: GmarketSansMedium, sans-serif;
-    font-size: 1.25rem !important;
+    font-family: Noto Sans KR, sans-serif;
+    font-size: 1.4vw !important;
 }
 .p-menuitem:hover > .p-menuitem-link {
     background: #002246 !important;
@@ -32,25 +37,34 @@
     height: 100% !important;
 }
 .introFont {
-    font-family: GmarketSansMedium, sans-serif;
+    font-family: Noto Sans KR, sans-serif;
     font-size: .85rem;
     line-height: 1.75;
     font-weight: 100;
 }
 .titleFont {
-    font-family: GmarketSansMedium, sans-serif;
+    font-family: Noto Sans KR, sans-serif;
     font-size: 1.25rem;
     line-height: 1.75;
 }
 .p-menuitem-link {
     background-color: white !important;
     margin: -1px !important;
+    height: 5vh;
+}
+.videoContainer {
+    width: 100vw;
+    height: 56.5vw;
+}
+.p-submenu-list {
+    padding: 0 !important;
 }
 @media screen and (min-width: 961px) {
     .p-menuitem {
         height: 100%;
         max-height: 6rem;
-    }.p-menuitem-link {
+    }
+    .p-menuitem-link {
         height: 100%;
         margin: 0 !important;
 
@@ -60,5 +74,104 @@
     }
     .titleFont {
         font-size: 2.5vw;
+    }
+    .videoContainer {
+        width: 59.99vw;
+        height: 32.7vw;
+    }
+    .sSize {
+        font-size: 1.2vw;
+    }
+    .ssSize {
+        font-size: .75vw;
+    }
+    .registerButton {
+        font-size: 1.15vw !important;
+        width: 30vw !important;
+        min-width: 10rem !important;
+        font-family: Noto Sans KR !important;
+        background-color: #003685 !important;
+        color: white !important;
+        border-radius: 0 !important;
+        box-shadow: none !important;
+        height: 9vh;
+    }
+    .MobImage {
+        display: none;
+    }
+    .mobBanner {
+        height: 9vh;
+        display: flex;
+        justify-content: center;
+        background-color: #F8F8F8;
+    }
+}
+
+@media (max-width: 961px) {
+    .sSize {
+        font-size: 3vw;
+    }
+    .ssSize {
+        font-size: 1.7vw;
+    }
+    .mobBanner {
+        position: absolute;
+        bottom: 0;
+        z-index: -1;
+        height: 9vh;
+        display: flex;
+        justify-content: center;
+        background-color: #F8F8F8;
+        width: 100vw;
+    }
+    .videoContainer {
+        height: 56vw;
+        max-height: 37vh;
+    }
+    .mDateContainer {
+        flex-direction: column;
+        padding: 0 !important;
+    }
+    .dBorder {
+        border: 0 !important;
+    }
+    .bBorder {
+        border-bottom: 1px solid rgb(107, 112, 145);
+    }
+    .mTextSize {
+        font-size: 3.3vw;
+    }
+    .fStart {
+        display: flex;
+        justify-content: start !important;
+    }
+    .lPadding {
+        padding-left: 5vw;
+    }
+    .mobColumn {
+        flex-direction: column;
+        width: 100% !important;
+    }
+    .registerButton {
+        font-size: 3.5vw !important;
+        width: 100vw !important;
+        min-width: 10rem !important;
+        font-family: Noto Sans KR !important;
+        background-color: #003685 !important;
+        color: white !important;
+        border-radius: 0 !important;
+        height: 9vh !important;
+        /* border-bottom: .1vw solid rgb(107, 112, 145) !important; */
+    }
+    .WebImage {
+        display: none !important;
+    }
+    .mobBackground {
+        background-color: #C9C9C9;
+        position: relative;
+        z-index: 0;
+    }
+    .p-menuitem-text {
+        font-size: 1rem !important;
     }
 }
