@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../../components/header';
-import Poster from "../../image/poster1.png"
-import Video from "../../image/video.jpg"
+import Poster from "../../image/poster1.png";
+// import Video from "../../image/video.jpg"
 
 const Mainpage = ({history}) => {
   return (
@@ -27,7 +27,7 @@ const Mainpage = ({history}) => {
 
             <div className="titleFont">홍 길 동 목사</div>
         </div>
-        <img style={{width: "100%", height: "100%"}} src={Video} alt="Intro" />
+        {/* <img style={{width: "100%", height: "100%"}} src={Video} alt="Intro" /> */}
 
       <div style={{display: "flex", justifyContent: "center", alignItems: "center", height: "30%"}}>
         {/* Footer */}

@@ -22,6 +22,7 @@ import MkMz from './pages/register/MkMz';
 import Church from './pages/register/Church';
 import Promotion from './pages/data/Promotion';
 import Update from './pages/data/Update';
+import Plan from './pages/Plan';
 const App = () => {
   return (
     <div style={{height: "100vh", width: "100%"}}>
@@ -54,7 +55,8 @@ const App = () => {
 					<Route path="/data_promotion" component={Promotion}/>
 					<Route path="/data_update" component={Update}/>
 
-					
+					<Route path="/planning" component={Plan}/>
+
 					<Redirect path="*" to="/" />
 				</Switch>
 			</div>

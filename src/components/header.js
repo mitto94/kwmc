@@ -2,15 +2,228 @@ import React, { useEffect, useState } from 'react';
 import { Menubar } from 'primereact/menubar';
 import Logo from "../image/KWMClogo.png"
 const Header = ({history}) => {
+	// const items = [
+	// 	{
+	// 	   label:'홈',
+	// 	   command: () => history.push({
+	// 			pathname: "/",
+	// 			state: {
+	// 				from: ""
+	// 			}
+	// 		})
+	// 	},
+	// 	{
+	// 	   label:'대회개요',
+	// 	   items:[
+	// 		  {
+	// 			 label:'인사말',
+	// 			 command: () => history.push({
+	// 				pathname: "/summary",
+	// 				state: {
+	// 					from: "summary"
+	// 				}
+	// 			})
+	// 		  },
+	// 		  {
+	// 			 label:'대회 소개',
+	// 			 command: () => history.push({
+	// 				pathname: "/summary_character",
+	// 				state: {
+	// 					from: "character"
+	// 				}
+	// 			})
+	// 		  },
+	// 		  {
+	// 			 label:'조직도',
+	// 			 command: () => history.push({
+	// 				pathname: "/summary_organization",
+	// 				state: {
+	// 					from: "organization"
+	// 				}
+	// 			})
+	// 		  },
+	// 		  {
+	// 			 label:'KWMC 소개',
+	// 			 command: () => history.push({
+	// 				pathname: "/summary_KWMC",
+	// 				state: {
+	// 					from: "KWMC"
+	// 				}
+	// 			})
+	// 		  },
+	
+	// 	   ]
+	// 	},
+	// 	{
+	// 		label:'프로그램',
+	// 		items:[
+	// 		   {
+	// 			  label:'일정표',
+	// 			  command: () => history.push({
+	// 				pathname: "/program",
+	// 				state: {
+	// 					from: "program"
+	// 				}
+	// 			})
+	// 		   },
+	// 		   {
+	// 			  label:'주강의',
+	// 			  command: () => history.push({
+	// 				pathname: "/program_lecture",
+	// 				state: {
+	// 					from: "lecture"
+	// 				}
+	// 			})
+	// 		   },
+	// 		   {
+	// 			  label:'영역별프로그램',
+	// 			  command: () => history.push({
+	// 				pathname: "/program_section",
+	// 				state: {
+	// 					from: "section"
+	// 				}
+	// 			})
+	// 		   },
+	// 		   {
+	// 			  label:'저녁집회',
+	// 			  command: () => history.push({
+	// 				pathname: "/program_gathering",
+	// 				state: {
+	// 					from: "gathering"
+	// 				}
+	// 			})
+	// 		   },
+	 
+	// 		]
+	// 	 },
+	// 	 {
+	// 		label:'대회안내',
+	// 		items:[
+	// 		   {
+	// 			  label:'숙박/식사',
+	// 			  command: () => history.push({
+	// 				pathname: "/guide",
+	// 				state: {
+	// 					from: "guide"
+	// 				}
+	// 			})
+	// 		   },
+	// 		   {
+	// 			  label:'교통/대회장안내',
+	// 			  command: () => history.push({
+	// 				pathname: "/guide_traffic",
+	// 				state: {
+	// 					from: "traffic"
+	// 				}
+	// 			})
+	// 		   },
+	// 		   {
+	// 			  label:'주변안내',
+	// 			  command: () => history.push({
+	// 				pathname: "/guide_around",
+	// 				state: {
+	// 					from: "around"
+	// 				}
+	// 			})
+	// 		   },
+	// 		   {
+	// 			  label:'그외 정보',
+	// 			  command: () => history.push({
+	// 				pathname: "/guide_etc",
+	// 				state: {
+	// 					from: "etc"
+	// 				}
+	// 			})
+	// 		   },
+	 
+	// 		]
+	// 	 },
+	// 	 {
+	// 		label:'대회신청',
+	// 		items:[
+	// 		   {
+	// 			  label:'신청안내',
+	// 			  command: () => history.push({
+	// 				pathname: "/register",
+	// 				state: {
+	// 					from: "register"
+	// 				}
+	// 			})
+	// 		   },
+	// 		   {
+	// 			  label:'선교사',
+	// 			  command: () => history.push({
+	// 				pathname: "/register_missionary",
+	// 				state: {
+	// 					from: "missionary"
+	// 				}
+	// 			})
+	// 		   },
+	// 		   {
+	// 			  label:'MK/MZ',
+	// 			  command: () => history.push({
+	// 				pathname: "/register_mkmz",
+	// 				state: {
+	// 					from: "mkmz"
+	// 				}
+	// 			})
+	// 		   },
+	// 		   {
+	// 			  label:'교회',
+	// 			  command: () => history.push({
+	// 				pathname: "/register_church",
+	// 				state: {
+	// 					from: "church"
+	// 				}
+	// 			})
+	// 		   },
+	 
+	// 		]
+	// 	 },
+	// 	 {
+	// 		label:'자료실',
+	// 		items:[
+	// 		   {
+	// 			  label:'선교사 리포트',
+	// 			  command: () => history.push({
+	// 				pathname: "/data",
+	// 				state: {
+	// 					from: "data"
+	// 				}
+	// 			})
+	// 		   },
+	// 		   {
+	// 			  label:'홍보자료',
+	// 			  command: () => history.push({
+	// 				pathname: "/data_promotion",
+	// 				state: {
+	// 					from: "promotion"
+	// 				}
+	// 			})
+	// 		   },
+	// 		   {
+	// 			  label:'행사후 업데이트',
+	// 			  command: () => history.push({
+	// 				pathname: "/data_update",
+	// 				state: {
+	// 					from: "update"
+	// 				}
+	// 			})
+	// 		   },
+	
+	// 		]
+	// 	 },
+	// ];
 	const items = [
 		{
 		   label:'홈',
 		   command: () => history.push({
-				pathname: "/main",
+				pathname: "/",
 				state: {
-					from: "main"
+					from: ""
 				}
-			})
+			}),
+			className: "made"
 		},
 		{
 		   label:'대회개요',
@@ -22,12 +235,13 @@ const Header = ({history}) => {
 					state: {
 						from: "summary"
 					}
-				})
+				}),
+				className: "made"
 			  },
 			  {
-				 label:'대회 성격',
+				 label:'대회 소개',
 				 command: () => history.push({
-					pathname: "/summary_character",
+					pathname: "/planning",
 					state: {
 						from: "character"
 					}
@@ -36,7 +250,7 @@ const Header = ({history}) => {
 			  {
 				 label:'조직도',
 				 command: () => history.push({
-					pathname: "/summary_organization",
+					pathname: "/planning",
 					state: {
 						from: "organization"
 					}
@@ -45,14 +259,15 @@ const Header = ({history}) => {
 			  {
 				 label:'KWMC 소개',
 				 command: () => history.push({
-					pathname: "/summary_KWMC",
+					pathname: "/planning",
 					state: {
 						from: "KWMC"
 					}
 				})
 			  },
 	
-		   ]
+		   ],
+		   className: "made"
 		},
 		{
 			label:'프로그램',
@@ -60,7 +275,7 @@ const Header = ({history}) => {
 			   {
 				  label:'일정표',
 				  command: () => history.push({
-					pathname: "/program",
+					pathname: "/planning",
 					state: {
 						from: "program"
 					}
@@ -69,7 +284,7 @@ const Header = ({history}) => {
 			   {
 				  label:'주강의',
 				  command: () => history.push({
-					pathname: "/program_lecture",
+					pathname: "/planning",
 					state: {
 						from: "lecture"
 					}
@@ -78,7 +293,7 @@ const Header = ({history}) => {
 			   {
 				  label:'영역별프로그램',
 				  command: () => history.push({
-					pathname: "/program_section",
+					pathname: "/planning",
 					state: {
 						from: "section"
 					}
@@ -87,7 +302,7 @@ const Header = ({history}) => {
 			   {
 				  label:'저녁집회',
 				  command: () => history.push({
-					pathname: "/program_gathering",
+					pathname: "/planning",
 					state: {
 						from: "gathering"
 					}
@@ -102,7 +317,7 @@ const Header = ({history}) => {
 			   {
 				  label:'숙박/식사',
 				  command: () => history.push({
-					pathname: "/guide",
+					pathname: "/planning",
 					state: {
 						from: "guide"
 					}
@@ -111,7 +326,7 @@ const Header = ({history}) => {
 			   {
 				  label:'교통/대회장안내',
 				  command: () => history.push({
-					pathname: "/guide_traffic",
+					pathname: "/planning",
 					state: {
 						from: "traffic"
 					}
@@ -120,7 +335,7 @@ const Header = ({history}) => {
 			   {
 				  label:'주변안내',
 				  command: () => history.push({
-					pathname: "/guide_around",
+					pathname: "/planning",
 					state: {
 						from: "around"
 					}
@@ -129,7 +344,7 @@ const Header = ({history}) => {
 			   {
 				  label:'그외 정보',
 				  command: () => history.push({
-					pathname: "/guide_etc",
+					pathname: "/planning",
 					state: {
 						from: "etc"
 					}
@@ -144,7 +359,7 @@ const Header = ({history}) => {
 			   {
 				  label:'신청안내',
 				  command: () => history.push({
-					pathname: "/register",
+					pathname: "/planning",
 					state: {
 						from: "register"
 					}
@@ -153,7 +368,7 @@ const Header = ({history}) => {
 			   {
 				  label:'선교사',
 				  command: () => history.push({
-					pathname: "/register_missionary",
+					pathname: "/planning",
 					state: {
 						from: "missionary"
 					}
@@ -162,7 +377,7 @@ const Header = ({history}) => {
 			   {
 				  label:'MK/MZ',
 				  command: () => history.push({
-					pathname: "/register_mkmz",
+					pathname: "/planning",
 					state: {
 						from: "mkmz"
 					}
@@ -171,7 +386,7 @@ const Header = ({history}) => {
 			   {
 				  label:'교회',
 				  command: () => history.push({
-					pathname: "/register_church",
+					pathname: "/planning",
 					state: {
 						from: "church"
 					}
@@ -186,7 +401,7 @@ const Header = ({history}) => {
 			   {
 				  label:'선교사 리포트',
 				  command: () => history.push({
-					pathname: "/data",
+					pathname: "/planning",
 					state: {
 						from: "data"
 					}
@@ -195,7 +410,7 @@ const Header = ({history}) => {
 			   {
 				  label:'홍보자료',
 				  command: () => history.push({
-					pathname: "/data_promotion",
+					pathname: "/planning",
 					state: {
 						from: "promotion"
 					}
@@ -204,7 +419,7 @@ const Header = ({history}) => {
 			   {
 				  label:'행사후 업데이트',
 				  command: () => history.push({
-					pathname: "/data_update",
+					pathname: "/planning",
 					state: {
 						from: "update"
 					}
@@ -214,17 +429,17 @@ const Header = ({history}) => {
 			]
 		 },
 	];
-	const start = <img style={{width: "20rem", maxWidth: "40vw", marginLeft: "4%", cursor: "pointer"}} src={Logo} alt="KWMC Logo"
+	const start = <img style={{width: "20rem", maxWidth: "50vw", marginLeft: "4.6vw", cursor: "pointer"}} src={Logo} alt="KWMC Logo"
 					onClick={() => history.push({
-						pathname: "/main",
+						pathname: "/",
 						state: {
-							from: "main"
+							from: ""
 						}
 					})}></img>;
 	return (
-		<div style={{display: "flex", flexDirection: "column", width: "100%", height: "10vh"}}>
-			{/* <Menubar start={start} className="d-border" model={items} style={{display: "flex", justifyContent: "space-between", background: "white", borderRadius: 0,  padding: 0, height: "10vh", paddingRight: "4.5%"}}/> */}
-			<Menubar start={start} className="d-border" model={items} style={{display: "flex", justifyContent: "space-between", background: "white", borderRadius: 0, padding: 0, height: "10vh", paddingRight: "4.5%", pointerEvents: "none"}}/>
+		<div style={{display: "flex", flexDirection: "column", width: "100%", height: "9vh", justifyContent: "center"}}>
+			{/* <Menubar start={start} className="d-border" model={items} style={{display: "flex", justifyContent: "space-between", background: "white", borderRadius: 0, padding: 0, height: "9vh", paddingRight: "4.5%", pointerEvents: "none"}}/> */}
+			<Menubar start={start} className="d-border" model={items} style={{display: "flex", justifyContent: "space-between", background: "white", borderRadius: 0, padding: 0, height: "9vh", paddingRight: "4.5%"}}/>
 		</div>
 	);
 }

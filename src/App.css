@@ -10,9 +10,14 @@
     font-family: Noto Sans KR, sans-serif;
 }
 .clickedMenu {
-    background: #EEF2FF;
-    color: #6938CA;
-    box-shadow: inset 0 0 0 0.15rem #c7d2fe;
+    background: #163875;
+    color: white;
+    /* box-shadow: inset 0 0 0 0.15rem #c7d2fe; */
+}
+.clickedMenu2 {
+    background: #EBF5FB;
+    color: #103471;
+    /* box-shadow: inset 0 0 0 0.15rem #c7d2fe; */
 }
 .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:focus {
     box-shadow: none !important;
@@ -56,8 +61,19 @@
     width: 100vw;
     height: 56.5vw;
 }
+.videoContainer2 {
+    width: 100vw;
+    height: 56.5vw;
+}
 .p-submenu-list {
     padding: 0 !important;
+}
+/* .p-menuitem { */
+.p-submenu-list > .p-menuitem {
+        opacity: .5;
+}
+.made {
+    opacity: 1 !important;
 }
 @media screen and (min-width: 961px) {
     .p-menuitem {
@@ -77,7 +93,11 @@
     }
     .videoContainer {
         width: 59.99vw;
-        height: 32.7vw;
+        height: 33.7vw;
+    }
+    .videoContainer2 {
+        width: 86%;
+        height: 48vw;
     }
     .sSize {
         font-size: 1.2vw;
@@ -97,19 +117,25 @@
         height: 9vh;
     }
     .MobImage {
-        display: none;
+        display: none !important;
     }
     .mobBanner {
         height: 9vh;
         display: flex;
         justify-content: center;
-        background-color: #F8F8F8;
+        background-color: white;
+        width: 100%;
+    }
+    .p-submenu-list > .p-menuitem > .p-menuitem-link > .p-menuitem-text {
+        font-size: 1.1vw !important;
+        font-weight: 700 !important;
+
     }
 }
 
 @media (max-width: 961px) {
     .sSize {
-        font-size: 3vw;
+        font-size: 2.75vw;
     }
     .ssSize {
         font-size: 1.7vw;
@@ -127,6 +153,11 @@
     .videoContainer {
         height: 56vw;
         max-height: 37vh;
+    }
+    .videoContainer2 {
+        width: 100%;
+        max-height: 57vh;
+
     }
     .mDateContainer {
         flex-direction: column;
@@ -167,7 +198,7 @@
         display: none !important;
     }
     .mobBackground {
-        background-color: #C9C9C9;
+        background-color: #ecf6fc;
         position: relative;
         z-index: 0;
     }
