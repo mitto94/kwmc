@@ -3,7 +3,7 @@ import Header from '../../components/header';
 import TopBanner from '../../components/topBanner';
 import SummaryMenu from './SummaryMenu';
 import Young from "./Image/young.jpg"
-import Seok from "./Image/seok.tif"
+import Seok from "./Image/seok.jpg"
 import BottomBanner from '../../components/bottomBanner';
 
 const Summary = ({history}) => {
@@ -24,7 +24,7 @@ const Summary = ({history}) => {
           </div>
         </div>
         <div style={{display: first ? "flex" : "none", fontFamily: "Noto Sans KR, sans-serif"}}>
-          <div style={{width: "100%", height: "100%", display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center", marginTop: "3.5vw"}}>
+          <div style={{width: "100%", display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center", marginTop: "3.5vw"}}>
             <iframe className="videoContainer2" src="https://www.youtube.com/embed/zCn0pSaJfl8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" modestbranding="1" rel="0" >
             </iframe>
             <div style={{width: "86%", display: "flex", padding: "3.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1.3vw"}}>
@@ -61,10 +61,10 @@ const Summary = ({history}) => {
           </div>
         </div>
         <div style={{display: first ? "none" : "flex", fontFamily: "Noto Sans KR, sans-serif"}}>
-        <div style={{width: "100%", height: "100%", display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center", marginTop: "3.5vw"}}>
+        <div style={{width: "100%", display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center", marginTop: "3.5vw"}}>
           <div style={{width: "86%", display: "flex", padding: "3.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1.3vw"}}>
             <div style={{display: "flex", flexDirection : "column", width: "30%"}}>
-              <img src={Young} alt="young"></img>
+              <img src={Seok} alt="young"></img>
               <div style={{paddingTop: "3vw", fontWeight: "500", lineHeight: "170%"}}>
                 <span style={{color: "#143674", fontWeight: "700", fontSize: "1.4vw"}}>KWMC 상임의장 <span style={{color: "black"}}> 고석희 목사</span></span>
                 <div style={{display: "flex", flexDirection: "column"}}>
@@ -78,7 +78,7 @@ const Summary = ({history}) => {
               <div style={{lineHeight: "170%", letterSpacing: "2px", paddingLeft: "3.5vw", wordBreak: "normal"}}>
               {`주 예수 그리스도의 재림을 대망하며 지구촌 복음화의 미완성 과업에 대한 긴박성을 절감하는 범세계 선교운동들이 금세기를 「천국 추수의 최종년대」(The Final Era of the Harvest for the Kingdom of God)로 상정하고 도처에서 총력매진하는 현시점에, 코로나 팬데믹의 한계상황에도 불구하고 강권하시는 성령의 역사로 말미암아 <온 인류의 소망 예수!>의 주제로 열리는 「제 9차 한인세계선교대회」(KWMC2022)는 시대적 소명을 받은 하나님의 사람들, 선교사, 목회자, 평신도, 그리고 차세대 MK, PK, 대학생, 청년 등 불타는 선교동반자들이 한마당에 함께 모여 사랑의 교제, 비젼의 융합, 기도의 연합, 사명의 재헌신, 전인치유, 영적회복, 성령의 재충만, 정보와 전략의 상호교류, 그리고 디아스포라 한인교회 선교역량의 촉진(Catalyzing) 동원(Mobilizing) 번식(Multiplying)을 추구하는 동반자 협력선교의 대광장이 될 것입니다.
 
-한국의 KWMA, 선교현장의 KWMF와 더불어 한인세계선교운동의 삼두마차로, 우리 주 예수 그리스도의 지상명령을 받들어, 노도질풍같은 성령의 권능에 이끌리어 달려온 KWMC, 저 34년의 위대한 역사를 계승하여 금번에 열리는 「제 9차 한인세계선교대회」의 대광장에서, 저 높은 하늘 보좌로부터 들려올 하나님 아버지의 세미한 음성을 기다리며, 삼가 선교동지 여러분을 우리 주 예수 그리스도의 존귀하신 이름으로 초청하는 바입니다.`}
+한국의 KWMA, 선교현장의 KWMF와 더불어 한인세계선교운동의 삼두마차로, 우리 주 예수 그리스도의 지상명령을 받들어, 질풍노도같은 성령의 권능에 이끌리어 달려온 KWMC, 저 34년의 위대한 역사를 계승하여 금번에 열리는 「제 9차 한인세계선교대회」의 대광장에서, 저 높은 하늘 보좌로부터 들려올 하나님 아버지의 세미한 음성을 기다리며, 삼가 선교동지 여러분을 우리 주 예수 그리스도의 존귀하신 이름으로 초청하는 바입니다.`}
               </div>
               <div style={{display: "flex", justifyContent: "end", paddingTop: "3vw", fontSize: "1.5vw", alignItems: "end"}}>
                 KWMC 상임의장 <span style={{fontSize: "1.7vw", fontWeight: "600"}}> &nbsp;고석희 목사</span>
