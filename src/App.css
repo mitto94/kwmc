@@ -12,11 +12,14 @@
 .clickedMenu {
     background: #163875;
     color: white;
+    font-weight: 900;
+    border: none !important;
     /* box-shadow: inset 0 0 0 0.15rem #c7d2fe; */
 }
 .clickedMenu2 {
-    background: #EBF5FB;
-    color: #103471;
+    background: #CDE7F8;
+    color: #163875;
+    font-weight: 900;
     /* box-shadow: inset 0 0 0 0.15rem #c7d2fe; */
 }
 .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:focus {
@@ -24,9 +27,9 @@
 }
 .p-menuitem-text {
     color: black !important;
-    font-weight: 900;
+    font-weight: 700;
     font-family: Noto Sans KR, sans-serif;
-    font-size: 1.4vw !important;
+    font-size: 1.5vw !important;
 }
 .p-menuitem:hover > .p-menuitem-link {
     background: #002246 !important;
@@ -40,6 +43,9 @@
 /* 메뉴바 크기 및 디자인 */
 .p-menubar > ul {
     height: 100% !important;
+}
+.p-menubar {
+    border: none !important
 }
 .introFont {
     font-family: Noto Sans KR, sans-serif;
@@ -67,10 +73,13 @@
 }
 .p-submenu-list {
     padding: 0 !important;
+    z-index: 10 !important;
 }
 /* .p-menuitem { */
 .p-submenu-list > .p-menuitem {
-        opacity: .5;
+    opacity: .5;
+    /* justify-content: center !important;
+    display: flex; */
 }
 .made {
     opacity: 1 !important;
@@ -96,8 +105,8 @@
         height: 33.7vw;
     }
     .videoContainer2 {
-        width: 86%;
-        height: 48vw;
+        width: 60%;
+        height: 35vw;
     }
     .sSize {
         font-size: 1.2vw;
@@ -119,12 +128,24 @@
     .MobImage {
         display: none !important;
     }
+    
     .mobBanner {
-        height: 9vh;
+        height: 9vh !important;
+        max-height: 9vh;
         display: flex;
         justify-content: center;
-        background-color: white;
+        background-color: #F8F8F8;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .mobBanner2 {
+        height: 9vh !important;
+        max-height: 9vh;
+        display: flex;
+        justify-content: center;
+        background-color: #F8F8F8;
         width: 100%;
+        max-width: 100% !important;
     }
     .p-submenu-list > .p-menuitem > .p-menuitem-link > .p-menuitem-text {
         font-size: 1.1vw !important;
@@ -135,10 +156,16 @@
 
 @media (max-width: 961px) {
     .sSize {
-        font-size: 2.75vw;
+        font-size: 2.75vw !important;
     }
     .ssSize {
         font-size: 1.7vw;
+    }
+    .mWidth100 {
+        width: 100% !important;
+    }
+    .mWidth86 {
+        width: 86% !important;
     }
     .mobBanner {
         position: absolute;
@@ -150,6 +177,11 @@
         background-color: #F8F8F8;
         width: 100vw;
     }
+    .mobBanner2 {
+        background-color: #F8F8F8;
+        width: 100%;
+        height: 9vh;
+    }
     .videoContainer {
         height: 56vw;
         max-height: 37vh;
@@ -157,7 +189,6 @@
     .videoContainer2 {
         width: 100%;
         max-height: 57vh;
-
     }
     .mDateContainer {
         flex-direction: column;
@@ -170,8 +201,12 @@
         border-bottom: 1px solid rgb(107, 112, 145);
     }
     .mTextSize {
-        font-size: 3.3vw;
+        font-size: 3.3vw !important;
     }
+    .mTextSize2 {
+        font-size: 4vw !important;
+
+    } 
     .fStart {
         display: flex;
         justify-content: start !important;
@@ -204,5 +239,39 @@
     }
     .p-menuitem-text {
         font-size: 1rem !important;
+    }
+    .mMargin0 { 
+        margin: 0 !important;
+    }
+    .mContainerText {
+        flex-direction: column-reverse !important;
+        width: 100% !important;
+        border: none !important;
+        padding: 7vw !important;
+        margin: 0 !important;
+    }
+    .mImageText {
+        flex-direction: row !important;
+        width: 100% !important;
+        padding-top: 7vw;
+    }
+    .mImage35 {
+        width: 35% !important;
+        max-width: 35% !important;
+        max-height: 45vw !important;
+    }
+    .mPadding0 {
+        padding: 0 !important;
+    }
+    .mLineHeight {
+        line-height: 200% !important;
+        padding-left: 3.5vw !important;
+    }
+    .mPT7 {
+        padding-top: 7vw !important;
+    }
+    .mdLRBorder {
+        border-left: none !important;
+        border-right: none !important;
     }
 }
