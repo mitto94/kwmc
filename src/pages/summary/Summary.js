@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef, useLayoutEffect } from 'react';
 import Header from '../../components/header';
 import TopBanner from '../../components/topBanner';
 import SummaryMenu from './SummaryMenu';
@@ -6,12 +6,44 @@ import Young from "./Image/young.jpg"
 import Seok from "./Image/seok.jpg"
 import Lee from "./Image/Lee.png"
 import BottomBanner from '../../components/bottomBanner';
-
 const Summary = ({history}) => {
-  const [first, setFirst] = useState(false);
-  useEffect(() => {
-    setFirst(true);
-  }, []);
+  const [first, setFirst] = useState(true);
+  // const [isRender, setIsRender] = useState(false);
+  // const mountedTest = useRef(false);
+  // const mounted = useRef(false);
+  // const mountedFirst = useRef(false);
+  // // useLayoutEffect(() => {
+  // //   // setFirst(!first);
+  // //   setIsRender(true)
+  // //   mounted.current.style.display = "flex";
+  // //   console.log("first", first)
+  // // }, []);
+  // useEffect(() => {
+  //   console.log("data", );
+  //   // if (first) {
+  //   //   mountedFirst.current.style.display = "flex"
+  //   //   mounted.current.style.display = "none"
+  //   // };
+  //   // if (!first) {
+  //   //   mountedFirst.current.style.display = "none"
+  //   //   mounted.current.style.display = "flex"
+  //   // };
+  //   if(!mountedTest.current){
+  //     mountedTest.current = true;
+  //   } else {
+  //   //ajax
+  //   if (first) {
+  //     mountedFirst.current.style.display = "flex"
+  //     mounted.current.style.display = "none"
+  //   };
+  //   if (!first) {
+  //     mountedFirst.current.style.display = "none"
+  //     mounted.current.style.display = "flex"
+  //   };
+  //   }
+    
+  // }, [first]);
+  console.log("render", first);
   return (
     <div style={{width: "100%",  display: "flex", flexDirection: "column", background: "#ECF6FC"}}>
         <Header history={history}></Header>
@@ -21,7 +53,7 @@ const Summary = ({history}) => {
         </div>
         <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
           <div className="mWidth100 mTextSize mdLRBorder" style={{width: "60%", height: "7vh", minHeight: "20px", border: "1px solid #E2E2E2", display: "flex", justifyContent: "space-around", alignItems: "center", cursor: "pointer", fontWeight: 500, fontSize: "1.3vw", color: "rgb(128, 127, 127)", background: "white"}}>
-              <div className={first ? "clickedMenu2" : ""} onClick={() => {setFirst(true)}}
+              <div className={first ? "clickedMenu2" : ""} onClick={() => setFirst(true)}
                 style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center"}}>사무총장 인사말</div>
               <div className={!first ? "clickedMenu2" : ""} onClick={() => setFirst(false)}
                 style={{ width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center"}}>초청사</div>
