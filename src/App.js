@@ -23,6 +23,7 @@ import Church from './pages/register/Church';
 import Promotion from './pages/data/Promotion';
 import Update from './pages/data/Update';
 import Plan from './pages/Plan';
+import EProgram from './pages/program/EProgram';
 const App = () => {
   return (
     <div style={{height: "100vh", width: "100%"}}>
@@ -36,6 +37,7 @@ const App = () => {
 					<Route path="/summary_KWMC" component={KWMC}/>
 
 					<Route path="/program" component={Program}/>
+					<Route path="/eprogram" component={EProgram}/>
 					<Route path="/program_lecture" component={Lecture}/>
 					<Route path="/program_section" component={Section}/>
 					<Route path="/program_gathering" component={Gathering}/>

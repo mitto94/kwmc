@@ -10,8 +10,8 @@
     font-family: Noto Sans KR, sans-serif;
 }
 .clickedMenu {
-    background: #163875;
-    color: white;
+    background: #163875 !important;
+    color: white !important;
     font-weight: 900;
     border: none !important;
     /* box-shadow: inset 0 0 0 0.15rem #c7d2fe; */

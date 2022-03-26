@@ -43,7 +43,6 @@ const Summary = ({history}) => {
   //   }
     
   // }, [first]);
-  console.log("render", first);
   return (
     <div style={{width: "100%",  display: "flex", flexDirection: "column", background: "#ECF6FC"}}>
         <Header history={history}></Header>
@@ -127,14 +126,14 @@ const Summary = ({history}) => {
           </div>
           <div className="mMargin0" style={{width: "100%", display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center"}}>
             <div className="mContainerText" style={{width: "60%", display: "flex", padding: "3.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", borderTop: "none"}}>
-              <div className="mImageText" style={{display: "flex", flexDirection : "column", width: "30%"}}>
-                <img style={{maxHeight: "18vw"}} className="mImage35" src={Lee} alt="young"></img>
+              <div className="mImageText" style={{display: "flex", flexDirection : "column", width: "30%",  minWidth: "30%"}}>
+                <img style={{maxHeight: "23vw"}} className="mImage35" src={Lee} alt="young"></img>
                 <div className="mPadding0" style={{paddingTop: "3vw", fontWeight: "500", lineHeight: "200%", letterSpacing: "-.05vw"}}>
                   <span className="WebImage" style={{color: "#143674", fontWeight: "700", fontSize: "1.2vw"}}>KWMC 대표의장 <span style={{color: "black", fontSize: "1.3vw"}}> 이승종 목사</span></span>
                   <div className="mTextSize mLineHeight" style={{display: "flex", flexDirection: "column"}}>
                     <span>- KWMC 대표의장</span>
+                    <span>- 전 KWMC 사무총장</span>
                     <span>- 어깨동무사역원 대표</span>
-                    <span>- 몽골국제대학교 이사장</span>
                     <span>- 아름다운 윤동주 이사장</span>
                   </div>
                 </div>

@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react';
 import Header from '../../components/header';
 import ProgramMenu from './ProgramMenu';
 import TopBanner from '../../components/topBanner';
-import Schedule from "./Image/schedule.png";
-import mSchedule from "./Image/mSchedule.png";
+import Schedule from "./Image/eSchedule.png";
+import mSchedule from "./Image/eMSchedule.png";
 import BottomBanner from '../../components/bottomBanner';
 
-const Program = ({history}) => {
+const EProgram = ({history}) => {
   return (
     <div style={{width: "100%", display: "flex", flexDirection: "column", background: "#ECF6FC"}}>
         <Header history={history}></Header>
@@ -27,4 +27,4 @@ const Program = ({history}) => {
   );
 }
 
-export default Program;
+export default EProgram;

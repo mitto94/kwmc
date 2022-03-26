@@ -275,14 +275,25 @@ const Header = ({history}) => {
 			   {
 				  label:'일정표',
 				  command: () => history.push({
-					pathname: "/planning",
+					pathname: "/program",
 					state: {
 						from: "program"
 					}
-				})
+				}),
+				className: "made"
 			   },
 			   {
-				  label:'주강의',
+				label:'Timetable',
+				command: () => history.push({
+				  pathname: "/eprogram",
+				  state: {
+					  from: "eprogram"
+				  }
+			  }),
+			  className: "made"
+			 },
+			   {
+				  label:'주제강의',
 				  command: () => history.push({
 					pathname: "/planning",
 					state: {
@@ -291,7 +302,7 @@ const Header = ({history}) => {
 				})
 			   },
 			   {
-				  label:'영역별프로그램',
+				  label:'영역별모임',
 				  command: () => history.push({
 					pathname: "/planning",
 					state: {
@@ -366,13 +377,16 @@ const Header = ({history}) => {
 				})
 			   },
 			   {
+				//   label:'선교사',
+				//   command: () => history.push({
+				// 	pathname: "/planning",
+				// 	state: {
+				// 		from: "missionary"
+				// 	}
+				// })
 				  label:'선교사',
-				  command: () => history.push({
-					pathname: "/planning",
-					state: {
-						from: "missionary"
-					}
-				})
+				  command: () => window.open("https://forms.gle/nVCRY7tRWsxS4HGN7"),
+				  className: "made"
 			   },
 			   {
 				  label:'MK/MZ',
