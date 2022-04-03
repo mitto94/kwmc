@@ -25,15 +25,19 @@ const Promotion = ({history}) => {
           <div className="sSize" style={{display: isEng ? "none" : "flex", maxWidth: "37%", wordBreak: "keep-all"}}>KWMC 제9차 한인세계선교대회 홍보영상</div>
           <div className="sSize" style={{display: isEng ? "flex" : "none", maxWidth: "37%", wordBreak: "keep-all"}}>Promotion video for the 9th KWMC Korean World Mission Congress</div>
           {/* <Button style={{fontSize: ".7rem", minWidth: "5rem"}} className="p-button-secondary" onClick={() => setIsEng(!isEng)}>{!isEng ? "To English" : "한국버젼"}</Button> */}
-          <SelectButton style={{fontSize: ".7rem", minWidth: "5rem"}} value={isEng ? "Eng" : "Kor"} options={options} onChange={(e) => setIsEng(!isEng)} />
+          <SelectButton style={{fontSize: ".7rem", minWidth: "5rem"}} value={isEng ? "Eng" : "Kor"} options={options} onChange={(e) => {
+            if (isEng) document.getElementById("promotion1").contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+            else document.getElementById("promotion2").contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+            setIsEng(!isEng)
+            }} />
         </div>
       </div>
       <div style={{width: "100%", display: isEng ? "flex" : "none", justifyContent: "center", background: "#ecf6fc", flexDirection: "column", alignItems: "center"}}>
-        <iframe className="videoContainer" src="https://www.youtube.com/embed/LofCLjT95dw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" modestbranding="1" rel="0" >
+        <iframe id="promotion1" className="videoContainer" src={`https://www.youtube.com/embed/LofCLjT95dw?enablejsapi=1&version=3&playerapiid=ytplayer`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" modestbranding="1" rel="0" >
         </iframe>
       </div>
       <div style={{width: "100%", display: isEng ? "none" : "flex", justifyContent: "center", background: "#ecf6fc", flexDirection: "column", alignItems: "center"}}>
-        <iframe className="videoContainer" src="https://www.youtube.com/embed/sqIKi2SasGM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" modestbranding="1" rel="0" >
+        <iframe id="promotion2" className="videoContainer" src={'https://www.youtube.com/embed/sqIKi2SasGM?enablejsapi=1&version=3&playerapiid=ytplayer'} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" modestbranding="1" rel="0" >
         </iframe>
       </div>
       <div style={{display:"flex", justifyContent: "center", width: "100%"}}>
