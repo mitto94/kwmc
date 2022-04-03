@@ -26,7 +26,7 @@ import Plan from './pages/Plan';
 import EProgram from './pages/program/EProgram';
 const App = () => {
   return (
-    <div style={{height: "100vh", width: "100%"}}>
+    <div style={{height: "100%", width: "100%"}}>
 				{/* <Menu/> */}
 				<Route exact path="/" component={Home}></Route>
 				<Switch>

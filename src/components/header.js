@@ -424,11 +424,12 @@ const Header = ({history}) => {
 			   {
 				  label:'홍보자료',
 				  command: () => history.push({
-					pathname: "/planning",
+					pathname: "/data_promotion",
 					state: {
 						from: "promotion"
 					}
-				})
+				}),
+				className: "made"
 			   },
 			   {
 				  label:'행사후 업데이트',

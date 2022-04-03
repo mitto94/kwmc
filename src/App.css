@@ -71,6 +71,10 @@
     width: 100vw;
     height: 56.5vw;
 }
+.videoContainer3 {
+    width: 100vw;
+    height: 28vw;
+}
 .p-submenu-list {
     padding: 0 !important;
     z-index: 10 !important;
@@ -83,6 +87,18 @@
 }
 .made {
     opacity: 1 !important;
+}
+.p-button-label {
+    font-size: 1rem !important;
+}
+.p-component .p-highlight {
+    background-color: #163875 !important;
+}
+.p-button {
+    border-radius: 0 !important;
+}
+.p-button:focus {
+    box-shadow: none !important;
 }
 @media screen and (min-width: 961px) {
     .p-menuitem {
@@ -107,6 +123,10 @@
     .videoContainer2 {
         width: 60%;
         height: 35vw;
+    }
+    .videoContainer3 {
+        width: 59.99vw;
+        height: 17vw;
     }
     .sSize {
         font-size: 1.2vw;
@@ -189,6 +209,10 @@
     .videoContainer2 {
         width: 100%;
         max-height: 57vh;
+    }
+    .videoContainer3 {
+        height: 56vw;
+        /* max-height: 18vh; */
     }
     .mDateContainer {
         flex-direction: column;
@@ -273,5 +297,8 @@
     .mdLRBorder {
         border-left: none !important;
         border-right: none !important;
+    }
+    .p-button-label {
+        font-size: .5rem !important;
     }
 }
