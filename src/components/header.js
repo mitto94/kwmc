@@ -215,16 +215,16 @@ const Header = ({history}) => {
 	// 	 },
 	// ];
 	const items = [
-		{
-		   label:'홈',
-		   command: () => history.push({
-				pathname: "/",
-				state: {
-					from: ""
-				}
-			}),
-			className: "made"
-		},
+		// {
+		//    label:'홈',
+		//    command: () => history.push({
+		// 		pathname: "/",
+		// 		state: {
+		// 			from: ""
+		// 		}
+		// 	}),
+		// 	className: "made"
+		// },
 		{
 		   label:'대회개요',
 		   items:[
@@ -241,11 +241,13 @@ const Header = ({history}) => {
 			  {
 				 label:'대회 소개',
 				 command: () => history.push({
-					pathname: "/planning",
+					pathname: "/summary_character",
+					// pathname: "/planning",
 					state: {
 						from: "character"
 					}
-				})
+				}),
+				className: "made"
 			  },
 			  {
 				 label:'조직도',
@@ -259,11 +261,14 @@ const Header = ({history}) => {
 			  {
 				 label:'KWMC 소개',
 				 command: () => history.push({
-					pathname: "/planning",
+					pathname: "/summary_KWMC",
+					// pathname: "/planning",
+
 					state: {
 						from: "KWMC"
 					}
-				})
+				}),
+				className: "made"
 			  },
 	
 		   ],
@@ -319,7 +324,6 @@ const Header = ({history}) => {
 					}
 				})
 			   },
-	 
 			]
 		 },
 		 {

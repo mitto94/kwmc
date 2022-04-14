@@ -10,7 +10,7 @@ import BottomBanner from '../components/bottomBanner';
 
 const Home = ({history}) => {
   return (
-    <div className="mobBackground" style={{width: "100%", height: "100vh", display: "flex", flexDirection: "column"}}>
+    <div className="mobBackground" style={{width: "100%", height: "100%", display: "flex", flexDirection: "column"}}>
       <Header history={history}></Header>
       {/* <div style={{display: "flex", flexDirection: "column", width: "100%", minHeight: "9vh", justifyContent: "center", background: "white"}}>
         <img style={{width: "20rem", maxWidth: "50vw", cursor: "pointer", marginLeft: "4.6vw"}} src={Logo} alt="KWMC Logo"></img>

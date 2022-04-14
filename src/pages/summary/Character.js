@@ -1,20 +1,27 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef, useLayoutEffect } from 'react';
 import Header from '../../components/header';
+import TopBanner from '../../components/topBanner';
 import SummaryMenu from './SummaryMenu';
+import BottomBanner from '../../components/bottomBanner';
+import ContentWeb from "./Image/contentWeb.jpg";
+import ContentMob from "./Image/contentMob.jpg";
 
 const Character = ({history}) => {
   return (
-    <div style={{width: "100%", height: "100%", display: "flex", flexDirection: "column", alignItems: "center"}}>
+    <div style={{width: "100%",  display: "flex", flexDirection: "column", background: "#ECF6FC"}}>
         <Header history={history}></Header>
-        <div style={{width: "100%", height: "20%"}}>
+        <TopBanner></TopBanner>
+        <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
           <SummaryMenu history={history}/>
         </div>
-        <div style={{display: "flex", justifyContent: "center", width: "80%", height: "150%"}} >
-            Characteraaaaaaaaaaaaaa
+        <div className="mMargin0" style={{width: "100%", display: "flex", justifyContent: "center", marginTop: "2rem", marginBottom: "1rem"}}>
+          <div className="formContainer" style={{height: "100%"}}>
+            <img style={{width: "100%"}} className="MobImage" src={ContentMob} alt="모바일"></img>
+            <img style={{width: "100%"}} className="WebImage" src={ContentWeb} alt="웹"></img>
+          </div>
         </div>
-      <div style={{display: "flex", justifyContent: "center", alignItems: "center", height: "30%"}}>
-        Footedddr
-      </div>
+        
+        <BottomBanner isHome={false}></BottomBanner>
     </div>
   );
 }
