@@ -5,6 +5,7 @@ import SummaryMenu from './SummaryMenu';
 import Young from "./Image/young.jpg"
 import Seok from "./Image/seok.jpg"
 import Lee from "./Image/Lee.png"
+import You from "./Image/you.jpg"
 import BottomBanner from '../../components/bottomBanner';
 const Summary = ({history}) => {
   const [first, setFirst] = useState(true);
@@ -125,7 +126,7 @@ const Summary = ({history}) => {
             <div className="mWidth86" style={{width: "52vw", borderTop: "2px solid rgb(226, 226, 226)"}}></div>
           </div>
           <div className="mMargin0" style={{width: "100%", display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center"}}>
-            <div className="mContainerText" style={{width: "60%", display: "flex", padding: "3.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", borderTop: "none"}}>
+            <div className="mContainerText" style={{width: "60%", display: "flex", padding: "3.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", background: "white", borderTop: "none", borderBottom: "none"}}>
               <div className="mImageText" style={{display: "flex", flexDirection : "column", width: "30%",  minWidth: "30%"}}>
                 <img style={{maxHeight: "23vw"}} className="mImage35" src={Lee} alt="young"></img>
                 <div className="mPadding0" style={{paddingTop: "3vw", fontWeight: "500", lineHeight: "200%", letterSpacing: "-.05vw"}}>
@@ -150,6 +151,45 @@ const Summary = ({history}) => {
                 </div>
                 <div className="mTextSize mPT7" style={{display: "flex", flexDirection: "row-reverse", paddingTop: "1.5vw", fontSize: "1.2vw", alignItems: "center", fontWeight: "600", width: "100%"}}>
                   <span className="mTextSize2" style={{fontSize: "1.4vw"}}> &nbsp;이승종 목사</span> KWMC 대표의장 
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* one Side */}
+          <div className="mWidth100" style={{width: "60%", background: "white", display: "flex", justifyContent: "center", borderRight: "1px solid rgb(226, 226, 226)", borderLeft: "1px solid rgb(226, 226, 226)"}}>
+            <div className="mWidth86" style={{width: "52vw", borderTop: "2px solid rgb(226, 226, 226)"}}></div>
+          </div>
+          <div className="mMargin0" style={{width: "100%", display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center"}}>
+            <div className="mContainerText" style={{width: "60%", display: "flex", padding: "3.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", borderTop: "none"}}>
+              <div className="mImageText" style={{display: "flex", flexDirection : "column", width: "30%",  minWidth: "30%"}}>
+                <img style={{maxHeight: "23vw"}} className="mImage35" src={You} alt="You"></img>
+                <div className="mPadding0" style={{paddingTop: "3vw", fontWeight: "500", lineHeight: "200%", letterSpacing: "-.05vw"}}>
+                  <span className="WebImage" style={{color: "#143674", fontWeight: "700", fontSize: "1.2vw", wordBreak: "keep-all"}}>제9차 한인세계선교대회 공동대회장 <span style={{color: "black", fontSize: "1.3vw"}}> 류응렬 목사</span></span>
+                  <div className="mTextSize mLineHeight" style={{display: "flex", flexDirection: "column"}}>
+                    <span>- 제9차 한인세계선교대회 공동대회장</span>
+                    <span>- KWMC 공동의장</span>
+                    <span>- 전 총신대학교 신학대학원 교수</span>
+                    <span>- 와싱톤중앙장로교회 담임</span>
+                  </div>
+                </div>
+              </div>
+              <div className="mTextSize" style={{display: "flex", flexDirection: "column"}}>
+                <div className="mPadding0" style={{lineHeight: "180%", paddingLeft: "3.5vw", wordBreak: "keep-all"}}>
+                그리스도 안에서 사랑하는 동역자님들께,
+                 <br></br><br></br>
+하늘 푸르고 햇살 뜨거운 여름날 미국 수도 워싱턴에 위치한 저희 교회에서 제9차 한인세계선교대회 (KWMC)를 개최하게 되어 너무나 감사합니다.
+<br></br><br></br>
+팬데믹으로 어려운 상황을 뚫고 한인교회에 주신 세계복음화를 위한 사명을 다시 잡고, 새롭게 날개를 펼치고 영적으로 비상해야 할 때가 되었습니다.
+<br></br><br></br>
+이번 선교대회를 두고 하나님께 드리는 기도가 있습니다.
+<br></br><br></br>
+현장의 선교사님들에게는 하나님의 부르심에 대한 새로운 감격이 회복되고 선교사 자녀들에게는 우리를 향한 하나님의 비전을 발견하고 교회를 섬기는 목회자와 성도들에게는 선교적 열정을 가슴에 새기고 이번 대회로 말미암아 한인 그리스도인의 가슴에 주님을 사랑하듯 영혼 구원과 세계 선교에 대한 열망이 일어나는 것입니다.
+<br></br><br></br>
+“열방이 그에게 소망을 두리라”는 모토처럼 이 땅의 유일한 소망 되시는 예수님이 이번 선교대회를 통해 세계 열방에 더욱 널리 선포되어 하나님의 영광이 드높아지기를 기도합니다.
+
+                </div>
+                <div className="mTextSize mPT7" style={{display: "flex", flexDirection: "row-reverse", paddingTop: "1.5vw", fontSize: "1.2vw", alignItems: "center", fontWeight: "600", width: "100%"}}>
+                  <span className="mTextSize2" style={{fontSize: "1.4vw"}}> &nbsp;류응렬 목사</span> 제 9차 한인세계선교대회 공동대회장
                 </div>
               </div>
             </div>

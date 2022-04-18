@@ -25,11 +25,11 @@ const SummaryMenu = ({history}) => {
               })}}
               style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center"}}>조직도</div>
             <div className={history?.location.pathname === "/summary_KWMC" ? "clickedMenu" : ""} onClick={() => {history.push({
-              // pathname: "/summary_KWMC",
+              pathname: "/summary_KWMC",
               state: {
                 from: "summary"
               }
-              })}} style={{width: "100%", display: "flex", justifyContent: "center", alignItems: "center", height: "100%"}}>KWMC 소개</div>
+              })}} style={{width: "100%", display: "flex", justifyContent: "center", alignItems: "center", height: "100%", background: "white"}}>KWMC 소개</div>
           </div>
   );
 }

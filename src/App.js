@@ -26,10 +26,10 @@ import Plan from './pages/Plan';
 import EProgram from './pages/program/EProgram';
 const App = () => {
   return (
-    <div style={{height: "100%", width: "100%", paddingBottom: "9vh", background: "rgb(236, 246, 252)"}}>
+    <div style={{height: "100%", width: "100%", paddingBottom: "8vh", background: "rgb(236, 246, 252)"}}>
 				{/* <Menu/> */}
-				<Route exact path="/" component={Home}></Route>
 				<Switch>
+					<Route exact path="/" component={Home}></Route>
 					<Route path="/main" component={Mainpage}/>
 					<Route path="/summary" component={Summary}/>
 					<Route path="/summary_character" component={Character}/>
@@ -58,6 +58,7 @@ const App = () => {
 					<Route path="/data_update" component={Update}/>
 
 					<Route path="/planning" component={Plan}/>
+					<Route exact path="/" component={Home}></Route>
 
 					<Redirect path="*" to="/" />
 				</Switch>
