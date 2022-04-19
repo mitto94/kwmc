@@ -410,6 +410,16 @@ const Header = ({history}) => {
 					}
 				})
 			   },
+			   {
+				label:'전시부스 신청',
+				command: () => history.push({
+				  pathname: "/register_display",
+				  state: {
+					  from: "register_display"
+				  }
+			  }),
+			  className: "made"
+			 },
 	 
 			]
 		 },

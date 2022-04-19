@@ -24,6 +24,7 @@ import Promotion from './pages/data/Promotion';
 import Update from './pages/data/Update';
 import Plan from './pages/Plan';
 import EProgram from './pages/program/EProgram';
+import Display from './pages/register/Display';
 const App = () => {
   return (
     <div style={{height: "100%", width: "100%", paddingBottom: "8vh", background: "rgb(236, 246, 252)"}}>
@@ -52,13 +53,14 @@ const App = () => {
 					<Route path="/register_missionary" component={Missionary}/>
 					<Route path="/register_mkmz" component={MkMz}/>
 					<Route path="/register_church" component={Church}/>
+					<Route path="/register_display" component={Display}/>
 
 					<Route path="/data" component={Data}/>
 					<Route path="/data_promotion" component={Promotion}/>
 					<Route path="/data_update" component={Update}/>
 
 					<Route path="/planning" component={Plan}/>
-					<Route exact path="/" component={Home}></Route>
+					<Route path="/" component={Home}></Route>
 
 					<Redirect path="*" to="/" />
 				</Switch>
