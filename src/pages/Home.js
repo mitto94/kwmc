@@ -21,15 +21,15 @@ const Home = ({history}) => {
 
       <div className="mDateContainer notosanskr" style={{display: "flex", width: "100%", background: "#202A45", fontSize: "1.5vw", paddingLeft: "4vw", paddingRight: "6vw", boxShadow: "0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%)", fontWeight: "600"}}>
         <span className="bBorder" style={{display: "flex", width: "100%"}}>
-          <div className="dBorder mTextSize fStart lPadding" style={{width: "50%", height: "9vh", display: "flex", alignItems: "center", justifyContent: "center", borderRight: "1px solid rgb(107, 112, 145)"}}>
+          <div className="dBorder mMenuTextSize fStart lPadding" style={{width: "50%", height: "9vh", display: "flex", alignItems: "center", justifyContent: "center", borderRight: "1px solid rgb(107, 112, 145)"}}>
             <span style={{color: "#ECE843"}}>일시 &nbsp;&nbsp;&nbsp;</span><span style={{color: "white", fontFamily: "Oswald, sans-serif"}}>7월 11<span className="ssSize" style={{position: "relative", bottom: "1.25vh"}}>월</span> - 14<span className="ssSize" style={{position: "relative", bottom: "1.25vh"}}>목</span> 일</span>
           </div>
-          <div className="dBorder mTextSize fStart" style={{width: "50%", height: "9vh", display: "flex", alignItems: "center", justifyContent: "center", borderRight: "1px solid rgb(107, 112, 145)"}}>
+          <div className="dBorder mMenuTextSize fStart" style={{width: "50%", height: "9vh", display: "flex", alignItems: "center", justifyContent: "center", borderRight: "1px solid rgb(107, 112, 145)"}}>
             <span style={{color: "#ECE843"}}>장소 &nbsp;&nbsp;&nbsp;</span><span style={{color: "white"}}>와싱톤중앙장로교회&nbsp;</span>
           </div>
         </span>
         
-        <div className="mTextSize fStart lPadding" style={{width: "100%", height: "9vh", display: "flex", alignItems: "center", justifyContent: "center"}}>
+        <div className="mMenuTextSize fStart lPadding" style={{width: "100%", height: "9vh", display: "flex", alignItems: "center", justifyContent: "center"}}>
           <div style={{display: "flex", alignItems: "center", justifyContent: "center"}}>
             <span style={{color: "#ECE843"}}>문의 &nbsp;&nbsp;&nbsp;</span>
             <div className="sSize" style={{display: "flex", flexDirection: "column", justifyContent: "center"}}>

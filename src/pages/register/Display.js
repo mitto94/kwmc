@@ -16,7 +16,7 @@ const Display = ({history}) => {
         </div>
         <div className="formContainer" style={{wordBreak: "keep-all"}}>
             <div className="mMargin0" style={{width: "100%", border: "1px solid #E2E2E2", marginTop: "1rem", background: "white", marginBottom: "1rem"}}>
-              <div className="sSize notosanskr" style={{margin: "2rem", lineHeight: "150%", background: "white", fontWeight: "400"}}>
+              <div className="mTextSize notosanskr" style={{margin: "2rem", lineHeight: "150%", background: "white", fontWeight: "400"}}>
                 <div className="titleFont" style={{width: "100%", display: "flex", justifyContent: "center", color: "#163875", fontWeight: "600"}}>전시부스 신청</div>
                     <span>
                     <br></br><br></br>

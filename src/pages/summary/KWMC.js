@@ -14,7 +14,7 @@ const KWMC = ({history}) => {
           <SummaryMenu history={history}/>
         </div>
         <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
-          <div className="mWidth100 mTextSize mdLRBorder" style={{width: "60%", height: "7vh", minHeight: "20px", border: "1px solid #E2E2E2", display: "flex", justifyContent: "space-around", alignItems: "center", cursor: "pointer", fontWeight: 500, fontSize: "1.3vw", color: "rgb(128, 127, 127)", background: "white"}}>
+          <div className="mWidth100 mMenuTextSize mdLRBorder" style={{width: "60%", height: "7vh", minHeight: "20px", border: "1px solid #E2E2E2", display: "flex", justifyContent: "space-around", alignItems: "center", cursor: "pointer", fontWeight: 500, fontSize: "1.3vw", color: "rgb(128, 127, 127)", background: "white"}}>
               <div className={first ? "clickedMenu2" : ""} onClick={() => setFirst(true)}
                 style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center"}}>소개</div>
               <div className={!first ? "clickedMenu2" : ""} onClick={() => setFirst(false)}
@@ -25,7 +25,7 @@ const KWMC = ({history}) => {
           {first ?
             <div className="formContainer" style={{wordBreak: "keep-all"}}>
               <div className="mMargin0" style={{width: "100%", border: "1px solid #E2E2E2", marginTop: "1rem", background: "white", marginBottom: "1rem"}}>
-              <div className="sSize notosanskr" style={{margin: "2rem", lineHeight: "150%", background: "white", fontWeight: "400"}}>
+              <div className="mTextSize notosanskr" style={{margin: "2rem", lineHeight: "150%", background: "white", fontWeight: "400"}}>
                 <span>
                 <span style={{color: "#143674", fontWeight: "700"}}>기독교 한인세계선교협의회(Korean World Mission Council for Christ)는</span> 북미주 한인교회가 하나님의 은총과 축복 가운데 성장과 부흥을 거듭함을 감사드리며 주 예수 그리스도의 2,4지상명령(마 28:19-20)인 세계복음화에 총력을 기울여야 할 시대적 사명을 절감하고 1988년 7월 25일부터 30일까지 빌리 그래함 목사의 적극적 후원을 받아 시카고 윗튼대학 빌리 그래함 센터에서 제1차 <span style={{color: "#143674", fontWeight: "700"}}>한인세계선교대회를</span> 개최하며 한국교회 선교사상 새로운 장을 기록하였다. 대회를 기점으로 하나님께서 북미주 한인교회에 주신 세계복음화의 지상명령을 더욱 효율적으로 수행하고자 기독교 한인세계선교협의회를 창립하기에 이르렀으며 이를 중심으로 세계복음화를 향한 북미주 한인교회의 선교의 뜻과 힘을 집결하여 선교운동을 촉진, 협력, 조정함으로써 복음을 땅끝까지 전파하려는 세계복음화를 향한 하나님의 부르심에 순종하고 있다.
                 <br></br><br></br>
@@ -37,7 +37,7 @@ const KWMC = ({history}) => {
             : 
             <div className="formContainer" style={{height: "100%"}}> 
               <div className="mMargin0" style={{width: "100%", border: "1px solid #E2E2E2", marginTop: "1rem", background: "white", marginBottom: "1rem"}}>
-                <div className="sSize mMargin0 mFlexWrap mJuStart mHeight14 dBorder" style={{display: "flex", border: "1px solid #E2E2E2", margin: "2rem", height: "7vh", justifyContent: "space-around", cursor: "pointer"}}>
+                <div className="mTextSize mMargin0 mFlexWrap mJuStart mHeight14 dBorder" style={{display: "flex", border: "1px solid #E2E2E2", margin: "2rem", height: "7vh", justifyContent: "space-around", cursor: "pointer"}}>
                   <div onClick={() => setSection("a")} className={`${section === "a" && "sectionClicked"} mWidth25 mBorderRB`} style={{display: "flex", justifyContent: "center", alignItems: "center", height: "7vh", borderRight: "1px solid #E2E2E2", width: "100%"}}>전문</div>
                   <div onClick={() => setSection("b")} className={`${section === "b" && "sectionClicked"} mWidth25 mBorderRB`} style={{display: "flex", justifyContent: "center", alignItems: "center", height: "7vh", borderRight: "1px solid #E2E2E2", width: "100%", textAlign: "center"}}>제 1장<br></br>총칙</div>
                   <div onClick={() => setSection("c")} className={`${section === "c" && "sectionClicked"} mWidth25 mBorderRB`} style={{display: "flex", justifyContent: "center", alignItems: "center", height: "7vh", borderRight: "1px solid #E2E2E2", width: "100%", textAlign: "center"}}>제 2장<br></br> 조직 및 임무</div>
@@ -46,7 +46,7 @@ const KWMC = ({history}) => {
                   <div onClick={() => setSection("f")} className={`${section === "f" && "sectionClicked"} mWidth25 mBorderRB`} style={{display: "flex", justifyContent: "center", alignItems: "center", height: "7vh", borderRight: "1px solid #E2E2E2", width: "100%", textAlign: "center"}}>제 5장<br></br> 개정 및 세칙</div>
                   <div onClick={() => setSection("g")} className={`${section === "g" && "sectionClicked"} mWidth25 mBorderRB`} style={{display: "flex", justifyContent: "center", alignItems: "center", height: "7vh", width: "100%"}}>부칙</div>
                 </div>
-                <div className="sSize notosanskr" style={{margin: "2rem", lineHeight: "150%", wordBreak: "keep-all", background: "white"}}>
+                <div className="mTextSize notosanskr" style={{margin: "2rem", lineHeight: "150%", wordBreak: "keep-all", background: "white"}}>
                   {section === "a" &&
                     <div>
                       <div className="titleFont" style={{width: "100%", display: "flex", justifyContent: "center", color: "#163875", fontWeight: "600"}}>기독교 한인세계선교협의회 헌장</div>

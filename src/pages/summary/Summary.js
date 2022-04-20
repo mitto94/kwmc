@@ -52,7 +52,7 @@ const Summary = ({history}) => {
           <SummaryMenu history={history}/>
         </div>
         <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
-          <div className="mWidth100 mTextSize mdLRBorder" style={{width: "60%", height: "7vh", minHeight: "20px", border: "1px solid #E2E2E2", display: "flex", justifyContent: "space-around", alignItems: "center", cursor: "pointer", fontWeight: 500, fontSize: "1.3vw", color: "rgb(128, 127, 127)", background: "white"}}>
+          <div className="mWidth100 mMenuTextSize mdLRBorder" style={{width: "60%", height: "7vh", minHeight: "20px", border: "1px solid #E2E2E2", display: "flex", justifyContent: "space-around", alignItems: "center", cursor: "pointer", fontWeight: 500, fontSize: "1.3vw", color: "rgb(128, 127, 127)", background: "white"}}>
               <div className={first ? "clickedMenu2" : ""} onClick={() => setFirst(true)}
                 style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center"}}>사무총장 인사말</div>
               <div className={!first ? "clickedMenu2" : ""} onClick={() => setFirst(false)}
