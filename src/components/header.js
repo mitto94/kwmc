@@ -374,11 +374,12 @@ const Header = ({history}) => {
 			   {
 				  label:'신청안내',
 				  command: () => history.push({
-					pathname: "/planning",
+					pathname: "/register",
 					state: {
 						from: "register"
 					}
-				})
+				}),
+				className: "made"
 			   },
 			   {
 				//   label:'선교사',
@@ -393,23 +394,26 @@ const Header = ({history}) => {
 				  className: "made"
 			   },
 			   {
-				  label:'MK/MZ',
-				  command: () => history.push({
-					pathname: "/planning",
-					state: {
-						from: "mkmz"
-					}
-				})
+				  label:'교회/MK/MZ',
+				  command: () => window.open("https://form.jotform.com/221007600697148"),
+				  className: "made"
+
+				//   history.push({
+				// 	pathname: "/planning",
+				// 	state: {
+				// 		from: "mkmz"
+				// 	}
+				// })
 			   },
-			   {
-				  label:'교회',
-				  command: () => history.push({
-					pathname: "/planning",
-					state: {
-						from: "church"
-					}
-				})
-			   },
+			//    {
+			// 	  label:'교회',
+			// 	  command: () => history.push({
+			// 		pathname: "/planning",
+			// 		state: {
+			// 			from: "church"
+			// 		}
+			// 	})
+			//    },
 			   {
 				label:'전시부스 신청',
 				command: () => history.push({

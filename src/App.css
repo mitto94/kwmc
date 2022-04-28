@@ -147,12 +147,7 @@
     .formContainer {
         width: 60%;
     }
-    .sSize {
-        font-size: 1.2vw;
-    }
-    .ssSize {
-        font-size: .75vw;
-    }
+    
     .registerButton {
         font-size: 1.15vw !important;
         width: 30vw !important;
@@ -197,6 +192,12 @@
         font-weight: 700 !important;
 
     }
+    .sSize {
+        font-size: 1.2vw;
+    }
+    .ssSize {
+        font-size: .75vw;
+    }
     /* 큰 본문 제목 */
     .titleFont {
         font-size: 2vw;
@@ -214,10 +215,18 @@
 @media (max-width: 961px) {
     /* 본문보다 살짝 큰 타이틀 */
     .sSize {
-        font-size: 3.3vw !important;
+        font-size: 3vw !important;
     }
     .ssSize {
         font-size: 1.7vw;
+    }
+    .titleFont {
+        font-family: Noto Sans KR, sans-serif;
+        font-size: 1.25rem;
+        line-height: 1.75;
+    }
+    .mMenuTextSize {
+        font-size: 3.8vw !important;
     }
     .mWidth100 {
         width: 100% !important;
@@ -276,9 +285,6 @@
         font-size: 4vw !important;
 
     } 
-    .mMenuTextSize {
-        font-size: 3.8vw !important;
-    }
     .fStart {
         display: flex;
         justify-content: start !important;

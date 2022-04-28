@@ -37,7 +37,7 @@ const Home = ({history}) => {
               <span style={{color: "white", fontFamily: "Oswald, sans-serif"}}><span className="ssSize">미국 &nbsp;</span>1-714-603-7192</span>
             </div>
           </div>
-          <div className="sSize" style={{color: "white", display: "flex", alignItems: "center", marginLeft: "2.5vw", marginRight: "2.5vw", fontFamily: "Oswald, sans-serif"}}>&nbsp;&nbsp;kwmc.usa@gmail.com&nbsp;&nbsp;</div>
+          <div className="sSize" style={{color: "white", display: "flex", alignItems: "center", marginLeft: "2vw", marginRight: "2vw", fontFamily: "Oswald, sans-serif"}}>&nbsp;&nbsp;kwmc.usa@gmail.com&nbsp;&nbsp;</div>
           <div className="sSize" style={{display: "flex", flexDirection: "column", justifyContent: "center"}}>
             <span style={{color: "white", fontFamily: "Oswald, sans-serif"}}>www.kwmc.com</span>
             <span style={{color: "white", fontFamily: "Oswald, sans-serif"}}>kwmc2022.org</span>
