@@ -52,8 +52,10 @@ const Home = ({history}) => {
           </iframe> */}
         <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
           <div className="mobColumn" style={{width: "60vw", display: "flex", justifyContent: "center"}}>
-            <Button style={{borderRight: "1px solid #787878", position: "relative", zIndex: "1000"}} onClick={() => window.open("https://forms.gle/nVCRY7tRWsxS4HGN7")} label="대회신청하기 (선교사)" className="p-button-raised p-button-text p-button-plain registerButton" />
-            <a style={{textDecoration: "none"}} href={Poster} download><Button label="포스터 다운로드" className="p-button-raised p-button-text p-button-plain registerButton" /></a>
+            <Button style={{borderRight: "1px solid #787878", position: "relative", zIndex: "1000", boxShadow: "none"}} onClick={() => window.open("https://forms.gle/nVCRY7tRWsxS4HGN7")} label="대회신청하기 (선교사)" className="p-button-raised p-button-text p-button-plain registerButton" />
+            <Button label="대회신청하기 (교회/MK/MZ)" style={{width: "30vw", height: "9vh", boxShadow: "none", border: "1px solid lightgray", background: "#E2EBEE"}} className="p-button-raised p-button-text p-button-plain registerButton2" onClick={() => window.open("https://form.jotform.com/221007600697148")} />
+            {/* <Button label="교회/MK/MZ 신청" className="p-button-raised p-button-text p-button-plain sSize" style={{height: "3rem", background: "#E2EBEE", color: "#003685", width: "100%", boxShadow: "none", border: "1px solid lightgray", margin: ".5rem"}} onClick={() => window.open("https://form.jotform.com/221007600697148")} /> */}
+            {/* <a style={{textDecoration: "none"}} href={Poster} download><Button label="포스터 다운로드" className="p-button-raised p-button-text p-button-plain registerButton" /></a> */}
           </div>
         </div>
       </div>

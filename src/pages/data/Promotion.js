@@ -9,6 +9,7 @@ import Gidok from "./image/gidok.png";
 import Good from "./image/good.png";
 import Gukmin from "./image/gukmin.png";
 import Christian from "./image/christian.png";
+import Poster from "../../files/poster.jpg";
 
 const Promotion = ({history}) => {
   let isEnglish = false;
@@ -84,6 +85,12 @@ const Promotion = ({history}) => {
               <div style={{display: "flex", width: "25%", justifyContent: "center", alignItems: "center", fontWeight: "300"}}>2021.12.29</div>
             </div>
           </div>
+            <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
+                <div className="mobColumn" style={{width: "100%", display: "flex", justifyContent: "center"}}>
+                  <a download="제9차 KWMC 포스터 다운로드" style={{textDecoration: "none", display: "flex", justifyContent: "center", width: "100%", paddingBottom: "2rem"}}  href={Poster}><Button label="포스터 다운로드" className="sSize p-button-raised p-button-text p-button-plain sSize mHeight5" style={{height: "7vh", background: "#003685", color: "white", width: "100%"}}/></a>
+                </div>
+                
+            </div>
         </div>
       </div>
       

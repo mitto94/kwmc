@@ -32,11 +32,12 @@ const Register = ({history}) => {
                       ** 선교사와 성인 일반참가자(교회/MK(/MZ)의 신청방법이 다르오니 신청자의 직임에 맞는 신청방식을 따라주시길 바랍니다.
 
                       <br></br><br></br>
-                      * 선교사 - 신청서제출 후 등록안내 메일을 수신합니다. 등록안내 메일은 신청서 제출 후 3-5일 안에 받으실 수 있습니다. 해당메일에 포함된 항목에 대한 답변과 함께 메일을 회신해주시고 등록비를 입금해 주시면 등록이 완료됩니다. 선교사와 동반하는 미성년 MK는 등록안내 메일의 항목에 기재하여 선교사와 함께 신청해 주시면 됩니다.
+                      * 선교사 - 신청서제출 후 등록안내 메일을 수신합니다. 등록안내 메일은 신청서 제출 후 3-5일 안에 받으실 수 있습니다. 해당메일에 포함된 항목에 대한 답변과 함께 메일을 회신해주시고 등록비를 입금해 주시면 등록이 완료됩니다. 선교사와 동반하는 미성년 MK는 등록안내 메일의 항목에 기재하여 선교사와 함께 신청해 주시면 됩니다. 
+                      <br></br>- 선교사 등록에 관련된 문의사항은 <span style={{color: "#143674", fontWeight: "700"}}><a style={{textDecoration: "none", color: "#143674", fontWeight: "700"}} href="mailto:kwmc.usa@gmail.com">kwmc.usa@gmail.com</a></span> 로 문의해주시길 바랍니다.
                       <br></br><br></br>
-                      * 성인 일반참가자(교회/MK/MZ) - 홈페이지 대회신청 메뉴에 있는 교회/MK/MZ 신청란을 클릭, 연결된 등록폼에 항목을 모두 작성하고 등록비를 결제하시면 등록이 완료됩니다.
-                      <br></br><br></br>
-                      * 등록에 관련된 문의사항은 <span style={{color: "#143674", fontWeight: "700"}}><a style={{textDecoration: "none", color: "#143674", fontWeight: "700"}} href="mailto:kwmc.usa.register@gmail.com">kwmc.usa.register@gmail.com</a></span> 로 문의해주시길 바랍니다.
+                      * 성인 일반참가자(교회/MK/MZ) - 홈페이지 대회신청 메뉴에 있는 교회/MK/MZ 신청란을 클릭, 연결된 등록폼에 항목을 모두 작성하고 등록비를 결제하시면 등록이 완료됩니다. 
+                      <br></br>- 일반참가자 등록에 관련된 문의사항은 <span style={{color: "#143674", fontWeight: "700"}}><a style={{textDecoration: "none", color: "#143674", fontWeight: "700"}} href="mailto:kwmc.usa.register@gmail.com">kwmc.usa.register@gmail.com</a></span> 로 문의해주시길 바랍니다.
+                      {/* * 등록에 관련된 문의사항은 <span style={{color: "#143674", fontWeight: "700"}}><a style={{textDecoration: "none", color: "#143674", fontWeight: "700"}} href="mailto:kwmc.usa.register@gmail.com">kwmc.usa.register@gmail.com</a></span> 로 문의해주시길 바랍니다. */}
                   </span>
                   </div>
                   <div className="mobColumn" style={{width: "100%", display: "flex", justifyContent: "center", padding: "1.5rem", paddingTop: "0"}}>

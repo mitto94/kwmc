@@ -193,7 +193,7 @@
 
     }
     .sSize {
-        font-size: 1.2vw;
+        font-size: 1.2vw !important;
     }
     .ssSize {
         font-size: .75vw;
@@ -215,7 +215,7 @@
 @media (max-width: 961px) {
     /* 본문보다 살짝 큰 타이틀 */
     .sSize {
-        font-size: 3vw !important;
+        font-size: 2.9vw !important;
     }
     .ssSize {
         font-size: 1.7vw;
@@ -303,6 +303,17 @@
         font-family: Noto Sans KR !important;
         background-color: #003685 !important;
         color: white !important;
+        border-radius: 0 !important;
+        height: 9vh !important;
+        /* border-bottom: .1vw solid rgb(107, 112, 145) !important; */
+    }
+    .registerButton2 {
+        font-size: 3.5vw !important;
+        width: 100vw !important;
+        min-width: 10rem !important;
+        font-family: Noto Sans KR !important;
+        background-color: #E2EBEE !important;
+        color: #003685 !important;
         border-radius: 0 !important;
         height: 9vh !important;
         /* border-bottom: .1vw solid rgb(107, 112, 145) !important; */
