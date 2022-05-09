@@ -32,9 +32,9 @@ const Display = ({history}) => {
       책상과 의자가 제공되며 단체명이 들어간 현수막(책상에 붙일 수 있는)이 제공 될 예정입니다.(현수막은 추후 다른 물품으로 대체될 수 있습니다)                <br></br><br></br>
                       <span style={{color: "#143674", fontWeight: "800", lineHeight: "200%"}}>3. 등록 및 명찰</span>
                       <br></br>
-                      전시부스 등록에는 1명의 일반참가 등록비가 포함되어 있습니다. 부스 설치 전 등록처에서 명찰을 받으셔서 부스를 장식해주시면 됩니다. 1명의 등록비에는 식사만 제공되며 숙박은 제공되지 않습니다.
-                      
-                      </span>
+                      전시부스 등록에는 1명의 일반참가 등록비가 포함되어 있습니다. 부스 설치 전 등록처에서 명찰을 받으셔서 부스를 장식해주시면 됩니다. 1명의 등록비에는 식사만 제공되며 숙박은 제공되지 않습니다.&nbsp;
+ 
+                      </span> 
                   </div>
                   <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
                       <div className="mobColumn" style={{width: "100%", display: "flex", justifyContent: "center"}}>
