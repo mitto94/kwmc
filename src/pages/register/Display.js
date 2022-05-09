@@ -33,6 +33,7 @@ const Display = ({history}) => {
                       <span style={{color: "#143674", fontWeight: "800", lineHeight: "200%"}}>3. 등록 및 명찰</span>
                       <br></br>
                       전시부스 등록에는 1명의 일반참가 등록비가 포함되어 있습니다. 부스 설치 전 등록처에서 명찰을 받으셔서 부스를 장식해주시면 됩니다. 1명의 등록비에는 식사만 제공되며 숙박은 제공되지 않습니다.
+                      
                       </span>
                   </div>
                   <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
