@@ -1,5 +1,5 @@
 import Bottom from "../image/bottom_banner.jpg";
-import MBottom from "../image/mBottom_banner.jpg"
+import MBottom from "../image/mBottom_banner.png"
 
 const BottomBanner = ({isHome=true}) => {
     return <div className={isHome ? "mobBanner" : "mobBanner2"}>

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../components/header';
-import Bottom from "../image/bottom_banner.jpg";
-import MBottom from "../image/mBottom_banner.jpg"
+
 
 import Poster from "../files/poster.jpg";
 import { Button } from 'primereact/button';
