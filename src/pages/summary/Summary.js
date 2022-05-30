@@ -9,41 +9,6 @@ import You from "./Image/you.jpg"
 import BottomBanner from '../../components/bottomBanner';
 const Summary = ({history}) => {
   const [first, setFirst] = useState(true);
-  // const [isRender, setIsRender] = useState(false);
-  // const mountedTest = useRef(false);
-  // const mounted = useRef(false);
-  // const mountedFirst = useRef(false);
-  // // useLayoutEffect(() => {
-  // //   // setFirst(!first);
-  // //   setIsRender(true)
-  // //   mounted.current.style.display = "flex";
-  // //   console.log("first", first)
-  // // }, []);
-  // useEffect(() => {
-  //   console.log("data", );
-  //   // if (first) {
-  //   //   mountedFirst.current.style.display = "flex"
-  //   //   mounted.current.style.display = "none"
-  //   // };
-  //   // if (!first) {
-  //   //   mountedFirst.current.style.display = "none"
-  //   //   mounted.current.style.display = "flex"
-  //   // };
-  //   if(!mountedTest.current){
-  //     mountedTest.current = true;
-  //   } else {
-  //   //ajax
-  //   if (first) {
-  //     mountedFirst.current.style.display = "flex"
-  //     mounted.current.style.display = "none"
-  //   };
-  //   if (!first) {
-  //     mountedFirst.current.style.display = "none"
-  //     mounted.current.style.display = "flex"
-  //   };
-  //   }
-    
-  // }, [first]);
   return (
     <div style={{width: "100%",  display: "flex", flexDirection: "column", background: "#ECF6FC"}}>
         <Header history={history}></Header>

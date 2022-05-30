@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import Header from '../../components/header';
 import ProgramMenu from './ProgramMenu';
 import TopBanner from '../../components/topBanner';
-import Schedule from "./Image/eSchedule.png";
-import mSchedule from "./Image/eMSchedule.png";
+import Schedule from "./Image/eSchedule.jpg";
+import mSchedule from "./Image/eMSchedule.jpg";
 import BottomBanner from '../../components/bottomBanner';
 
 const EProgram = ({history}) => {

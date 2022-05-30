@@ -25,6 +25,7 @@ import Update from './pages/data/Update';
 import Plan from './pages/Plan';
 import EProgram from './pages/program/EProgram';
 import Display from './pages/register/Display';
+import Presentation from './pages/program/Presentation';
 const App = () => {
   return (
     <div style={{height: "100%", width: "100%", paddingBottom: "8vh", background: "rgb(236, 246, 252)"}}>
@@ -39,6 +40,7 @@ const App = () => {
 
 					<Route path="/program" component={Program}/>
 					<Route path="/eprogram" component={EProgram}/>
+					<Route path="/program_presentation" component={Presentation}/>
 					<Route path="/program_lecture" component={Lecture}/>
 					<Route path="/program_section" component={Section}/>
 					<Route path="/program_gathering" component={Gathering}/>

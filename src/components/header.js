@@ -297,18 +297,30 @@ const Header = ({history}) => {
 			  }),
 			  className: "made"
 			 },
+			 {
+				label:'주제발표',
+				command: () => history.push({
+				  pathname: "/program_presentation",
+				  state: {
+					  from: "presentation"
+				  }
+			  }),
+			  className: "made"
+			 },
 			   {
 				  label:'주제강의',
 				  command: () => history.push({
-					pathname: "/planning",
+					pathname: "/program_lecture",
 					state: {
 						from: "lecture"
 					}
-				})
+				}),
+				className: "made"
 			   },
 			   {
 				  label:'영역별모임',
 				  command: () => history.push({
+					// pathname: "/program_section",
 					pathname: "/planning",
 					state: {
 						from: "section"
@@ -318,11 +330,12 @@ const Header = ({history}) => {
 			   {
 				  label:'저녁집회',
 				  command: () => history.push({
-					pathname: "/planning",
+					pathname: "/program_gathering",
 					state: {
 						from: "gathering"
 					}
-				})
+				}),
+				className: "made"
 			   },
 			]
 		 },
@@ -433,11 +446,13 @@ const Header = ({history}) => {
 			   {
 				  label:'선교사 리포트',
 				  command: () => history.push({
+					// pathname: "/data",
 					pathname: "/planning",
 					state: {
 						from: "data"
 					}
-				})
+				}),
+				// className: "made"
 			   },
 			   {
 				  label:'홍보자료',

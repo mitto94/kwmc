@@ -6,7 +6,6 @@ import Vertical3 from "../image/vertical3.jpg";
 import MVertical1 from "../image/mVertical1.png";
 import MVertical2 from "../image/mVertical2.png";
 import MVertical3 from "../image/mVertical3.jpg";
-import MVertical from "../image/mVertical.jpg";
 const TopBanner = () => {
   return <div>
       <div className="WebImage" style={{width: "100%", height: "20vh", display: "flex", justifyContent: "center"}}>

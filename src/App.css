@@ -17,8 +17,8 @@
     /* box-shadow: inset 0 0 0 0.15rem #c7d2fe; */
 }
 .clickedMenu2 {
-    background: #CDE7F8;
-    color: #163875;
+    background: #CDE7F8 !important;
+    color: #163875 !important;
     font-weight: 900;
     /* box-shadow: inset 0 0 0 0.15rem #c7d2fe; */
 }
@@ -210,6 +210,10 @@
     .mMenuTextSize {
         font-size: 1.3vw !important;
     }
+    .wBorderBottom {
+        width: 56vw !important;
+        margin-left: -23.5vw !important;
+    }
 }
 
 @media (max-width: 961px) {
@@ -226,7 +230,7 @@
         line-height: 1.75;
     }
     .mMenuTextSize {
-        font-size: 3.8vw !important;
+        font-size: 3.7vw !important;
     }
     .mWidth100 {
         width: 100% !important;
@@ -234,6 +238,7 @@
     .mWidth86 {
         width: 86% !important;
     }
+    
     .formContainer {
         width: 100%;
     }
@@ -350,6 +355,9 @@
         padding: 7vw !important;
         margin: 0 !important;
     }
+    .mContainer4p {
+        padding: 4vh !important;
+    }
     .mImageText {
         flex-direction: row !important;
         width: 100% !important;
@@ -370,6 +378,9 @@
     .mPT7 {
         padding-top: 7vw !important;
     }
+    .mPT5 {
+        padding-top: 5vw !important;
+    }
     .mdLRBorder {
         border-left: none !important;
         border-right: none !important;
@@ -388,5 +399,20 @@
         border-top: 0 !important;
         border-bottom: 1px solid #E2E2E2 !important;
         border-right: 1px solid #E2E2E2 !important;
+    }
+    .mFlexContainer {
+        width: 100% !important;
+        display: block !important;
+    }
+    .mRightImage {
+        float: right;
+        margin-top: -6vw !important;
+    }
+    .mTitle {
+        width: 60% !important;
+        font-size: 3vw !important;
+    }
+    .mBlock {
+        display: block !important;
     }
 }
