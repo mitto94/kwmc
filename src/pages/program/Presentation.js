@@ -16,6 +16,7 @@ const Presentation = ({history}) => {
         </div>
         <div className="mMargin0" style={{width: "100%", display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center", marginTop: ".8vw", fontFamily: "Noto Sans KR, sans-serif"}}>
           <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "3.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
+            {/*  */}
             <div className="mBlock" style={{display: "flex"}}>
               <div className="mFlexContainer" style={{width: "35%", display: "flex", flexDirection: "column"}}>
                 <div className="mTitle" style={{paddingBottom: "3vw", color: "#143674", fontWeight: "700", fontSize: "1.2vw"}}>주제발표 Keynote Speech</div>
@@ -24,7 +25,7 @@ const Presentation = ({history}) => {
               <div className="mPadding0 mWidth100" style={{width: "65%", paddingLeft: "3.5vw", fontWeight: "500"}}>
 
                 <div className="mTextSize2" style={{fontSize: "1.4vw", fontWeight: 700, marginBottom: "1vh"}}>조용중 선교사</div>
-                <div className="mTextSize" style={{display: "block", flexDirection: "column", marginBottom: "2vw", letterSpacing: "-.05vw", lineHeight: "200%"}}>
+                <div className="mTextSize" style={{display: "block", flexDirection: "column", marginBottom: "2vw", letterSpacing: "-.05vw", lineHeight: "200%", wordBreak: "keep-all"}}>
 
                   <span>- 고려대학교 수학</span><br></br>
                   <span>- Trinity Evangelical Divinity School, M.Div.,Th.M., Ph.D.</span><br></br>
@@ -50,7 +51,7 @@ const Presentation = ({history}) => {
               <div className="mPadding0 mWidth100" style={{width: "65%", paddingLeft: "3.5vw", fontWeight: "500"}}>
 
                 <div className="mTextSize2" style={{fontSize: "1.4vw", fontWeight: 700, marginBottom: "1vh"}}>백신종 목사</div>
-                <div className="mTextSize" style={{display: "block", flexDirection: "column", marginBottom: "2vw", letterSpacing: "-.05vw", lineHeight: "200%"}}>
+                <div className="mTextSize" style={{display: "block", flexDirection: "column", marginBottom: "2vw", letterSpacing: "-.05vw", lineHeight: "200%", wordBreak: "keep-all"}}>
 
                   <span>- 중앙대학교, B.A.</span><br></br>
                   <span>- 총신대학교 신학대학원, M.Div.</span><br></br>

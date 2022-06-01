@@ -278,7 +278,7 @@ const Header = ({history}) => {
 			label:'프로그램',
 			items:[
 			   {
-				  label:'일정표',
+				  label:'일정표 (Timetable)',
 				  command: () => history.push({
 					pathname: "/program",
 					state: {
@@ -287,16 +287,7 @@ const Header = ({history}) => {
 				}),
 				className: "made"
 			   },
-			   {
-				label:'Timetable',
-				command: () => history.push({
-				  pathname: "/eprogram",
-				  state: {
-					  from: "eprogram"
-				  }
-			  }),
-			  className: "made"
-			 },
+			   
 			 {
 				label:'주제발표',
 				command: () => history.push({
@@ -307,9 +298,20 @@ const Header = ({history}) => {
 			  }),
 			  className: "made"
 			 },
+			 {
+				label:'성경',
+				command: () => history.push({
+				  pathname: "/bible",
+				  state: {
+					  from: "bible"
+				  }
+			  }),
+			  className: "made"
+			 },
 			   {
 				  label:'주제강의',
 				  command: () => history.push({
+					// pathname: "/planning",
 					pathname: "/program_lecture",
 					state: {
 						from: "lecture"
@@ -473,7 +475,6 @@ const Header = ({history}) => {
 					}
 				})
 			   },
-	
 			]
 		 },
 	];

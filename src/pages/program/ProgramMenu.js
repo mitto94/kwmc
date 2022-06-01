@@ -9,14 +9,8 @@ const ProgramMenu = ({history}) => {
                 from: "program"
               }
               })}}
-              style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>일정표</div>
-              <div className={history?.location.pathname === "/eprogram" ? "clickedMenu" : ""} onClick={() => {history.push({
-              pathname: "/eprogram",
-              state: {
-                from: "eprogram"
-              }
-              })}}
-              style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>Timetable</div>
+              style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center", background: "white", textAlign: "center"}}>일정표 (Timetable)</div>
+              
             <div className={history?.location.pathname === "/program_presentation" ? "clickedMenu" : ""} onClick={() => {history.push({
               pathname: "/program_presentation",
               state: {
@@ -24,6 +18,13 @@ const ProgramMenu = ({history}) => {
               }
               })}}
               style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>주제발표</div>
+              <div className={history?.location.pathname === "/bible" ? "clickedMenu" : ""} onClick={() => {history.push({
+              pathname: "/bible",
+              state: {
+                from: "bible"
+              }
+              })}}
+              style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>성경</div>
             <div className={history?.location.pathname === "/program_lecture" ? "clickedMenu" : ""} onClick={() => {history.push({
               pathname: "/program_lecture",
               state: {

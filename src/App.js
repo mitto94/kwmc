@@ -23,9 +23,10 @@ import Church from './pages/register/Church';
 import Promotion from './pages/data/Promotion';
 import Update from './pages/data/Update';
 import Plan from './pages/Plan';
-import EProgram from './pages/program/EProgram';
+// import EProgram from './pages/program/EPro/gram';/
 import Display from './pages/register/Display';
 import Presentation from './pages/program/Presentation';
+import Bible from './pages/program/Bible';
 const App = () => {
   return (
     <div style={{height: "100%", width: "100%", paddingBottom: "8vh", background: "rgb(236, 246, 252)"}}>
@@ -39,7 +40,7 @@ const App = () => {
 					<Route path="/summary_KWMC" component={KWMC}/>
 
 					<Route path="/program" component={Program}/>
-					<Route path="/eprogram" component={EProgram}/>
+					<Route path="/bible" component={Bible}/>
 					<Route path="/program_presentation" component={Presentation}/>
 					<Route path="/program_lecture" component={Lecture}/>
 					<Route path="/program_section" component={Section}/>

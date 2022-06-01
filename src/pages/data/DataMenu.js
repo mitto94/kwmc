@@ -16,7 +16,7 @@ const DataMenu = ({history}) => {
                 from: "data_promotion"
               }
               })}}
-              style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center"}}>홍보자료</div>
+              style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>홍보자료</div>
             <div className={history?.location.pathname === "/data_update" ? "clickedMenu" : ""} onClick={() => {history.push({
               // pathname: "/data_update",
               state: {

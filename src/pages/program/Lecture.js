@@ -3,9 +3,10 @@ import Header from '../../components/header';
 import ProgramMenu from './ProgramMenu';
 import BottomBanner from '../../components/bottomBanner';
 import TopBanner from '../../components/topBanner';
-import kim from "./Image/김성국.jpg"
-import luu from "./Image/류응렬.jpg"
-import yang from "./Image/양춘길.jpg"
+import 돈덴트 from "./Image/돈덴트.jpg"
+import 최승업 from "./Image/최승업.jpg"
+import 백운영 from "./Image/백운영.jpg"
+import 데이비드창 from "./Image/데이비드창.jpg"
 
 const Lecture = ({history}) => {
   const [first, setFirst] = useState(true);
@@ -30,26 +31,24 @@ const Lecture = ({history}) => {
           <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "3.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
             <div className="mBlock" style={{display: "flex"}}>
               <div className="mFlexContainer" style={{width: "35%", display: "flex", flexDirection: "column"}}>
-                <div className="mTitle" style={{paddingBottom: "3vw", color: "#143674", fontWeight: "700", fontSize: "1.2vw"}}>저녁집회 1  Evening Worship 1</div>
-                <img style={{maxHeight: "25vw", margin: "1vw"}} className="mImage35 mRightImage" src={yang} alt="young"></img>
+                <div className="mTitle" style={{paddingBottom: "3vw", color: "#143674", fontWeight: "700", fontSize: "1.2vw"}}>주제강의 1  Plenary 1</div>
+                <img style={{maxHeight: "25vw", margin: "1vw"}} className="mImage35 mRightImage" src={돈덴트} alt="young"></img>
               </div>
               <div className="mPadding0 mWidth100" style={{width: "65%", paddingLeft: "3.5vw", fontWeight: "500"}}>
 
-                <div className="mTextSize2" style={{fontSize: "1.4vw", fontWeight: 700, marginBottom: "1vh"}}>양춘길 목사</div>
-                <div className="mTextSize" style={{display: "block", flexDirection: "column", marginBottom: "2vw", letterSpacing: "-.05vw", lineHeight: "200%"}}>
-                  <span>- 일리노이주립대학교(화공학)</span><br></br>
-                  <span>- 프린스턴신학대학원, M.Div.</span><br></br>
-                  <span>- 칼빈신학대학원(신학석사)</span><br></br>
-                  <span>- 뉴욕신학대학원(목회학 박사)</span><br></br>
-                  <br></br>
-                  <span>- (前) 나성영락교회 부목사</span><br></br>
-                  <span>- (前) 오렌지 한인교회 담임목사</span><br></br>
-                  <span>- GP 선교회(USA) 이사</span><br></br>
-                  <span>- GUM 선교회 대표</span><br></br>
-                  <span>- KWMC 공동의장, 제9차 한인세계선교대회 공동대회장</span><br></br>
-                  <span>- 뉴저지필그림선교교회 담임</span>
+                <div className="mTextSize2" style={{fontSize: "1.4vw", fontWeight: 700, marginBottom: "1vh"}}>Dr. Donald T. (Don) Dent</div>
+                <div className="mTextSize" style={{display: "block", flexDirection: "column", marginBottom: "2vw", letterSpacing: "-.05vw", lineHeight: "200%", wordBreak: "keep-all"}}>
+                  
+
+                  <span> -Baker James Cauthen Professor of World Missions, Gateway Seminary, from 2012~</span><br></br>
+                  <span> -Director, Kim School of Global Missions, Gateway Seminary, 2012~2021</span><br></br>
+                  <span> -International Mission Board, South Asia Apprentice Program Director, Personnel Training Team, 2010~2012</span><br></br>
+                  <span> -IMB, Missionary-In-Residence and Visiting Professor, Southeastern Baptist Theological Seminary, 2009</span><br></br>
+                  <span> -IMB Regional Leader, Pacific Rim, 2004~2008(approx. 850 missionaries)</span><br></br>
+                  <span> -IMB Regional Leader, Southeast Asia and Oceania, 1998~2004(from 275~550 missionaries)</span>
+
                 </div>
-                <div className="mTextSize mPT5" style={{lineHeight: "160%", wordBreak: "keep-all"}}>양춘길 목사는 1973년 한국에서 고등학교 1학년을 마치고 도미, 일리노이주립대에서 화공학을 전공하고 아모코 오일(Amoco Oil)의 엔지니어로 근무하다가 목회자의 부르심을 받았다. 나성영락교회 부목사, 오렌지 한인교회 담임목회를 거쳐 1997년 뉴저지에 11가정이 모여 필그림선교교회를 개척했으며, 2017년 12월 동성애 동성혼을 허용한 미국장로교(PCUSA) 교단을 탈퇴하면서 1,200만달러 상당의 교회 건물을 포기했다. 이후 광야 생활 후 교회는 오히려 건강하게 성장해 현재 2000여 명이 출석하는 공동체를 형성했다. 양 목사는 코로나 19 사태를 마주하며 전례 없던 위기상황에서 성도들에게 교회가 이대로는 안 된다는 위기의식을 도전하고, 성도들의 삶이 보내는 선교사에서 그치는 것이 아니라 성도는 하나님의 보내심을 받은 선교사며 삶의 모든 영역이 선교지라는 정체성과 소명감을 가지고 각자의 자리에서 미셔널 처치로 살아가도록 훈련하며 열매 맺도록 헌신하고 있다.</div>
+                <div className="mTextSize mPT5" style={{lineHeight: "160%", wordBreak: "keep-all"}}>Don Dent 박사는 Gateway 신학교에서 가르치며 베이커 제임스 카우첸 세계선교 교수로 재직하고 있다. 미시시피 태생인 그는 29살인 1975년 하나님께 선교로 부르심을 받고 30년 동안 아시아의 대도시들에서 미국남침례교단 국제선교위원회(IMB)와 국제 기업에서 일을 했으며, 다양한 문화와 환경에서의 경험을 통해 고층 건물이 밀집한 대도시에서 공동체를 개척하고, 새로운 시장을 개척하기 위해 전략들을 세웠다. 또한 100개 이상의 해외 선교 팀의 리더십으로 섬길 뿐 아니라 다음세대 리더들을 세웠고, 선교팀 멤버들을 훈련시키며 새로운 환경에 잘 적응하는 과정을 이끄는 등 다양한 환경에서 많은 사람들과 사역을 해왔다.</div>
                 <div className="mWidth100 wBorderBottom" style={{width: "60%", background: "white", display: "flex", justifyContent: "center", borderRight: "1px solid rgb(226, 226, 226)", borderLeft: "1px solid rgb(226, 226, 226)", marginTop: "4vh", marginBottom: "4vh"}}>
                   <div className="mWidth100" style={{width: "52vw", borderTop: "2px solid rgb(226, 226, 226)"}}></div>
                 </div>
@@ -57,68 +56,78 @@ const Lecture = ({history}) => {
             </div>
 
             {/*  */}
-
             <div className="mBlock" style={{display: "flex"}}>
               <div className="mFlexContainer" style={{width: "35%", display: "flex", flexDirection: "column"}}>
-                <div className="mTitle" style={{paddingBottom: "3vw", color: "#143674", fontWeight: "700", fontSize: "1.2vw"}}>저녁집회 2  Evening Worship 2</div>
-                <img style={{maxHeight: "25vw", margin: "1vw"}} className="mImage35 mRightImage" src={kim} alt="young"></img>
+                <div className="mTitle" style={{paddingBottom: "3vw", color: "#143674", fontWeight: "700", fontSize: "1.2vw"}}>주제강의 2  Plenary 2</div>
+                <img style={{maxHeight: "25vw", margin: "1vw"}} className="mImage35 mRightImage" src={최승업} alt="young"></img>
               </div>
               <div className="mPadding0 mWidth100" style={{width: "65%", paddingLeft: "3.5vw", fontWeight: "500"}}>
 
-                <div className="mTextSize2" style={{fontSize: "1.4vw", fontWeight: 700, marginBottom: "1vh"}}>김성국 목사</div>
-                <div className="mTextSize" style={{display: "block", flexDirection: "column", marginBottom: "2vw", letterSpacing: "-.05vw", lineHeight: "200%"}}>
-
-                  <span>- 총신대학교 B.A</span><br></br>
-                  <span>- 총신대학교 신학대학원, M.Div.</span><br></br>
-                  <span>- Gordon-Conwell Theological Seminary, Th.M.</span><br></br>
-                  <span>- Gordon-Conwell Theological Seminary, D.Min.</span><br></br>
-                  <br></br>
-                  <span>- (前) 창신교회 교육전도사</span><br></br>
-                  <span>- (前) 서울남교회 부목사</span><br></br>
-                  <span>- (前) 혜천대학교 교수 및 교목실장, 혜천대학교회 담임</span><br></br>
-                  <span>- 미국 동부개혁장로회신학교 학장</span><br></br>
-                  <span>- 미주크리스천신문사 사장, 단비TV이사장</span><br></br>
-                  <span>- 미주한인예수교장로회 부총회장</span><br></br>
-                  <span>- KWMC 공동의장, 제9차 한인세계선교대회 공동대회장</span><br></br>
-                  <span>- 퀸즈장로교회 담임</span>
+                <div className="mTextSize2" style={{fontSize: "1.4vw", fontWeight: 700, marginBottom: "1vh"}}>Kojo Choi(최승업) 선교사(Ghana MK)</div>
+                <div className="mTextSize" style={{display: "block", flexDirection: "column", marginBottom: "2vw", letterSpacing: "-.05vw", lineHeight: "200%", wordBreak: "keep-all"}}>
+                 <br></br>
                 </div>
-                <div className="mTextSize mPT5" style={{lineHeight: "160%", wordBreak: "keep-all"}}>김성국 목사는 한국 총신대학교 신학과와 신학대학원을 졸업하고 미국으로 유학을 와 퀸즈장로교회 부목사로 섬기며 고든콘웰대학에서 박사학위를 받았다. 김 목사는 퀸즈장로교회 담임으로 부임 후 “말씀으로 자신과 세상을 변화시키는 교회” 라는 목표를 세우고 예배, 제자훈련, 선교, 다음세대 양육, 문화사역에 집중하고 있다. 특별히 한인 이민교회를 넘어 다민족 교회를 지향하고 있다. 코비드19로 예배가 어려울 때에도 성경적인 예배를 드리기에 흔들리지 않았고, 팬데믹 시대에 모든 선교지와 동시에 다양한 프로그램을 진행하는 “킹덤미션”을 개발하여 사역하고 있다.</div>
-                <div className="mWidth100 wBorderBottom" style={{width: "60%", background: "white", display: "flex", justifyContent: "center", borderRight: "1px solid rgb(226, 226, 226)", borderLeft: "1px solid rgb(226, 226, 226)", marginTop: "4vh", marginBottom: "4vh"}}>
-                  <div className="mWidth100" style={{width: "52vw", borderTop: "2px solid rgb(226, 226, 226)"}}></div>
-                </div>
-              </div>
-            </div>
-            {/*  */}
-
-            <div className="mBlock" style={{display: "flex"}}>
-              <div className="mFlexContainer" style={{width: "35%", display: "flex", flexDirection: "column"}}>
-                <div className="mTitle" style={{paddingBottom: "3vw", color: "#143674", fontWeight: "700", fontSize: "1.2vw"}}>저녁집회 3  Evening Worship 3</div>
-                <img style={{maxHeight: "25vw", margin: "1vw"}} className="mImage35 mRightImage" src={luu} alt="young"></img>
-              </div>
-              <div className="mPadding0 mWidth100" style={{width: "65%", paddingLeft: "3.5vw", fontWeight: "500"}}>
-
-                <div className="mTextSize2" style={{fontSize: "1.4vw", fontWeight: 700, marginBottom: "1vh"}}>류응렬 목사</div>
-                <div className="mTextSize" style={{display: "block", flexDirection: "column", marginBottom: "2vw", letterSpacing: "-.05vw", lineHeight: "200%"}}>
-                 
-                  <span>- 총신대학교신학대학원, M.Div.</span><br></br>
-                  <span>- Gordon-Conwell Theological Seminary, Th.M.</span><br></br>
-                  <span>- Southern Baptist Theological Seminary, Ph.D.</span><br></br>
-                  <br></br>
-                  <span>- 중국선교사 </span>
-                  <span>- (前) 총신대학교 신학대학원 교수</span><br></br>
-                  <span>- Gordon-Conwell Theological Seminary 객원교수</span><br></br>
-                  <span>- KWMC 공동의장,  제9차 한신세계선교대회 공동대회장</span><br></br>
-                  <span>- 와싱톤중앙장로교회 담임목사</span><br></br>
-                </div>
-                <div className="mTextSize mPT5" style={{lineHeight: "160%", wordBreak: "keep-all"}}>류응렬 목사는 중학교 3학년 때 주일학교 교사의 전도로 예수그리스도를 믿기 시작해 대학생 성경읽기 선교회에서 성경공부를 하며 선교사로 살려는 뜻을 품었다. 한국외대(영문학학사/석사) 졸업 후 총신대학원에서 목회학석사, 보스턴 고든콘웰 신학대학원에서 신학석사, 켄터키 루이빌의 남침례신학대학원에서 신학 박사학위를 받았다. 이후 중국 선교사로 섬기다가 학교로 돌아와 설교학 박사학위를 받고, 총신대학원 교수로 재직 중 청빙을 받아 현재 와싱톤중앙장로교회 담임목사로 섬기고 있다. 류목사는 예수님의 관심은 사역이 아니라 사람에 있음을 강조하며 ‘성도를 살리고 훈련해 지역과 세상을 변화시키는 글로컬교회(Glocal Church)’라는 비전으로 말씀, 기도, 전도의 정신으로 한 사람 한 사람을 그리스도의 제자로 세우기 위해 노력하고 교회의 내일인 다음세대를 말씀으로 무장시켜 하나님 앞에 영광 돌리는 제자로 세우기 위해 최선을 다해 섬기고 있다.</div>
+                <div className="mTextSize mPT5" style={{lineHeight: "160%", wordBreak: "keep-all"}}>14세 때 선교사인 부모를 따라 아프리카 가나로 와 현지 중학교, 고등학교 과정을 마치고 국립가나대에 경영학과를 마쳤다. 1999년 시작한 사업은 가나의 특성상 자본과 신뢰의 부족, 수 많은 사기 등으로 다양한 어려움을 겪었지만 신뢰할 수 있는 현지인 동료 Nathan과 아프리카 최대 통신사인 MTN 가나 매출의 20프로를 담당하는 나나텔이라는 기업을 키워냈다. 사업을 통해 수십년간 몸으로 겪어왔던 아프리카 사회의 부정부패 이슈의 핵심인 "신뢰부족" 문제를 해결하기 위해 2016년 가나 최초의 핀테크 개인금융결제원인 페이스위치(온오프라인 결제중계플랫폼)를 창업했다. 사랑하는 아내와 아이 다섯을 둔 아빠이자 부모님선교사님을 둔 아들로써 부모님의 선교지에 남아 3대가 함께하는 선교를 이어가고 있다. 2018 평창동계올림픽에 최초이자 유일한 가나의 스켈레톤 선수 프림퐁의 출전을 후원해 화제가 되었다. 2019년 아프리카 가나에서 영향력있는 핀테크 리더로 선정되었고 가나 산업계에 대한 기여와 실적을 인정받아 2021년 가나 명예의 전당에 이름을 올렸다. </div>
                 {/* <div className="mWidth100 wBorderBottom" style={{width: "60%", background: "white", display: "flex", justifyContent: "center", borderRight: "1px solid rgb(226, 226, 226)", borderLeft: "1px solid rgb(226, 226, 226)", marginTop: "4vh", marginBottom: "4vh"}}>
                   <div className="mWidth100" style={{width: "52vw", borderTop: "2px solid rgb(226, 226, 226)"}}></div>
                 </div> */}
               </div>
             </div>
             
+
+
           </div>
-          : "Day3"
+          : <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "3.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
+          <div className="mBlock" style={{display: "flex"}}>
+            <div className="mFlexContainer" style={{width: "35%", display: "flex", flexDirection: "column"}}>
+              <div className="mTitle" style={{paddingBottom: "3vw", color: "#143674", fontWeight: "700", fontSize: "1.2vw"}}>주제강의 3  Plenary 3</div>
+              <img style={{maxHeight: "25vw", margin: "1vw"}} className="mImage35 mRightImage" src={백운영} alt="young"></img>
+            </div>
+            <div className="mPadding0 mWidth100" style={{width: "65%", paddingLeft: "3.5vw", fontWeight: "500"}}>
+
+              <div className="mTextSize2" style={{fontSize: "1.4vw", fontWeight: 700, marginBottom: "1vh"}}>백운영 목사  Dr. Greg Paek</div>
+              <div className="mTextSize" style={{display: "block", flexDirection: "column", marginBottom: "2vw", letterSpacing: "-.05vw", lineHeight: "200%", wordBreak: "keep-all"}}>
+                
+                <span>- Westminster Theological Seminary, M.Div.(1986)</span><br></br>
+                <span>- Fuller Theological Seminary, Th.M.(1988)</span><br></br>
+                <span>- Fuller Theoligical Semianry, D.Miss(1996)</span><br></br>
+                <br></br>
+                <span>- 필라델피아 영생장로교회 파송선교사 및 GP소속 선교사(필리핀/인도네시아) 1990~201</span><br></br>6
+                <span>- GP선교회 국제대표(말레이시아) 2012~2016</span><br></br>
+                <span>- 로잔디아스포라 분과 위원 2005~2014</span><br></br>
+                <span>- 풀러신학교 선교학 객원교수 2011~2015</span><br></br>
+                <span>- KWMC 공동의장, 제9차 한인세계선교대회 공동대회장</span><br></br>
+                <span>- 필라델피아 영생장로교회 담임</span>
+              </div>
+              <div className="mTextSize mPT5" style={{lineHeight: "160%", wordBreak: "keep-all"}}>백운영 목사는 필라델피아 영생장로교회 선교사 출신 목회자로 청년시절 얼바나선교대회 참가하며 선교사로 헌신, 미국 웨스트민스터 신학교에 진학했다. 1990년 영생장로교회에서 GP선교회 선교사로 파송받아 필리핀, 인도네시아, 말레이시아에서 25년간 사역했으며 무슬림 사역 경험을 토대로 풀러신학교에서 무슬림선교를 주제로 선교학박사 학위를 받았다. 2012년부터 GP선교회 국제대표로 세계선교와 한국선교의 가교역할을 하던 중 2015년 영생장로교회 공동의회를 통해 청빙을 받고 기도가운데 미국사회에 거주하는 다민족을 향한 선교와 다음세대 교육이 하나님의 뜻이라는 응답을 받아 현재 담임목회로 섬기고 있다. 교회는 영생한국학교, 영생선교훈련원, 영생장학회 등을 운영하고 있으며 미국 선교단체와 함께 도시구제 사역을 펼치고 있다</div>
+              <div className="mWidth100 wBorderBottom" style={{width: "60%", background: "white", display: "flex", justifyContent: "center", borderRight: "1px solid rgb(226, 226, 226)", borderLeft: "1px solid rgb(226, 226, 226)", marginTop: "4vh", marginBottom: "4vh"}}>
+                <div className="mWidth100" style={{width: "52vw", borderTop: "2px solid rgb(226, 226, 226)"}}></div>
+              </div>
+            </div>
+          </div>
+
+          {/*  */}
+          <div className="mBlock" style={{display: "flex"}}>
+            <div className="mFlexContainer" style={{width: "35%", display: "flex", flexDirection: "column"}}>
+              <div className="mTitle" style={{paddingBottom: "3vw", color: "#143674", fontWeight: "700", fontSize: "1.2vw"}}>주제강의 4  Plenary 4</div>
+              <img style={{maxHeight: "25vw", margin: "1vw"}} className="mImage35 mRightImage" src={데이비드창} alt="young"></img>
+            </div>
+            <div className="mPadding0 mWidth100" style={{width: "65%", paddingLeft: "3.5vw", fontWeight: "500"}}>
+
+              <div className="mTextSize2" style={{fontSize: "1.4vw", fontWeight: 700, marginBottom: "1vh"}}>Rev. David Chang</div>
+              <div className="mTextSize" style={{display: "block", flexDirection: "column", marginBottom: "2vw", letterSpacing: "-.05vw", lineHeight: "200%", wordBreak: "keep-all"}}>
+               
+                <span>- Lead Pastor, Open Door Presbyterian Church - Herndon, VA </span><br></br>
+                
+              </div>
+              <div className="mTextSize mPT5" style={{lineHeight: "160%", wordBreak: "keep-all"}}>"Born to missionary parents in Bangladesh, David spent most of his childhood with the local boys of Dhaka and his many pets (including monkeys and many, many dogs). As he entered 6th grade, he attended Kodaikanal International Boarding School in India due to the lack of proper education in Dhaka. Then in the summer of 1998, David's family moved from India/Bangladesh to Chicago, IL in order for him and his siblings to prepare for college. After graduating from the University of Illinois with a BS in Psychology, David spent time working at a local psychiatric institution as a group therapist at a residential unit serving teenage patients. In 2006, he moved to Washington, DC to attend seminary and earned his Masters in Divinity. Passionate about serving the youth, David began his ministry in Northern Virginia at First Korean UMC as the Youth Pastor then joined Lighthouse Christian Fellowship Church as the Lead Pastor in 2009. In the summer of 2012, David and his family moved to San Diego to serve as the Education/Missions Pastor of Abundant Life Community. Then in the summer of 2016, he and his family moved back to Northern Virginia, and is humbled to be serving as the Lead Pastor at Open Door Presbyterian Church.</div>
+              {/* <div className="mWidth100 wBorderBottom" style={{width: "60%", background: "white", display: "flex", justifyContent: "center", borderRight: "1px solid rgb(226, 226, 226)", borderLeft: "1px solid rgb(226, 226, 226)", marginTop: "4vh", marginBottom: "4vh"}}>
+                <div className="mWidth100" style={{width: "52vw", borderTop: "2px solid rgb(226, 226, 226)"}}></div>
+              </div> */}
+            </div>
+          </div>
+          
+        </div>
           }
 
         </div>
