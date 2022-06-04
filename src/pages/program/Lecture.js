@@ -92,7 +92,7 @@ const Lecture = ({history}) => {
                 <span>- Fuller Theological Seminary, Th.M.(1988)</span><br></br>
                 <span>- Fuller Theoligical Semianry, D.Miss(1996)</span><br></br>
                 <br></br>
-                <span>- 필라델피아 영생장로교회 파송선교사 및 GP소속 선교사(필리핀/인도네시아) 1990~201</span><br></br>6
+                <span>- 필라델피아 영생장로교회 파송선교사 및 GP소속 선교사(필리핀/인도네시아) 1990~2016</span><br></br>
                 <span>- GP선교회 국제대표(말레이시아) 2012~2016</span><br></br>
                 <span>- 로잔디아스포라 분과 위원 2005~2014</span><br></br>
                 <span>- 풀러신학교 선교학 객원교수 2011~2015</span><br></br>

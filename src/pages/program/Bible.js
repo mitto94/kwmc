@@ -47,7 +47,7 @@ const Bible = ({history}) => {
             {/*  */}
             <div className="mBlock" style={{display: "flex"}}>
               <div className="mFlexContainer" style={{width: "35%", display: "flex", flexDirection: "column"}}>
-                <div className="mTitle" style={{paddingBottom: "3vw", color: "#143674", fontWeight: "700", fontSize: "1.2vw"}}>성경 3 Bilble Exposition 3</div>
+                <div className="mTitle" style={{paddingBottom: "3vw", color: "#143674", fontWeight: "700", fontSize: "1.2vw"}}>성경 2 Bilble Exposition 2</div>
                 <img style={{maxHeight: "25vw", margin: "1vw"}} className="mImage35 mRightImage" src={김양재} alt="young"></img>
               </div>
               <div className="mPadding0 mWidth100" style={{width: "65%", paddingLeft: "3.5vw", fontWeight: "500"}}>

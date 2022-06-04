@@ -45,7 +45,7 @@ const Register = ({history}) => {
                         <Button label="선교사 신청" className="p-button-raised p-button-text p-button-plain sSize" style={{height: "3rem", background: "#003685", color: "white", width: "100%", boxShadow: "none", margin: ".5rem"}}  onClick={() => window.open("https://forms.gle/nVCRY7tRWsxS4HGN7")}/>
                     </div>
                     <div className="mobColumn" style={{width: "100%", display: "flex", justifyContent: "center"}}>
-                        <Button label="교회/MK/MZ 신청" className="p-button-raised p-button-text p-button-plain sSize" style={{height: "3rem", background: "#E2EBEE", color: "#003685", width: "100%", boxShadow: "none", border: "1px solid lightgray", margin: ".5rem"}} onClick={() => window.open("https://form.jotform.com/221007600697148")} />
+                        <Button label="일반참가자/교회/MK/MZ 신청" className="p-button-raised p-button-text p-button-plain sSize" style={{height: "3rem", background: "#E2EBEE", color: "#003685", width: "100%", boxShadow: "none", border: "1px solid lightgray", margin: ".5rem"}} onClick={() => window.open("https://form.jotform.com/221007600697148")} />
                     </div>
                   </div>
               </div>

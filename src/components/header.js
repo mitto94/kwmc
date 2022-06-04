@@ -356,11 +356,12 @@ const Header = ({history}) => {
 			   {
 				  label:'교통/대회장안내',
 				  command: () => history.push({
-					pathname: "/planning",
+					pathname: "/guide_traffic",
 					state: {
 						from: "traffic"
 					}
-				})
+				}),
+				className: "made"
 			   },
 			   {
 				  label:'주변안내',
@@ -409,7 +410,7 @@ const Header = ({history}) => {
 				  className: "made"
 			   },
 			   {
-				  label:'교회/MK/MZ',
+				  label:'일반참가자/교회/MK/MZ',
 				  command: () => window.open("https://form.jotform.com/221007600697148"),
 				  className: "made"
 
@@ -448,13 +449,13 @@ const Header = ({history}) => {
 			   {
 				  label:'선교사 리포트',
 				  command: () => history.push({
-					// pathname: "/data",
-					pathname: "/planning",
+					pathname: "/data",
+					// pathname: "/planning",
 					state: {
 						from: "data"
 					}
 				}),
-				// className: "made"
+				className: "made"
 			   },
 			   {
 				  label:'홍보자료',

@@ -31,7 +31,7 @@ const RegisterMenu = ({history}) => {
               window.open("https://form.jotform.com/221007600697148")
             }
           }
-              style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>교회/MK/MZ</div>
+              style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center", background: "white", wordBreak: "keep-all"}}>일반참가자/교회/MK/MZ</div>
             {/* <div className={history?.location.pathname === "/register_church" ? "clickedMenu" : ""} onClick={() => {history.push({
               // pathname: "/register_church",
               state: {

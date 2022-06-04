@@ -206,6 +206,9 @@
     .mTextSize {
         font-size: 1vw !important;
     }
+    .mTextSize3 {
+        font-size: .8vw !important;
+    }
     /* 메뉴크기용 */
     .mMenuTextSize {
         font-size: 1.3vw !important;
@@ -213,6 +216,10 @@
     .wBorderBottom {
         width: 56vw !important;
         margin-left: -23.5vw !important;
+    }
+    .wBorderBottom2 {
+        width: 56vw !important;
+        margin-left: -14.5vw !important;
     }
 }
 
@@ -290,8 +297,10 @@
     }
     .mTextSize2 {
         font-size: 4vw !important;
-
     } 
+    .mTextSize3 {
+        font-size: 2.5vw !important;
+    }
     .fStart {
         display: flex;
         justify-content: start !important;
@@ -367,6 +376,11 @@
         width: 35% !important;
         max-width: 35% !important;
         max-height: 45vw !important;
+    }
+    .mImage25 {
+        width: 25% !important;
+        max-width: 25% !important;
+        max-height: 30vw !important;
     }
     .mPadding0 {
         padding: 0 !important;
