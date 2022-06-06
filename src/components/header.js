@@ -322,12 +322,13 @@ const Header = ({history}) => {
 			   {
 				  label:'영역별모임',
 				  command: () => history.push({
-					// pathname: "/program_section",
-					pathname: "/planning",
+					pathname: "/program_section",
+					// pathname: "/planning",
 					state: {
 						from: "section"
 					}
-				})
+				}),
+				className: "made"
 			   },
 			   {
 				  label:'저녁집회',

@@ -218,8 +218,7 @@
         margin-left: -23.5vw !important;
     }
     .wBorderBottom2 {
-        width: 56vw !important;
-        margin-left: -14.5vw !important;
+        width: 100% !important;
     }
 }
 
@@ -395,6 +394,9 @@
     .mPT5 {
         padding-top: 5vw !important;
     }
+    .mPT3 {
+        padding-top: 3vw !important;
+    }
     .mdLRBorder {
         border-left: none !important;
         border-right: none !important;
@@ -428,5 +430,9 @@
     }
     .mBlock {
         display: block !important;
+    }
+    .wBorderBottom2 {
+        width: 99vw !important;
+        margin-left: -4vh !important;
     }
 }

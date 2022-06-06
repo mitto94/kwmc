@@ -39,7 +39,7 @@ const ProgramMenu = ({history}) => {
                 from: "section"
               }
               })}}
-              style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", wordBreak: "keep-all", textAlign: "center", alignItems: "center"}}>영역별 모임</div>
+              style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", wordBreak: "keep-all", textAlign: "center", alignItems: "center", background: "white"}}>영역별 모임</div>
             <div className={history?.location.pathname === "/program_gathering" ? "clickedMenu" : ""} onClick={() => {history.push({
               pathname: "/program_gathering",
               state: {
