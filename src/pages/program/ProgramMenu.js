@@ -17,7 +17,7 @@ const ProgramMenu = ({history}) => {
                 from: "lecture"
               }
               })}}
-              style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>주제발표</div>
+              style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center", background: "white", textAlign: "center", wordBreak: "keep-all"}}>주제 발표</div>
               <div className={history?.location.pathname === "/bible" ? "clickedMenu" : ""} onClick={() => {history.push({
               pathname: "/bible",
               state: {
@@ -31,21 +31,29 @@ const ProgramMenu = ({history}) => {
                 from: "lecture"
               }
               })}}
-              style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>주제강의</div>
+              style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center", background: "white", textAlign: "center", wordBreak: "keep-all"}}>주제 강의</div>
             
             <div className={history?.location.pathname === "/program_section" ? "clickedMenu" : ""} onClick={() => {history.push({
-              // pathname: "/program_section",
+              pathname: "/program_section",
               state: {
                 from: "section"
               }
               })}}
               style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", wordBreak: "keep-all", textAlign: "center", alignItems: "center", background: "white"}}>영역별 모임</div>
+            <div className={history?.location.pathname === "/program_special" ? "clickedMenu" : ""} onClick={() => {history.push({
+              // pathname: "/program_special",
+              state: {
+                from: "section"
+              }
+              })}}
+              style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", wordBreak: "keep-all", textAlign: "center", alignItems: "center"}}>Special Session</div>
+            
             <div className={history?.location.pathname === "/program_gathering" ? "clickedMenu" : ""} onClick={() => {history.push({
               pathname: "/program_gathering",
               state: {
                 from: "gathering"
               }
-              })}} style={{width: "100%", display: "flex", justifyContent: "center", alignItems: "center", height: "100%", background: "white"}}>저녁집회</div>
+              })}} style={{width: "100%", display: "flex", justifyContent: "center", alignItems: "center", height: "100%", background: "white", wordBreak: "keep-all", textAlign: "center"}}>저녁 집회</div>
           </div>
   );
 }

@@ -27,6 +27,7 @@ import Plan from './pages/Plan';
 import Display from './pages/register/Display';
 import Presentation from './pages/program/Presentation';
 import Bible from './pages/program/Bible';
+import Special from './pages/program/Special';
 const App = () => {
   return (
     <div style={{height: "100%", width: "100%", paddingBottom: "8vh", background: "rgb(236, 246, 252)"}}>
@@ -41,6 +42,8 @@ const App = () => {
 
 					<Route path="/program" component={Program}/>
 					<Route path="/bible" component={Bible}/>
+					<Route path="/program_special" component={Special}/>
+
 					<Route path="/program_presentation" component={Presentation}/>
 					<Route path="/program_lecture" component={Lecture}/>
 					<Route path="/program_section" component={Section}/>

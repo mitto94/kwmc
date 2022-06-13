@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../components/header';
-
+import HomeModal from "../HomeModal";
 
 import Poster from "../files/poster.jpg";
 import { Button } from 'primereact/button';
@@ -8,16 +8,48 @@ import TopBanner from '../components/topBanner';
 import BottomBanner from '../components/bottomBanner';
 
 const Home = ({history}) => {
-  return (
+  const [isOpen, setOpen] = useState(false);
+  const [todayCheck, setTodayCheck] = useState(false);
+
+  const handleClick = () => {
+    setOpen(true);
+  };
+  const handleModal1Submit = () => {
+    // 모달1 비지니스 로직
+    setOpen(false);
+  };
+  const handleModal1Cancel = () => setOpen(false);
+  // const handleModal1CancelToday = () => setOpen(false);
+  useEffect(() => {
+    const PopUpNotShow = localStorage.getItem("PopUpNotShow");  //localStorage에 PopUpNotShow 값을 가져온다. 
+    const currentTime = Math.floor(new Date().getTime());
+    
+    if (!PopUpNotShow) {   //  PopUpNotShow 없거나 처음 들어온 사람 - 팝업을 띄운다.
+      setOpen(true);
+    }
+   
+    if (Number(PopUpNotShow) > currentTime) return; // 아닐경우에는 팝업을 안 띄운다.
+    if (Number(PopUpNotShow) < currentTime) {  // 제한 시간이 지났으므로 팝업을 다시 띄운다.
+      setOpen(true);
+    }
+  }, []);
+
+  const handleModal1CancelToday = () => {
+    const expire = Date.now() + 43200000; //12시간 후에 PopUpNotShow 값이 사라진다.
+    const objString = JSON.stringify(expire);
+    localStorage.setItem("PopUpNotShow", objString); //localStorage에 "PopUpNotShow" key로 시간(objString)을 저장한다.
+    setOpen(false);
+  };
+  return (<>
+      <HomeModal 
+          isOpen={isOpen}
+          onSubmit={handleModal1Submit}
+          onCancel={handleModal1Cancel}
+          onCancelToday={handleModal1CancelToday} />
+        {/* <button onClick={handleClick}>모달 열기</button> */}
     <div className="mobBackground" style={{width: "100%", height: "100%", display: "flex", flexDirection: "column"}}>
       <Header history={history}></Header>
-      {/* <div style={{display: "flex", flexDirection: "column", width: "100%", minHeight: "9vh", justifyContent: "center", background: "white"}}>
-        <img style={{width: "20rem", maxWidth: "50vw", cursor: "pointer", marginLeft: "4.6vw"}} src={Logo} alt="KWMC Logo"></img>
-      </div> */}
       <TopBanner></TopBanner>
-      {/* <img className="WebImage" style={{width: "100%", minHeight: "20vh"}} src={Vertical} alt="Vertical Poster" /> */}
-      {/* <img className="MobImage" style={{width: "100%", height: "9vh"}} src={MVertical} alt="Vertical Poster" /> */}
-
       <div className="mDateContainer notosanskr" style={{display: "flex", width: "100%", background: "#202A45", fontSize: "1.5vw", paddingLeft: "4vw", paddingRight: "6vw", boxShadow: "0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%)", fontWeight: "600"}}>
         <span className="bBorder" style={{display: "flex", width: "100%"}}>
           <div className="dBorder mMenuTextSize fStart lPadding" style={{width: "50%", height: "9vh", display: "flex", alignItems: "center", justifyContent: "center", borderRight: "1px solid rgb(107, 112, 145)"}}>
@@ -65,6 +97,7 @@ const Home = ({history}) => {
       </div> */}
       <BottomBanner></BottomBanner>
     </div>
+    </>
   );
 }
 

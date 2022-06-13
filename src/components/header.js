@@ -250,13 +250,14 @@ const Header = ({history}) => {
 				className: "made"
 			  },
 			  {
-				 label:'조직도',
+				 label:'제9차 KWMC 공동대회장',
 				 command: () => history.push({
-					pathname: "/planning",
+					pathname: "/summary_organization",
 					state: {
 						from: "organization"
 					}
-				})
+				}),
+				className: "made"
 			  },
 			  {
 				 label:'KWMC 소개',
@@ -331,6 +332,17 @@ const Header = ({history}) => {
 				className: "made"
 			   },
 			   {
+				label:'Special Session',
+				command: () => history.push({
+				//   pathname: "/program_special",
+				  pathname: "/planning",
+				  state: {
+					  from: "section"
+				  }
+			  }),
+			//   className: "made"
+			 },
+			   {
 				  label:'저녁집회',
 				  command: () => history.push({
 					pathname: "/program_gathering",
@@ -355,23 +367,24 @@ const Header = ({history}) => {
 				})
 			   },
 			   {
-				  label:'교통/대회장안내',
+				  label:'대회장안내',
 				  command: () => history.push({
-					pathname: "/guide_traffic",
+					pathname: "/planning",
 					state: {
 						from: "traffic"
 					}
 				}),
-				className: "made"
+				// className: "made"
 			   },
 			   {
-				  label:'주변안내',
+				  label:'교통안내',
 				  command: () => history.push({
-					pathname: "/planning",
+					pathname: "/guide_traffic",
 					state: {
 						from: "around"
 					}
-				})
+				}),
+				className: "made"
 			   },
 			   {
 				  label:'그외 정보',

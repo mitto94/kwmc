@@ -47,7 +47,7 @@ const Data = ({history}) => {
           <div className="titleFont" style={{width: "100%", display: "flex", justifyContent: "center", color: "#163875", fontWeight: "600"}}>{section}</div>
           
           <div style={{margin: "1rem", wordBreak: "keep-all"}}>** 대회가 진행되는 동안 일반참가자 및 교회와 현장선교사들의 원활한 네트워킹이 이뤄지기 위해 대회에 참여하는 선교사의 레포트를 공유합니다. 작성하신 각 선교사들의 사역에 대한 소개와 자료로 대회 참가자 누구나 열람이 가능합니다. 대회 전에 관심사역 분야에서 사역하는 선교사들의 정보를 열람하시고 미리 대회를 준비하시면 풍성한 교제의 장이 될 것입니다.</div>
-          <div style={{margin: "1rem", wordBreak: "keep-all"}}>** 보안관련 이슈로 누구나 열람이 아닌 대회참여자중에 관심자들에게만 공유하길 원하는 선교사는 따로 요청해주시기 바랍니다. <span style={{color: "#143674", fontWeight: "700"}}><a style={{textDecoration: "none", color: "#143674", fontWeight: "700"}} href="mailto:kwma.report@gmail.com">kwma.report@gmail.com</a></span></div>
+          <div style={{margin: "1rem", wordBreak: "keep-all"}}>** 보안관련 이슈로 누구나 열람이 아닌 대회참여자중에 관심자들에게만 공유하길 원하는 선교사는 따로 요청해주시기 바랍니다. <span style={{color: "#143674", fontWeight: "700"}}><a style={{textDecoration: "none", color: "#143674", fontWeight: "700"}} href="mailto:kwmc.report@gmail.com">kwmc.report@gmail.com</a></span></div>
 
           <div style={{marginTop: ".5vh"}}>
             {section === "디아스포라" &&
@@ -55,6 +55,8 @@ const Data = ({history}) => {
                <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/노규석 목사(온누리교회)-디아스포라.docx">노규석 목사(온누리교회)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/이광윤, 이영분 선교사 바울선교회)-디아스포라.hwp">이광윤, 이영분 선교사 (바울선교회)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/진심-진정 선교사(중국대학선교회(CUM))-디아스포라.docx">진심-진정 선교사(중국대학선교회(CUM))</a></li>
+              <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/최명란 선교사(GMS(총회세계선교회))-디아스포라.hwp">최명란 선교사(GMS(총회세계선교회))</a></li>
+
             </ol>
             }
             {section === "도시선교" &&
@@ -101,9 +103,10 @@ const Data = ({history}) => {
             }
             {section === "전방개척선교" &&
             <ol style={{display: "inline-flex", flexWrap: "wrap", width: "100%"}}>
-              <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/김요셉-이다경 선교사(한국대학생선교회)-전방개척선교.hwpx">김요셉-이다경 선교사(한국대학생선교회)</a></li>
+              <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/김요셉-이다경 선교사(한국대학생선교회)-수정-전방개척선교.hwpx">김요셉-이다경 선교사(한국대학생선교회)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/김요엘 선교사((사)그린코리아네트워크)-전방개척선교.hwp">김요엘 선교사((사)그린코리아네트워크)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/손광배(이경희) 선교사(GBT)-전방개척선교.docx">손광배(이경희) 선교사(GBT)</a></li>
+              <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/이경승 정다운 선교사(GP USA)-전방개척선교.docx">이경승 정다운 선교사(GP USA)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/이경희 선교사(GBT)-전방개척선교.docx">이경희 선교사(GBT)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/황인미 선교사(GMS)-전방개척선교.docx">황인미 선교사(GMS)</a></li>
             </ol>
@@ -112,6 +115,8 @@ const Data = ({history}) => {
             <ol style={{display: "inline-flex", flexWrap: "wrap", width: "100%"}}>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%"}}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href={"http://kwmc2022.org/files/권종승 선교사(물 한 그릇 선교회)-기타(Wholistic Mission).pdf"}>권종승 선교사(물 한 그릇 선교회)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/김윤식 선교사(기독교대한감리회)-기타(케냐감리교회본부사역).pdf">김윤식 선교사(기독교대한감리회)</a></li>
+              <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/이준섭-주희경 선교사(GP선교회)-기타(MK).hwp">이준섭-주희경 선교사(GP선교회)</a></li>
+
             </ol>
             }
             {section === "전체" &&
@@ -126,15 +131,18 @@ const Data = ({history}) => {
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/박진수 선교사(케냐국제학교교사)-교육.docx">박진수 선교사(Christian Reformed Church (CRC) Resonate)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/손광배(이경희) 선교사(GBT)-전방개척선교.docx">손광배(이경희) 선교사(GBT)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/신영선-신봉순 선교사(Seed International _W.M.P)-교육.doc">신영선-신봉순 선교사(Seed International _W.M.P)</a></li>
+              <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/이경승 정다운 선교사(GP USA)-전방개척선교.docx">이경승 정다운 선교사(GP USA)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/이경희 선교사(GBT)-전방개척선교.docx">이경희 선교사(GBT)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/이광윤, 이영분 선교사 바울선교회)-디아스포라.hwp">이광윤, 이영분 선교사 (바울선교회)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/이리사 선교사(국제도시선교회(ICM))-도시선교.docx">이리사 선교사(국제도시선교회(ICM))</a></li>
+              <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/이준섭-주희경 선교사(GP선교회)-기타(MK).hwp">이준섭-주희경 선교사(GP선교회)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/이진호-장효빈 선교사(GMP 해외개척선교회)-교육.pdf">이진호-장효빈 선교사(GMP 해외개척선교회)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/임도마 선교사(GP선교회)-BAM.docx">임도마 선교사(GP선교회)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/장종학 선교사(소래선교회)-교육.docx">장종학 선교사(소래선교회)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/정한길 선교사 (인터서브)-선교동원.docx">정한길 선교사 (인터서브)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/진심-진정 선교사(중국대학선교회(CUM))-디아스포라.docx">진심-진정 선교사(중국대학선교회(CUM))</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/최남용-최형미 선교사(GP선교회)-교육.docx">최남용-최형미 선교사(GP선교회)</a></li>
+              <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/최명란 선교사(GMS(총회세계선교회))-디아스포라.hwp">최명란 선교사(GMS(총회세계선교회))</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/하혜자 선교사(Seed International)-교육.docx">하혜자 선교사(Seed International)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/황인미 선교사(GMS)-전방개척선교.docx">황인미 선교사(GMS)</a></li>
             </ol>

@@ -18,12 +18,12 @@ const SummaryMenu = ({history}) => {
               })}}
               style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>대회소개</div>
             <div className={history?.location.pathname === "/summary_organization" ? "clickedMenu" : ""} onClick={() => {history.push({
-              // pathname: "/summary_organization",
+              pathname: "/summary_organization",
               state: {
                 from: "summary"
               }
               })}}
-              style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center"}}>조직도</div>
+              style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center", background: "white", textAlign: "center", wordBreak: "keep-all"}}>제9차 KWMC 공동대회장</div>
             <div className={history?.location.pathname === "/summary_KWMC" ? "clickedMenu" : ""} onClick={() => {history.push({
               pathname: "/summary_KWMC",
               state: {
