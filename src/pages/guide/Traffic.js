@@ -3,6 +3,10 @@ import Header from '../../components/header';
 import GuideMenu from './GuideMenu';
 import TopBanner from '../../components/topBanner';
 import BottomBanner from '../../components/bottomBanner';
+import 오시는길 from "./Image/오시는길.jpg"
+import m오시는길 from "./Image/m오시는길.jpg"
+import 주차 from "./Image/주차.jpg"
+import m주차 from "./Image/m주차.jpg"
 
 {/* <GuideMenu history={history}/> */}
 
@@ -38,7 +42,27 @@ const Traffic = ({history}) => {
                         - 선교대회중 개인차량 사용이 가능하며 주차는 와싱톤중앙장로교회 주차장과 호텔 주차장을 이용하시면 됩니다. 
                       </span> 
                   </div>
-                  
+
+                  {/* 오시는 길 */}
+                  <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
+                    <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh", marginTop: "0.8vw"}} >
+                      <img style={{width:"100%"}} src={오시는길} alt="오시는길"></img>
+                    </div>
+                    <div className="MobImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh"}} >
+                      <img style={{width:"100%"}} src={m오시는길} alt="m오시는길"></img>
+                    </div>
+                  </div>
+
+                  {/* 주차 */}
+                  <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
+                    <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh", marginTop: "0.8vw"}} >
+                      <img style={{width:"100%"}} src={주차} alt="주차"></img>
+                    </div>
+                    <div className="MobImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh"}} >
+                      <img style={{width:"100%"}} src={m주차} alt="m주차"></img>
+                    </div>
+                  </div>
+
               </div>
           </div>
           <BottomBanner isHome={false}></BottomBanner>

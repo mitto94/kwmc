@@ -334,13 +334,13 @@ const Header = ({history}) => {
 			   {
 				label:'Special Session',
 				command: () => history.push({
-				//   pathname: "/program_special",
-				  pathname: "/planning",
+				  pathname: "/program_special",
+				//   pathname: "/planning",
 				  state: {
 					  from: "section"
 				  }
 			  }),
-			//   className: "made"
+			  className: "made"
 			 },
 			   {
 				  label:'저녁집회',
