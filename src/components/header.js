@@ -389,11 +389,12 @@ const Header = ({history}) => {
 			   {
 				  label:'그외 정보',
 				  command: () => history.push({
-					pathname: "/planning",
+					pathname: "/guide_etc",
 					state: {
 						from: "etc"
 					}
-				})
+				}),
+				className: "made"
 			   },
 	 
 			]

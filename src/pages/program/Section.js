@@ -67,6 +67,8 @@ import 성보영 from "./Image/문화예술/04 성보영 목사 사진.jpg";
 import 이창진 from "./Image/문화예술/05 이창진 선교사 사진.jpg";
 import 김인호 from "./Image/문화예술/06 김인호 선교사 사진.jpg";
 import 이규성 from "./Image/문화예술/07 이규성 선교사 사진.jpg";
+import 강중현 from "./Image/문화예술/강중현.jpg";
+import 김효식 from "./Image/문화예술/김효식.jpg";
 
 // 선교적교회
 import 김대영 from "./Image/선교적교회/01 김대영 목사 사진.jpg";
@@ -102,8 +104,46 @@ import 송제임스 from "./Image/선교협력/04 송제임스 총장 사진.jpg
 import 양성일 from "./Image/선교협력/05 양성일 목사 사진.jpg";
 import 박신욱 from "./Image/선교협력/06 박신욱 선교사 사진.jpg";
 import 이은용 from "./Image/선교협력/07 이은용 선교사 사진.jpg";
+// 시간표
+import 디아스포라 from "./Image/시간표/디아스포라.jpg"
+import 도시선교 from "./Image/시간표/도시선교.jpg"
+// import 스페셜세션 from "./Image/시간표/스페셜세션.jpg"
+import 교육 from "./Image/시간표/교육.jpg"
+import 비정부기구 from "./Image/시간표/비정부기구.jpg"
+import BAM from "./Image/시간표/BAM.jpg"
+import 선교동원 from "./Image/시간표/선교동원.jpg"
+import 문화예술 from "./Image/시간표/문화예술.jpg"
+import 전방개척선교 from "./Image/시간표/전방개척.jpg"
+// import 선교적공동체성경읽기 from "./Image/시간표/.jpg"
+import 선교협력 from "./Image/시간표/선교협력.jpg"
+import MK from "./Image/시간표/MK.jpg"
 
-
+{/* <div className="mWidth100 mTextSize3 mdLRBorder" style={{width: "60%", minHeight: "20px", border: "1px solid #E2E2E2", display: "flex", justifyContent: "space-around", alignItems: "center", cursor: "pointer", fontWeight: 500, fontSize: "1.3vw", color: "rgb(128, 127, 127)", flexWrap: "wrap"}}>
+          <div className={section === "디아스포라" && "clickedMenu2"} onClick={() => setSection("디아스포라")}
+            style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "7vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>디아스포라</div>
+          <div className={section === "도시선교" && "clickedMenu2"} onClick={() => setSection("도시선교")}
+          style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "7vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>도시선교</div>
+          <div className={section === "문화예술 & 미디어" && "clickedMenu2"} onClick={() => setSection("문화예술 & 미디어")}
+          style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "7vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>문화예술 & 미디어</div>
+          <div className={section === "교육" && "clickedMenu2"} onClick={() => setSection("교육")}
+          style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "7vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>교육</div>
+          <div className={section === "비정부기구" && "clickedMenu2"} onClick={() => setSection("비정부기구")}
+            style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "7vh", wordBreak: "keep-all", borderBottom: "1px solid #E2E2E2", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>비정부 기구</div>
+          <div className={section === "BAM" && "clickedMenu2"} onClick={() => setSection("BAM")}
+          style={{height: "7vh", wordBreak: "keep-all", borderBottom: "1px solid #E2E2E2", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>BAM</div>
+          <div className={section === "선교동원" && "clickedMenu2"} onClick={() => setSection("선교동원")}
+          style={{borderRight: "1px solid #E2E2E2",  height: "7vh", wordBreak: "keep-all", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교동원</div>
+          <div className={section === "선교적교회" && "clickedMenu2"} onClick={() => setSection("선교적교회")}
+          style={{borderRight: "1px solid #E2E2E2",  height: "7vh", wordBreak: "keep-all", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교적 교회</div>
+          <div className={section === "전방개척선교" && "clickedMenu2"} onClick={() => setSection("전방개척선교")}
+          style={{borderRight: "1px solid #E2E2E2",  height: "7vh", wordBreak: "keep-all", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>전방개척 사역</div>
+          <div className={section === "선교적 공동체성경읽기" && "clickedMenu2"} onClick={() => setSection("선교적 공동체성경읽기")}
+          style={{borderRight: "1px solid #E2E2E2",  height: "7vh", wordBreak: "keep-all", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교적 공동체 성경읽기</div>
+          <div className={section === "선교협력" && "clickedMenu2"} onClick={() => setSection("선교협력")}
+          style={{borderRight: "1px solid #E2E2E2", textAlign: "center", height: "7vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교협력</div>
+          
+          <div className={section === "MK(선교사자녀)" && "clickedMenu2"} onClick={() => setSection("MK(선교사자녀)")} style={{ height: "7vh", width: "16.6666666%", textAlign: "center", wordBreak: "keep-all", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>MK (선교사자녀)</div>
+        </div> */}
 
 const Section = ({history}) => {
   const [first, setFirst] = useState(true); 
@@ -136,7 +176,6 @@ const Section = ({history}) => {
         </div>}
   </div>
   }
-
   return (
     <div style={{width: "100%",  display: "flex", flexDirection: "column", background: "#ECF6FC"}}>
         <Header history={history}></Header>
@@ -150,7 +189,7 @@ const Section = ({history}) => {
             style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "7vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>디아스포라</div>
           <div className={section === "도시선교" && "clickedMenu2"} onClick={() => setSection("도시선교")}
           style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "7vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>도시선교</div>
-          <div className={section === "문화예술 & 미디어" && "clickedMenu2"} onClick={() => setSection("문화예술 & 미디어")}
+          <div className={section === "문화예술" && "clickedMenu2"} onClick={() => setSection("문화예술")}
           style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "7vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>문화예술 & 미디어</div>
           <div className={section === "교육" && "clickedMenu2"} onClick={() => setSection("교육")}
           style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "7vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>교육</div>
@@ -164,20 +203,29 @@ const Section = ({history}) => {
           style={{borderRight: "1px solid #E2E2E2",  height: "7vh", wordBreak: "keep-all", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교적 교회</div>
           <div className={section === "전방개척선교" && "clickedMenu2"} onClick={() => setSection("전방개척선교")}
           style={{borderRight: "1px solid #E2E2E2",  height: "7vh", wordBreak: "keep-all", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>전방개척 사역</div>
-          <div className={section === "선교적 공동체성경읽기" && "clickedMenu2"} onClick={() => setSection("선교적 공동체성경읽기")}
+          <div className={section === "선교적공동체성경읽기" && "clickedMenu2"} onClick={() => setSection("선교적공동체성경읽기")}
           style={{borderRight: "1px solid #E2E2E2",  height: "7vh", wordBreak: "keep-all", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교적 공동체 성경읽기</div>
           <div className={section === "선교협력" && "clickedMenu2"} onClick={() => setSection("선교협력")}
           style={{borderRight: "1px solid #E2E2E2", textAlign: "center", height: "7vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교협력</div>
           
-          <div className={section === "MK(선교사자녀)" && "clickedMenu2"} onClick={() => setSection("MK(선교사자녀)")} style={{ height: "7vh", width: "16.6666666%", textAlign: "center", wordBreak: "keep-all", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>MK (선교사자녀)</div>
+          <div className={section === "MK" && "clickedMenu2"} onClick={() => setSection("MK")} style={{ height: "7vh", width: "16.6666666%", textAlign: "center", wordBreak: "keep-all", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>MK (선교사자녀)</div>
         </div>
         </div>
         <div className="mMargin0" style={{width: "100%", display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center", marginTop: ".8vw", fontFamily: "Noto Sans KR, sans-serif"}}>
           {/* {makeProfile(김동건, "이 다니엘 사무총장", <span>Session 1 BAM & Core - {<span className="MobImage"><br></br></span>} “BAM: 비즈니스 그 자체로서의 선교"</span>, "",
             "")} */}
           {/* {section === "선교협력" && "추후 업데이트 예정입니다"} */}
-
+          
           {section === "교육" && <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
+            <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
+              <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh", marginTop: "0.8vw"}} >
+                <img style={{width:"100%"}} src={교육} alt="시간표"></img>
+              </div>
+              <div className="MobImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh"}} >
+                <img style={{width:"100%"}} src={교육} alt="시간표"></img>
+              </div>
+            </div>
+
             {makeProfile(홍화옥, "홍화옥 선교사\n(Missionary Hong Hwa-Ock) (한국어) ", "주제: “Why Education?", <span>Session 1 - {<span className="MobImage"><br></br></span>} “1st Gen Missionaries and Education”</span>, <span>
             1981년 예장통합 선교사로서 동 아프리카 케냐 파송된 후 현재까지 41년 째 사역 중이다. 교육을 통한 선교로 케냐의 수도 나이로비에 1991 년, 학생 3명으로 국제 기독교 유치원(International Christian Kindergarten- ICK) 설립, 2005 년,  열방학교(School of the Nations  -SON)를 설립, 현재 운영하고 있다. 특별히 SON은 영국 케임브리지 대학교에서 인준한 교육 시스템을 제휴하는 국제 학교로서 설립자/ 디렉터의 책임을 맡아서 48개국 350여명의 학생들을 위하여 교육 사역을 감당하고 있다. 한국 외국어 대학 (불어과) 을 졸업하고, 미국 Biola 대학교에서 타문화 교육학 (Intercultural Education) 석사와  철학박사(PhD) 학위를 취득하고 현재  한동 대학교 겸임교수로 섬기고 있다.  
             <br></br><br></br>
@@ -288,6 +336,14 @@ const Section = ({history}) => {
           </div>
           }
           {section === "도시선교" && <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
+            <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
+              <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh", marginTop: "0.8vw"}} >
+                <img style={{width:"100%"}} src={도시선교} alt="시간표"></img>
+              </div>
+              <div className="MobImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh"}} >
+                <img style={{width:"100%"}} src={도시선교} alt="시간표"></img>
+              </div>
+            </div>
             {makeProfile(이상훈, "이상훈 교수 (PhD)", "주제: 도시선교 현황과 미래전망 1, 2", "", "현, America Evangelical University 총장, Fuller Theological Seminary겸임교수, Missional Church Alliance(MiCA) 대표 디렉터로 섬기고 있다. 서울신학대학교(BA & MDiv)에서 신학을 Fuller Seminary(ThM & PhD)에서 선교학을 전공했다. 그는 목사, 교수, 리서처, 작가, 설교자, 강연가, 모티베이터, 촉매자, 운동가로서 교회 갱신과 선교적 교회 운동의 최전선에서 사역하고 있다.  주요 저서로는 리폼처치(Re_Form Church), 리뉴처치(Re_New Church), 처치 시프트(Church Shift), 리싱크처치(Re_Think Church),  뉴노멀시대 교회의 위대한 모험, 온라인 사역혁명, 리프레시처치(Re_Fresh Church) 등이 있다.",
               "도시는 현대 선교의 중심지이며 새로운 선교 전략과 갱신의 교두보이다. 본 강의는 급격한 시대 변화의 흐름 속에 부상하는 도시선교의 새로운 패러다임을 이해하고, 팬데믹 이후 교회의 도시선교 전망과 전략을 고찰하는 시간이 될 것이다. ")}
 
@@ -338,7 +394,15 @@ const Section = ({history}) => {
             </span>, true)}
           </div>
           }
-          {section === "문화예술 & 미디어" && <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
+          {section === "문화예술" && <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
+            {/* <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
+              <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh", marginTop: "0.8vw"}} >
+                <img style={{width:"100%"}} src={문화예술} alt="시간표"></img>
+              </div>
+              <div className="MobImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh"}} >
+                <img style={{width:"100%"}} src={문화예술} alt="시간표"></img>
+              </div>
+            </div> */}
             {makeProfile(이유정, "이유정 목사", "주제: 예배와 문화운동의 예술적 이해와 그 선교적 가능성", "문화예술 미디어 영역 강의1", "대학생 시절, “오직 주 만이”, “아침에 주의 인자하심을”을 탄생케 한 학생선교단체 IVF 활동과 선교한국의 도전으로 음악선교에 헌신했고, 그 이후 선교적 음악사역(컨티넨탈싱어즈)과 문화적 음악사역(좋은씨앗)을 고루 경험했다. 1999년 도미하여 예배학 공부 후 지역교회 예배사역을 거쳐, 예배사역연구소 소장, 리버티대학 외 몇몇 신학교 겸임교수로 섬기며 교회와 디아스포라, 선교지를 위한 예배와 문화의 르네상스를 꿈꾸고 있다. ",
               "1987년을 기점으로 한반도에 일어난 찬양운동의 물결이 왜 그 이전과 이후를 가르는 예배회복운동인지 살피고, 그 결과로 일어난 음악사역과 문화예술선교의 가치와 현주소를 돌아본다. 나아가 예배와 문화, 예술과 선교의 융합과 동역이 가져다 줄 통전적이고 창의적인 선교의 가능성, 그리고 창의성의 산실이 될 수직적 선교의 시급성을 제언한다.")}
             
@@ -354,16 +418,22 @@ const Section = ({history}) => {
             {makeProfile(성보영, "성보영 목사", "주제: 교회가 바라봐야 할 문화/예술 영역의 선교적 기대", "문화예술 미디어 영역 강의4", "총신대학교에서 교회음악을 공부했으며, 고든콘웰신학교 MDiv 졸업 후 풀러신학교 선교학 박사과정에 재학 중이며, 청년 시절부터 한국, 캐나다, 미국 등에서 예배사역, 청년운동에 헌신해 왔다. 현재, 와싱톤중앙장로교회 부목사, Deep & Wide Foundation 대표로 섬기고 있다.  예배 2.0은 선교라는 마음을 품고 Deep & Wide Foundation을 설립하였으며 교회 울타리를 넘어 선교현장의 실제적 필요를 돕는 사역을 진행하고 있다.",
             "시대의 급격한 변화를 지나며 한인 교회의 획일적 선교 전략은 그 한계를 드러내게 되었다. 모든 선교가 멈추고 지원이 그치는 것을 대책 없이 바라보며 우리는 선교의 위기를 떠올리게 되었다.  그러는 위기는 기회이기도 하기에 바로 지금이 위기의 그림자를 걷어내고 변화의 기회를 만들어 내야 하는 때이기도 하다. 미디어를 포함한 문화/예술 영역은 바로 이 시점에 두드러지게 나타난 새로운 선교적 기회(opportunity)이다. 새로운 기회를 앞에 두고 모달리티(교회)와 소달리티(선교지)는 어떤 변화를 어떻게 준비를 해야 하는가? 우리 앞에 열려진 길을 함께 걸을 실천적 제안을 나눠보자.")}
 
-            {makeProfile(이창진, "이창진 선교사", "주제: 청년미디어 인턴십을 통한 거점미디어센터 파트너십", "문화예술 미디어 사례 발표1", <span>
+            {makeProfile(강중현, "강중현 전도사", "주제: 한국 찬양사역자들의 사역 현장 이야기", "문화예술 미디어 사례 발표1", `1995년 남성 보컬 그룹 "에이멘"으로 CCM 활동을 시작하여 현재까지 활동 중이며 온누리교회 온누리 워쉽콰이어 지휘와 백석 예술대학교 교회 실용음악과에서 겸임교수와 한국 찬양사역자 연합회 운영위원으로 재직 중이다.`,
+            "95년부터 현재까지 경험한 음악 사역자들의 활동의 현장들과 각 현장에서의 다양한 결과들을 살펴보고, 이를 통해서 문화적으로 다변화를 격고 있는 선교현장 에서의 찬양사역자들의 역할을 살펴보고자한다. 한국 찬양 사역자들의 사역 결과를 현장사례를 중심으로 살펴보고, 선교 현장에서의 전문 음악 사역자들의 필요와 가능성은 무엇인지, 현장에서 사용할 수 있는 다문화 언어의 음악 교육 제작 및 구성 그리고 거점 공간을 중심으로 한 현지와 믹스매치된 공연문화 개발과 컨텐츠 제작에 대해 살펴보고자 한다.")}
+
+            {makeProfile(김효식, "김효식 대표", `주제: 이제 “K-Gospel” 을 준비하라 (K-POP 실크로드를 통한,  K-Gospel의  전략적 문화선교 전략 )`, "문화예술 미디어 사례 발표2", "헤리티지의 전신인 믿음의 유산 초기 멤버로 20세부터 활동을 시작하여 헤리티지의 리더로 섬기면서 한국의 새로운 가스펠 음악의 지평을 열고 있다. 횃불트리니티 신학대학원을 졸업하고 백석대학교 실용음악과 겸임교수를 역임했으며, 현재 BTC Entertainment를 이끌며, 한국 기독교음악의 인프라 구축과 산업시스템 생태계 구축을 위해 마음을 쏟고 있다.",
+            "가스펠음악을 기반으로 한 헤리티지는 2007년 한국 대중음악상 소울알앤비 부문 최우수상을 수상하였고, 독특한 음악적 소스를 기반으로 대중과 호흡하며 크로스오버하고 있다. 글로벌 마켓의 마이너리티 시장에 불과했던 한국 대중음악은 어떻게 성장을 이루었는지 살펴보고, 대중음악과 한국교회 찬양사역을 연결하는 활동에 대한 이야기와 한국 대중음악의 성장과 한국 기독교 음악산업은 어떤 관계가 있는지, 한국 기독교음악 산업의 성장을 통해, 한국이 세계선교 기여 할 수 있는 방안을 제시하려고 한다.")}
+
+            {makeProfile(이창진, "이창진 선교사", "주제: 청년미디어 인턴십을 통한 거점미디어센터 파트너십", "문화예술 미디어 사례 발표3", <span>
             한국 액츠뮤지컬 선교단에서 20여년 동안 기획과 대표로 섬겨오던 중 선교뮤지컬 콘텐츠를 20여 언어권 타문화권에 이양하는 사역을 하게 되면서 문화예술의 타문화선교의 역할과 필요성을 보게 되었다. 문화예술타문화선교네트워크 C-TentMaker선교회를 만들고 KWMA, GP선교회, 글로벌호프 등의 미디어팀장 역할을 하며 문화예술, 미디어를 통한 로컬선교단체와의 파트너십을 만들어 가고 있다. 현재 KWMA 문화예술선교실행위원회의 국내코디를 맡고 있다.</span>,
             <span>
               펜데믹을 지나면서 미디어는 선교의 중요한 도구이자 선교의 영역이 되었다. 선교의 도구로서 현장의 로컬선교사와 전문인선교사와의 파트너십과 선교의 영역으로서 차세대 주역이 되어야 할 청년미디어 전문가와의 파트너십을 이루기 위한 거점미디어선교센터 구축과 교육훈련 프로그램을 실행하고 있다.
             </span>)}
 
-            {makeProfile(김인호, "김인호 선교사", "주제: 거점 미디어선교센터 태국 운영", "문화예술 미디어 사례 발표2", "2017년 감리교단에서 태국 선교사로 파송 받고 언어 훈련을 마친 후, 코로나 펜데믹 현상에 따른 선교 패러다임의 전환을 통해 노엘 스튜디오를 설립하고 태국 기독교 연합회 EFT 등록 기관「노엘」로 사역하고 있다. 유튜브 채널을 통한 기독 콘텐츠 배포, 온라인 송출 세미나 강의 등 각종 온라인 행사를 지원하면서 미디어 사역을 하고 있다. 현재, 감리교 세계 선교사회 정보통신위원회 기술지원 부장과 KWMA 거점 미디어 센터장으로 사역하고 있다. ",
+            {makeProfile(김인호, "김인호 선교사", "주제: 거점 미디어선교센터 태국 운영", "문화예술 미디어 사례 발표4", "2017년 감리교단에서 태국 선교사로 파송 받고 언어 훈련을 마친 후, 코로나 펜데믹 현상에 따른 선교 패러다임의 전환을 통해 노엘 스튜디오를 설립하고 태국 기독교 연합회 EFT 등록 기관「노엘」로 사역하고 있다. 유튜브 채널을 통한 기독 콘텐츠 배포, 온라인 송출 세미나 강의 등 각종 온라인 행사를 지원하면서 미디어 사역을 하고 있다. 현재, 감리교 세계 선교사회 정보통신위원회 기술지원 부장과 KWMA 거점 미디어 센터장으로 사역하고 있다. ",
             "코로나 펜데믹으로 인해 선교는 기존 방법에서 머물 수 없게 되었다. 펜데믹 이전에 하나의 도구로 여겨지고 사용되었던 미디어는 이제 필수 요소가 되었다. 태국 노엘 스튜디오의 설립과 사역이 확장되어가고 있는 과정들을 소개하며, 선교적 미디어가 아닌 미디어 선교라는 정의에 대한 생각을 서로 나누고 펜데믹 이후에도 시간과 공간의 제약을 넘어 진행될 미디어 선교에 대한 구체적인 비전을 나눠보려고 한다.")}
             
-            {makeProfile(이규성, "이규성 선교사", "주제: 온라인을 활용한 선교사와 자원사역자 네트워킹", "문화예술 미디어 사례발표 3", "교수가 되려는 꿈을 가지고 미국 USC에서 Computer Science 석사를 마치고 박사를 준비하다가 하나님의 일에 헌신하여 IT 분야에서 사역하고 있다. 15년 동안 모퉁이돌 선교회에서 선교관련 IT 프로젝트를 진행했으며, 그 과정에서 자원 사역자와 선교사를 연결했을 때 일어나는 시너지를 보았다. 그를 위한 마음을 품어오다가 Godsends Ministry라는 선교단체를 미국에서 설립하고 선교사들과 자원사역자들을 효과적으로 연결하는 사역에 집중하고 있다.",
+            {makeProfile(이규성, "이규성 선교사", "주제: 온라인을 활용한 선교사와 자원사역자 네트워킹", "문화예술 미디어 사례발표 5", "교수가 되려는 꿈을 가지고 미국 USC에서 Computer Science 석사를 마치고 박사를 준비하다가 하나님의 일에 헌신하여 IT 분야에서 사역하고 있다. 15년 동안 모퉁이돌 선교회에서 선교관련 IT 프로젝트를 진행했으며, 그 과정에서 자원 사역자와 선교사를 연결했을 때 일어나는 시너지를 보았다. 그를 위한 마음을 품어오다가 Godsends Ministry라는 선교단체를 미국에서 설립하고 선교사들과 자원사역자들을 효과적으로 연결하는 사역에 집중하고 있다.",
             "Godsends.org라는 선교 네트워킹 플랫폼을 이용해서 선교사들에게는 어떻게 하면 필요한 자원사역자들을 찾을 수 있는지, 또 자원 사역자들에게는 어떻게 자기들을 필요로 하는 선교 프로젝트들을 찾아서 사역에 참가할 수 있을지에 대하여 알아본다. 또한 어떻게 수많은 선교 프로젝트들과 다양한 자원 사역자들의 필요를 충족할 수 있는 조합을 찾아 낼 수 있는지, 프로젝트 팀이 구성된 후에 온라인을 통해 어떻게 사역을 진행할 수 있는지에 대한 실제적인 방법을 소개한다. ", 
             true)}
             
@@ -418,7 +488,15 @@ const Section = ({history}) => {
 
             </div>
           }
-          {section === "MK(선교사자녀)" && <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
+          {section === "MK" && <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
+            <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
+              <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh", marginTop: "0.8vw"}} >
+                <img style={{width:"100%"}} src={MK} alt="시간표"></img>
+              </div>
+              <div className="MobImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh"}} >
+                <img style={{width:"100%"}} src={MK} alt="시간표"></img>
+              </div>
+            </div>
             {makeProfile(탁영준, "탁영준, 탁정원 선교사", "", "", <span>
             - 페루 Hilltop Christian Academy<br></br>
             - 미국 CMF 선교원 파송 선교사<br></br><br></br>
@@ -500,6 +578,14 @@ const Section = ({history}) => {
             </div>
           }
           {section === "비정부기구" && <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
+            <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
+              <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh", marginTop: "0.8vw"}} >
+                <img style={{width:"100%"}} src={비정부기구} alt="비정부기구"></img>
+              </div>
+              <div className="MobImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh"}} >
+                <img style={{width:"100%"}} src={비정부기구} alt="비정부기구"></img>
+              </div>
+            </div>
             {makeProfile(김휴성, "김휴성 선교사", "", "Session 비정부기구(NGO)", <span>
             필리핀 선교사로 1994년 파송을 받아 신학교, 기술학교, NGO 및 교회 개척 사역등 다양한 분야에서 사역을 하던 중 2018년부터 KWMA(한국세계선교협의회) 본부 총무, 코로나 긴급대응 본부장을 수행했다. 현재 사단법인 글로벌 호프의 부대표로 전임사역을 하고 있다.
             </span>,"선교의 플렛폼으로서의 NGO의 역할과 창의적 접근이 필요한 선교지에 어떻게 적용될 수 있는지에 대한 구체적인 내용과 사례. 젊은이들에게 막연한 선교사 또는 선교지에 대한 생각이 NGO 활동을 통하여 해외 봉사 및 참여의 기회를 제공함으로써 주께서 어떻게 자신을 사용하실지에 기대하는 시간이 될 것이다.")}
@@ -539,6 +625,15 @@ const Section = ({history}) => {
             </div>
           }
           {section === "BAM" && <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
+            <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
+              <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh", marginTop: "0.8vw"}} >
+                <img style={{width:"100%"}} src={BAM} alt="BAM"></img>
+              </div>
+              <div className="MobImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh"}} >
+                <img style={{width:"100%"}} src={BAM} alt="BAM"></img>
+              </div>
+            </div>
+            
             {makeProfile(김동건, "김동건 선교사", "주제: BAM의 역사와 도전들", <span>Session 1 BAM & Core</span>, "GP 한국 선교회 대표, IBA 공동대표, KWMA 선교한국 실행 위원으로 선교 연합 운동을 위해 사역하고 있다. 고려대 경영학을 공부했고, 합신교단에서 목사 안수를 받았다. 2004년부터 태국 선교사로 사역해 오며, 카페, 한국어 교육, 직거래 장터, 엔터테인먼트 등 다양한 비즈니스 영역에 도전해 오고 있다.",
               "BAM의 성경적 근거와 배경 및 관련된 성경 인물들을  살펴보고, 교회사 속에 나타난 BAM 사역자들을 발굴 소개한다. 성경과 역사에 기초한 BAM이해는 BAM사역자들이 현재와 미래 선교 특히 BAM이 직면하고 있는 도전들을 분석하고 사역의 돌파구를 찾는데 매우 유익할 것이다.")}
 
@@ -565,6 +660,14 @@ const Section = ({history}) => {
           </div>
           }
           {section === "디아스포라" && <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
+            <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
+              <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh", marginTop: "0.8vw"}} >
+                <img style={{width:"100%"}} src={디아스포라} alt="디아스포라"></img>
+              </div>
+              <div className="MobImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh"}} >
+                <img style={{width:"100%"}} src={디아스포라} alt="디아스포라"></img>
+              </div>
+            </div>
             {makeProfile(지용주, "지용주 목사", "주제: 이웃에 와 있는 열방, “난민” - 미주 난민 사역의 선교적 모델", "", <span>
             - KWMC 공동의장<br></br>
             - Boaz Foundation 대표<br></br>
@@ -628,6 +731,15 @@ const Section = ({history}) => {
           </div>
           }
           {section === "전방개척선교" && <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
+            <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
+              <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh", marginTop: "0.8vw"}} >
+                <img style={{width:"100%"}} src={전방개척선교} alt="전방개척선교"></img>
+              </div>
+              <div className="MobImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh"}} >
+                <img style={{width:"100%"}} src={전방개척선교} alt="전방개척선교"></img>
+              </div>
+            </div>
+            
             {makeProfile(정보애, "정보애선교사 (UPMA: 미전도종족선교연대)", "주제: 10/40창 안의 전방개척선교권역과 사역 소개(12개 전방개척권역)", "", <span>
             업마선교회(UPMA: Unreached People Missions Alliance, 미전도종족선교연대)대표, KWMA(한국세계선교협의회)전방개척 실행위원회 코디네이터, 한국전방개척선교저널(KJFM) 편집위원으로 사역하고 있다. 한국 외국어대학교에서 중국어를 전공했고, ACTS에서 중국 티벳지역학(M.A), 북경 중앙민족대 티베트 불교 박사과정을 수료하였다. 1988년부터 조국 대한민국에서 재한중국인교회 화교들과 함께 중국 복음화와 선교사 훈련, 양성을 위해 연구간사, 훈련원 교수로 섬기며 비거주 중국사역을 해오다, 2002년 중국에 들어가서 사역하였다. 다시 선교사의 여정중 본국에서 업마선교회 내 ‘종족과 도시선교연구소(IMPAC) 총무, 선교회 대표로 섬기면서 동시에 고신교단 지역교회(부천 참빛교회)에서 10년간 선교담당 사역을 해왔다. 현재 주파송교회는 행복한교회이다. PSP, MP 강사이다(남은 과업).
             </span>,"한국의 미전도종족 및 전방개척선교가 2023년이면 30년이 된다. 이러한 중요한 때에 미주 한인교회와 보다 더 협력을 활성화하기 위해, 이 강의는 지난 30년 동안 한국교회와 선교사들의 전방개척선교 현장에서의 사역 현황을 살피고, 미래 과제와 협력 네트워크에 필요한 처음 시작을 여는 의미가 있다. 특별히 90년대 한국에 소개된 10/40창과 그 안의 무슬림권역/힌두권역/소승불교(테라바다불교)권역/공산주의권역/정령숭배권역 등으로 단기사역 및 장기선교사로 헌신하여 사역한 사례를 전방개척선교 12권역+@로 현장 중심적으로 알리고, 각 현장에서의 사역 사례를 소개하는데 강의의 중점을 둔다.")}
@@ -681,7 +793,15 @@ const Section = ({history}) => {
             </span>, true)}
           </div>
           }
-          {section === "선교적 공동체성경읽기" && <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
+          {section === "선교적공동체성경읽기" && <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
+            {/* <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
+              <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh", marginTop: "0.8vw"}} >
+                <img style={{width:"100%"}} src={선교적공동체성경읽기} alt="전방개척선교"></img>
+              </div>
+              <div className="MobImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh"}} >
+                <img style={{width:"100%"}} src={전방개척선교} alt="전방개척선교"></img>
+              </div>
+            </div> */}
             {makeProfile(김응식, "김응식 대표", "", "", <span>
             - Grace and Mercy Foundation 의 북•중남미 한국 교회사역 대표 <br></br><br></br>
             2017년 부터 The Grace and Mercy 재단에서 근무하고 있으며 북•중남미의 한국교회를 대상으로 재단의 resource를 지원하며 돕는 업무를 해 오고 있다.
@@ -698,6 +818,14 @@ const Section = ({history}) => {
           </div>
           }
           {section === "선교동원" && <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
+            <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
+              <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh", marginTop: "0.8vw"}} >
+                <img style={{width:"100%"}} src={선교동원} alt="선교동원"></img>
+              </div>
+              <div className="MobImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh"}} >
+                <img style={{width:"100%"}} src={선교동원} alt="선교동원"></img>
+              </div>
+            </div> 
             {makeProfile(김장생, "김장생 선교사", "주제 : 선교동원은 현지 선교사의 활동보다 중요합니다.", "", <span>
             김장생 목사는 1993년부터 30년간 CCC 간사로 예배사역, 캠퍼스 사역, 선교사역 등 다양한 사역들을 감당해 왔다. 특별히 2011년부터 해외 캠퍼스 개척을 위해 A6 프로젝트를 진행하여 25개국에서 380개의 새로운 사역을 개척하였고 2019년 부터는 한국형 기초선교훈련인 ‘커넥션스쿨’을 런칭하여 확산 중에 있다. 2012년에는 선교한국대회 준비위원장으로 섬겼고 현재 CCC동아시아 본부 선교 책임자로 KWMA 정책위원, 선교한국 조직위원 등으로 국내외에서 연합하여 선교운동을 세워가고 있다.
             </span>,<span>
@@ -751,10 +879,21 @@ const Section = ({history}) => {
             </div>
           }
           {section === "선교협력" && <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
+            <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
+              <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh", marginTop: "0.8vw"}} >
+                <img style={{width:"100%"}} src={선교협력} alt="선교협력"></img>
+              </div>
+              <div className="MobImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh"}} >
+                <img style={{width:"100%"}} src={선교협력} alt="선교협력"></img>
+              </div>
+            </div> 
             {makeProfile("", "이근희 사무총장", "", "", ""
             , "")}
 
-            {makeProfile(강대흥, "강대흥 선교사", "주제: 한국교회 선교운동과 포괄적 선교협력 현황과 발전 방안", ""
+            {makeProfile("", "전철영 사무총장", "", "", ""
+            , "")}
+
+            {makeProfile(강대흥, "강대흥 사무총장", "주제: 한국교회 선교운동과 포괄적 선교협력 현황과 발전 방안", ""
             , <span>
               - GMS 순회선교사<br></br>
               - KWMA 사무총장

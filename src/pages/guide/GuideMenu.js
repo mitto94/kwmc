@@ -24,13 +24,13 @@ const GuideMenu = ({history}) => {
                 from: "around"
               }
               })}}
-              style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center", wordBreak: "keep-all", textAlign: "center"}}>교통안내</div>
+              style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center", wordBreak: "keep-all", textAlign: "center", background: "white"}}>교통안내</div>
             <div className={history?.location.pathname === "/guide_etc" ? "clickedMenu" : ""} onClick={() => {history.push({
-              // pathname: "/guide_etc",
+              pathname: "/guide_etc",
               state: {
                 from: "etc"
               }
-              })}} style={{width: "100%", display: "flex", justifyContent: "center", alignItems: "center", height: "100%", wordBreak: "keep-all", textAlign: "center"}}>그외 정보</div>
+              })}} style={{width: "100%", display: "flex", justifyContent: "center", alignItems: "center", height: "100%", wordBreak: "keep-all", textAlign: "center", background: "white"}}>그외 정보</div>
           </div>
   );
 }

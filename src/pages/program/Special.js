@@ -7,6 +7,7 @@ import 월터김 from "./Image/월터김.jpg"
 import 김양재 from "./Image/김양재.jpg"
 import 이여백 from "./Image/이여백.jpg"
 import 임흥섭 from "./Image/임홍섭.jpg"
+import 스페셜세션 from "./Image/시간표/스페셜세션.jpg"
 
 const Special = ({history}) => {
   const [first, setFirst] = useState(true);
@@ -57,7 +58,14 @@ const Special = ({history}) => {
           {first ? 
             <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
             
-
+            <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
+              <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh", marginTop: "0.8vw"}} >
+                <img style={{width:"100%"}} src={스페셜세션} alt="스페셜세션"></img>
+              </div>
+              <div className="MobImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh"}} >
+                <img style={{width:"100%"}} src={스페셜세션} alt="스페셜세션"></img>
+              </div>
+            </div>
             {makeProfile(김양재, "김양재 목사", "", ""
             , <span>이북이 고향인 부모님 밑에서 4대째 모태신앙으로 태어나서 서울대학교 음악대학에서 피아노를 전공하고, 백석대학교 신학대학원(구 기독신학대학원, M.Div.)을 졸업한 후 2003년 우리들교회를 설립하여 지금까지 담임목사로 섬기고 있습니다. 서울예술고등학교와 총신대학교 강사를 지낸 바 있고, 학창 시절부터 피아노 반주자로 오랫동안 교회를 섬겼지만 교양과 엘리트 의식에 사로잡혀 장로 집안의 의사 아들과 결혼했습니다. 그러나 유교적 전통이 강한 시댁에서 고된 시집살이 5년 만에 가출해 기도원에 갔다가 예수님을 인격적으로 만나고 말씀의 능력을 깊이 체험하게 되었습니다. 말씀이 교과서가 되고, 성령이 스승이 되며, 환난이 주제가 되고 보니, 고통스러웠던 가정생활이 주님의 섭리임을 깨닫게 되었습니다. 그러다가 37세가 되던 해에, 산부인과 의사였던 남편이 간암으로 세상을 떠나기 직전 극적으로 회개한 일을 계기로 영혼 구원 사역에 헌신하게 되었습니다.
             <br></br><br></br>
@@ -96,7 +104,14 @@ const Special = ({history}) => {
         
           :   <div className="mWidth100 mFlexContainer mContainer4p mTextSize" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
           <span>
-
+          <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
+              <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh", marginTop: "0.8vw"}} >
+                <img style={{width:"100%"}} src={스페셜세션} alt="스페셜세션"></img>
+              </div>
+              <div className="MobImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh"}} >
+                <img style={{width:"100%"}} src={스페셜세션} alt="스페셜세션"></img>
+              </div>
+            </div>
           중국교회와 토론회     Jul. 13. 2022   2022年 7月 13日
           <br></br><br></br>
           World Mission After Covid 19 <br></br>
