@@ -73,6 +73,8 @@ const Data = ({history}) => {
             {section === "교육" &&
             <ol style={{display: "inline-flex", flexWrap: "wrap", width: "100%"}}>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/문성환-배선종 선교사(IMV)-교육.hwp">문성환-배선종 선교사(IMV)</a></li>
+              <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="https://drive.google.com/file/d/15km5V0-3I2T5Qa327Vw6pyXy4QUYH_0q/view?usp=sharing">민윤기 선교사(GP선교회&예장백석)</a></li>
+
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/박에스더 선교사(GP USA)-교육.docx">박에스더 선교사(GP USA)</a></li>
 
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/박진수 선교사(케냐국제학교교사)-교육.docx">박진수 선교사(Christian Reformed Church (CRC) Resonate)</a></li>
@@ -143,6 +145,7 @@ const Data = ({history}) => {
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/김윤식 선교사(기독교대한감리회)-기타(케냐감리교회본부사역).pdf">김윤식 선교사(기독교대한감리회)-케냐감리교회본부사역</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/김혜한 선교사(비빌언덕 사모의 집)-기타(사모들의 쉼과 위로).docx">김혜한 선교사(비빌언덕 사모의 집)-사모들의 쉼과 위로</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/배선호 선교사(GP USA)-기타(GP USA 대표 사역).docx">배선호 선교사(GP USA)-GP USA 대표 사역</a></li>
+              <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/이순례 선교사(하나목양교회)-기타(북한사역).docx">이순례 선교사(하나목양교회)-북한사역</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/탁영준-탁정원 선교사(CMF 선교원)-기타(MK사역).pdf">탁영준-탁정원 선교사(CMF 선교원)-MK사역</a></li>
 
 
@@ -162,6 +165,8 @@ const Data = ({history}) => {
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/노규석 목사(온누리교회)-디아스포라.docx">노규석 목사(온누리교회)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/문성환-배선종 선교사(IMV)-교육.hwp">문성환-배선종 선교사(IMV)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none", pointerEvents: "none"}} href="http://kwmc2022.org/files/문열린 선교사, 이수현 선교사(FMB(기독교한국침레회 해외선교회))_(핸드북 QR 통해서만 다운로드 가능합니다)-전방개척선교.pdf">문열린-이수현 선교사(FMB(기독교한국침레회 해외선교회))_핸드북 QR 통해서만 다운로드 가능합니다</a></li>
+              <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="https://drive.google.com/file/d/15km5V0-3I2T5Qa327Vw6pyXy4QUYH_0q/view?usp=sharing">민윤기 선교사(GP선교회&예장백석)</a></li>
+
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/박상배 선교사(GP선교회)-전방개척선교.pdf">박상배 선교사(GP선교회)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/박에스더 선교사(GP USA)-교육.docx">박에스더 선교사(GP USA)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/박영완 선교사(GP USA)-선교적교회.pdf">박영완 선교사(GP USA)</a></li>
@@ -179,6 +184,7 @@ const Data = ({history}) => {
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/이경희 선교사(GBT)-전방개척선교.docx">이경희 선교사(GBT)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/이광윤, 이영분 선교사 바울선교회)-디아스포라.hwp">이광윤-이영분 선교사 (바울선교회)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/이리사 선교사(국제도시선교회(ICM))-도시선교.pdf">이리사 선교사(국제도시선교회(ICM))</a></li>
+              <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/이순례 선교사(하나목양교회)-기타(북한사역).docx">이순례 선교사(하나목양교회)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/이준섭-주희경 선교사(GP선교회)-기타(MK).hwp">이준섭-주희경 선교사(GP선교회)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/이진호-장효빈 선교사(GMP 해외개척선교회)-교육.pdf">이진호-장효빈 선교사(GMP 해외개척선교회)</a></li>
               <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/임도마 선교사(GP선교회)-BAM.pdf">임도마 선교사(GP선교회)</a></li>
