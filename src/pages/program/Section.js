@@ -58,6 +58,7 @@ import 이선민 from "./Image/MK/05 Mi Casa Tu Casa 이선민, 이준일 사진
 import 이훈 from "./Image/MK/06 이훈 선교사 (TCK Wave) 사진.jpg";
 import Esther from "./Image/MK/07 Esther Im (MosaiK) 사진.jpg";
 import 오규원 from "./Image/MK/08 오규원 박사(Dr. Kyoo-Won Oh) 사진.jpg";
+import StephenCho from "./Image/MK/Stephen.jpg";
 
 // 문화예술
 import 이유정 from "./Image/문화예술/01 이유정 목사 사진.jpg";
@@ -114,7 +115,8 @@ import BAM from "./Image/시간표/BAM.jpg"
 import 선교동원 from "./Image/시간표/선교동원.jpg"
 import 문화예술 from "./Image/시간표/문화예술.jpg"
 import 전방개척선교 from "./Image/시간표/전방개척.jpg"
-// import 선교적공동체성경읽기 from "./Image/시간표/.jpg"
+import 선교적공동체성경읽기 from "./Image/시간표/선교적공동체성경읽기.jpg"
+import 선교적교회 from "./Image/시간표/선교적교회.jpg"
 import 선교협력 from "./Image/시간표/선교협력.jpg"
 import MK from "./Image/시간표/MK.jpg"
 
@@ -212,9 +214,6 @@ const Section = ({history}) => {
         </div>
         </div>
         <div className="mMargin0" style={{width: "100%", display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center", marginTop: ".8vw", fontFamily: "Noto Sans KR, sans-serif"}}>
-          {/* {makeProfile(김동건, "이 다니엘 사무총장", <span>Session 1 BAM & Core - {<span className="MobImage"><br></br></span>} “BAM: 비즈니스 그 자체로서의 선교"</span>, "",
-            "")} */}
-          {/* {section === "선교협력" && "추후 업데이트 예정입니다"} */}
           
           {section === "교육" && <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
             <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
@@ -395,14 +394,14 @@ const Section = ({history}) => {
           </div>
           }
           {section === "문화예술" && <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
-            {/* <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
+            <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
               <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh", marginTop: "0.8vw"}} >
                 <img style={{width:"100%"}} src={문화예술} alt="시간표"></img>
               </div>
               <div className="MobImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh"}} >
                 <img style={{width:"100%"}} src={문화예술} alt="시간표"></img>
               </div>
-            </div> */}
+            </div>
             {makeProfile(이유정, "이유정 목사", "주제: 예배와 문화운동의 예술적 이해와 그 선교적 가능성", "문화예술 미디어 영역 강의1", "대학생 시절, “오직 주 만이”, “아침에 주의 인자하심을”을 탄생케 한 학생선교단체 IVF 활동과 선교한국의 도전으로 음악선교에 헌신했고, 그 이후 선교적 음악사역(컨티넨탈싱어즈)과 문화적 음악사역(좋은씨앗)을 고루 경험했다. 1999년 도미하여 예배학 공부 후 지역교회 예배사역을 거쳐, 예배사역연구소 소장, 리버티대학 외 몇몇 신학교 겸임교수로 섬기며 교회와 디아스포라, 선교지를 위한 예배와 문화의 르네상스를 꿈꾸고 있다. ",
               "1987년을 기점으로 한반도에 일어난 찬양운동의 물결이 왜 그 이전과 이후를 가르는 예배회복운동인지 살피고, 그 결과로 일어난 음악사역과 문화예술선교의 가치와 현주소를 돌아본다. 나아가 예배와 문화, 예술과 선교의 융합과 동역이 가져다 줄 통전적이고 창의적인 선교의 가능성, 그리고 창의성의 산실이 될 수직적 선교의 시급성을 제언한다.")}
             
@@ -440,8 +439,16 @@ const Section = ({history}) => {
           </div>
           }
           {section === "선교적교회" && <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
+            <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
+              <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh", marginTop: "0.8vw"}} >
+                <img style={{width:"100%"}} src={선교적교회} alt="시간표"></img>
+              </div>
+              <div className="MobImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh"}} >
+                <img style={{width:"100%"}} src={선교적교회} alt="시간표"></img>
+              </div>
+            </div>
             {makeProfile(김대영, "김대영 목사", "주제: 21세기 선교환경의 변화와 선교적 목회", "", <span>
-              - 휠로우쉽교회 담임<br></br><br></br>
+              - 휄로쉽교회 담임<br></br><br></br>
               1990년대 후반 선교사로 중국의 영혼들을 섬기다 파송한 교회의 담임목사로 부름받아 서울 송파에서 목회했다. 현재는 워싱턴 휄로쉽교회 담임목사로 부름받아 현재까지 섬기고 있다. 선교사로, 한국교회 목회자로, 또 이민교회의 목회자로섬기는 흔치 않은 사역의 경험들이 미셔널처치에 대한 꿈을 이루어가는데 귀하게 사용되어지고 있다.
             </span>,"21세기 포스트모던시대에 선교적 교회가 어떤 변화를 시도해야하는지 나누고자 한다. 동호회 같은 소그룹 사역을 통해 어떻게 공동체적인 복음전도가 가능할 것인지, 교회 바깥을 향한 사역 뿐 아니라, 교회내에서 진행되는 사역들도 어떻게 지역 사회와 연결되어 복음의 통로 역할을 할 수 있을 지를 살펴보려고 한다. 마지막으로 선교현장에 체류조차 하기 힘든 상황에서 해외선교를 교육선교나 난민선교 중심으로 어떻게 이끌어갈 것인지도 살펴볼 것이다.")}
 
@@ -476,7 +483,7 @@ const Section = ({history}) => {
             "뉴욕에서 오래동안 한인이민자들이 모여 성장해가던 보수적인 장로교회가 어떻게 다민족교회로 그 정체성을 바꾸게 되었는지, 그 과정에서 겪은 아픔과 환희는 무엇인지, 다음 세대와는 어떻게 어울리는지 등의 이야기를 다양한 방식으로 들려줄 것이다. 그리고 이 시대의 모든 지역의 모든교회가 다민족교회를 어떻게 적용할 것인가를 제시하게 된다.")}
 
             
-            {makeProfile(양춘길, "양춘길 목사 (필그림선교교회 담임)", "주제: 선교적 교회로의 변화 (Pathway to Missional Church)", "", <span>
+            {makeProfile(양춘길, "양춘길 목사 (뉴저지필그림선교교회 담임)", "주제: 선교적 교회로의 변화 (Pathway to Missional Church)", "", <span>
             - GP 선교회 미주이사장 역임<br></br>
             - GUM 선교회 대표<br></br>
             - 뉴저지 실버선교회 대표 <br></br>
@@ -572,7 +579,8 @@ const Section = ({history}) => {
               <br></br><br></br>Business is an essential missional channel in the 21st century, through which diverse peoples and cultures communicate together. Many young people worldwide are growing up in an unprecedented global culture, exploring a variety of business opportunities in their home countries or around the world, as a start-up or at work. Through the activities of production, consumption, and investment, all our lives are closely interconnected with business. Workplaces, businesses, and life, where we stand here and now, are the sacred places of our spiritual worship and mission.  
             </span>)}
 
-            {makeProfile("", "Stephen Cho ", "Faith and Money", "", "",
+            {makeProfile(StephenCho, "Stephen Cho ", "Faith and Money", ""
+            , "Stephen is an MK and has also served as a missionary to Mongolia. He has had a career in finance and technology for nearly 20 years and is currently CFO of a fintech startup. He has a BS from the University of Pennsylvania and an MBA from the University of Chicago. He lives in Los Angeles with his wife and son.",
             "", true)}
 
             </div>
@@ -600,7 +608,7 @@ const Section = ({history}) => {
           
             {makeProfile(박상은, "박상은 대표", "주제: 새로운 선교 패러다임, NGO선교", "Session 비정부기구(NGO)", <span>
             - 샘병원 미션원장<br></br>
-            - 아프리카리매재단 대표<br></br>
+            - 아프리카미래재단 대표<br></br>
             - 국제보건의료학회장
               </span>,
             "최근 많은 나라들이 더 이상 선교사비자를 허락하지 않으면서도 NGO문호는 활짝 열고 있다. 회교권과 공산권의 경우 선교단체는 들어갈 수 없지만 NGO는 오히려 환영받는다. 아울러 한국정부는 매년 6조원을 국제개발협력에 사용해야 함에도 마땅히 믿고맡길 NGO가 많지 않다. 지난 20여년간 경험한 NGO선교를 함께돌아보며 향후 무한한 가능성을 지닌 NGO선교의 전략을 생각해보고자 한다.")}
@@ -620,7 +628,13 @@ const Section = ({history}) => {
               <br></br>- Integral Mission in practice- Challenges and opportunity 
               <br></br>- Integral Mission in the local context and culture 
               <br></br>- Summary 
-          </span>, true)}
+          </span>)}
+
+          {makeProfile("", "정연주 센터장", "주제: 전통적 선교와 NGO의 장단점", "Session 비정부기구(NGO)", <span>
+            - 희망의 마을 센터장
+              </span>,
+            "", true)}
+
 
             </div>
           }
@@ -794,14 +808,14 @@ const Section = ({history}) => {
           </div>
           }
           {section === "선교적공동체성경읽기" && <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
-            {/* <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
+            <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
               <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh", marginTop: "0.8vw"}} >
-                <img style={{width:"100%"}} src={선교적공동체성경읽기} alt="전방개척선교"></img>
+                <img style={{width:"100%"}} src={선교적공동체성경읽기} alt="선교적공동체성경읽기"></img>
               </div>
               <div className="MobImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh"}} >
-                <img style={{width:"100%"}} src={전방개척선교} alt="전방개척선교"></img>
+                <img style={{width:"100%"}} src={선교적공동체성경읽기} alt="선교적공동체성경읽기"></img>
               </div>
-            </div> */}
+            </div>
             {makeProfile(김응식, "김응식 대표", "", "", <span>
             - Grace and Mercy Foundation 의 북•중남미 한국 교회사역 대표 <br></br><br></br>
             2017년 부터 The Grace and Mercy 재단에서 근무하고 있으며 북•중남미의 한국교회를 대상으로 재단의 resource를 지원하며 돕는 업무를 해 오고 있다.

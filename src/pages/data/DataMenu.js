@@ -23,7 +23,7 @@ const DataMenu = ({history}) => {
                 from: "data_update"
               }
               })}}
-              style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center"}}>행사 후 업데이트</div>
+              style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center"}}>영역별모임 강의안</div>
           </div>
   );
 }

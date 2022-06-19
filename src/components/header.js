@@ -358,34 +358,35 @@ const Header = ({history}) => {
 			label:'대회안내',
 			items:[
 			   {
-				  label:'숙박/식사',
-				  command: () => history.push({
-					pathname: "/planning",
-					state: {
-						from: "guide"
-					}
-				})
-			   },
-			   {
 				  label:'대회장안내',
 				  command: () => history.push({
-					pathname: "/planning",
+					pathname: "/guide_around",
 					state: {
 						from: "traffic"
 					}
 				}),
-				// className: "made"
+				className: "made"
 			   },
 			   {
 				  label:'교통안내',
 				  command: () => history.push({
 					pathname: "/guide_traffic",
 					state: {
-						from: "around"
+						from: "traffic"
 					}
 				}),
 				className: "made"
 			   },
+			   {
+				label:'숙소/식사',
+				command: () => history.push({
+				  pathname: "/guide",
+				  state: {
+					  from: "guide"
+				  }
+			  }),
+			  className: "made"
+			 },
 			   {
 				  label:'그외 정보',
 				  command: () => history.push({
@@ -483,7 +484,7 @@ const Header = ({history}) => {
 				className: "made"
 			   },
 			   {
-				  label:'행사후 업데이트',
+				  label:'영역별모임 강의안',
 				  command: () => history.push({
 					pathname: "/planning",
 					state: {

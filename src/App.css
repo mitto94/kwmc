@@ -206,6 +206,9 @@
     .mTextSize {
         font-size: 1vw !important;
     }
+    .mTextSize2 {
+        font-size: 1.2vw !important;
+    } 
     .mTextSize3 {
         font-size: .8vw !important;
     }
