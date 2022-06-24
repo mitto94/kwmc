@@ -226,10 +226,10 @@ const Header = ({history}) => {
 		// 	className: "made"
 		// },
 		{
-		   label:'대회개요',
+		   label:'대회개요 Introduction',
 		   items:[
 			  {
-				 label:'인사말',
+				 label:'인사말 (Invitation)',
 				 command: () => history.push({
 					pathname: "/summary",
 					state: {
@@ -239,7 +239,7 @@ const Header = ({history}) => {
 				className: "made"
 			  },
 			  {
-				 label:'대회 소개',
+				 label:'대회 소개 (Invitation)',
 				 command: () => history.push({
 					pathname: "/summary_character",
 					// pathname: "/planning",
@@ -250,7 +250,7 @@ const Header = ({history}) => {
 				className: "made"
 			  },
 			  {
-				 label:'제9차 KWMC 공동대회장',
+				 label:'제9차 KWMC 공동대회장 (The 9th KWMC Co-chairs)',
 				 command: () => history.push({
 					pathname: "/summary_organization",
 					state: {
@@ -260,7 +260,7 @@ const Header = ({history}) => {
 				className: "made"
 			  },
 			  {
-				 label:'KWMC 소개',
+				 label:'KWMC 소개 (About KWMC)',
 				 command: () => history.push({
 					pathname: "/summary_KWMC",
 					// pathname: "/planning",
@@ -276,7 +276,7 @@ const Header = ({history}) => {
 		   className: "made"
 		},
 		{
-			label:'프로그램',
+			label:'프로그램 Programme',
 			items:[
 			   {
 				  label:'일정표 (Timetable)',
@@ -290,7 +290,7 @@ const Header = ({history}) => {
 			   },
 			   
 			 {
-				label:'주제발표',
+				label:'주제발표 (Keynote Speech)',
 				command: () => history.push({
 				  pathname: "/program_presentation",
 				  state: {
@@ -300,7 +300,7 @@ const Header = ({history}) => {
 			  className: "made"
 			 },
 			 {
-				label:'성경',
+				label:'성경 (Bilble Exposition)',
 				command: () => history.push({
 				  pathname: "/bible",
 				  state: {
@@ -310,7 +310,7 @@ const Header = ({history}) => {
 			  className: "made"
 			 },
 			   {
-				  label:'주제강의',
+				  label:'주제강의 (Plenary)',
 				  command: () => history.push({
 					// pathname: "/planning",
 					pathname: "/program_lecture",
@@ -321,7 +321,7 @@ const Header = ({history}) => {
 				className: "made"
 			   },
 			   {
-				  label:'영역별모임',
+				  label:'영역별모임 (Track)',
 				  command: () => history.push({
 					pathname: "/program_section",
 					// pathname: "/planning",
@@ -343,7 +343,7 @@ const Header = ({history}) => {
 			  className: "made"
 			 },
 			   {
-				  label:'저녁집회',
+				  label:'저녁집회 (Evening Worship)',
 				  command: () => history.push({
 					pathname: "/program_gathering",
 					state: {
@@ -355,10 +355,10 @@ const Header = ({history}) => {
 			]
 		 },
 		 {
-			label:'대회안내',
+			label:'대회안내 Information',
 			items:[
 			   {
-				  label:'대회장안내',
+				  label:'대회장안내 (Venue)',
 				  command: () => history.push({
 					pathname: "/guide_around",
 					state: {
@@ -368,7 +368,7 @@ const Header = ({history}) => {
 				className: "made"
 			   },
 			   {
-				  label:'교통안내',
+				  label:'교통안내 (Transportation)',
 				  command: () => history.push({
 					pathname: "/guide_traffic",
 					state: {
@@ -378,7 +378,7 @@ const Header = ({history}) => {
 				className: "made"
 			   },
 			   {
-				label:'숙소/식사',
+				label:'숙소/식사 (Accommodation /Meals)',
 				command: () => history.push({
 				  pathname: "/guide",
 				  state: {
@@ -388,7 +388,7 @@ const Header = ({history}) => {
 			  className: "made"
 			 },
 			   {
-				  label:'그외 정보',
+				  label:'그외 정보 (Others)',
 				  command: () => history.push({
 					pathname: "/guide_etc",
 					state: {
@@ -401,10 +401,10 @@ const Header = ({history}) => {
 			]
 		 },
 		 {
-			label:'대회신청',
+			label:'대회신청 Registration',
 			items:[
 			   {
-				  label:'신청안내',
+				  label:'신청안내 (Registration)',
 				  command: () => history.push({
 					pathname: "/register",
 					state: {
@@ -421,12 +421,12 @@ const Header = ({history}) => {
 				// 		from: "missionary"
 				// 	}
 				// })
-				  label:'선교사',
+				  label:'선교사 (Missionary)',
 				  command: () => window.open("https://forms.gle/nVCRY7tRWsxS4HGN7"),
 				  className: "made"
 			   },
 			   {
-				  label:'일반참가자/교회/MK/MZ',
+				  label:'일반참가자/교회/MK/MZ (Regular Attendee)',
 				  command: () => window.open("https://form.jotform.com/221007600697148"),
 				  className: "made"
 
@@ -447,7 +447,7 @@ const Header = ({history}) => {
 			// 	})
 			//    },
 			   {
-				label:'전시부스 신청',
+				label:'전시부스 신청 (Exhibition Application)',
 				command: () => history.push({
 				  pathname: "/register_display",
 				  state: {
@@ -460,10 +460,10 @@ const Header = ({history}) => {
 			]
 		 },
 		 {
-			label:'자료실',
+			label:'자료실 library',
 			items:[
 			   {
-				  label:'선교사 리포트',
+				  label:'선교사 리포트 (Report of Missionary)',
 				  command: () => history.push({
 					pathname: "/data",
 					// pathname: "/planning",
@@ -474,7 +474,7 @@ const Header = ({history}) => {
 				className: "made"
 			   },
 			   {
-				  label:'홍보자료',
+				  label:'홍보자료 (Promo Video & Articles)',
 				  command: () => history.push({
 					pathname: "/data_promotion",
 					state: {
@@ -484,7 +484,7 @@ const Header = ({history}) => {
 				className: "made"
 			   },
 			   {
-				  label:'영역별모임 강의안',
+				  label:'영역별모임 강의안 (Track Summaries)',
 				  command: () => history.push({
 					pathname: "/planning",
 					state: {

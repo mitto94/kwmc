@@ -47,6 +47,7 @@ import 양준 from "./Image/도시선교/07 양준 집사 사진.jpg";
 import 김휴성 from "./Image/비정부기구/01 김휴성 선교사 사진.jpg";
 import 신혜경 from "./Image/비정부기구/02 신혜경 팀장 사진.jpg";
 import 박상은 from "./Image/비정부기구/03 박상은 대표 사진.jpg";
+import 박주용 from "./Image/비정부기구/박주용.jpg";
 import Thir from "./Image/비정부기구/04 Thir+Koirala 사진.jpg";
 
 // MK
@@ -99,12 +100,14 @@ import 김장생 from "./Image/선교동원/강사 프로필01 김장생 선교�
 import 강대흥 from "./Image/선교동원/강사 프로필02 강대흥 사무총장.jpg";
 
 // 선교협력
-import 강대흥2 from "./Image/선교협력/02 강대흥 사무총장 사진.jpg";
+// import 강대흥2 from "./Image/선교협력/02 강대흥 사무총장 사진.jpg";
+import 이은무 from "./Image/선교협력/이은무 선교사.jpg";
 import 김의원 from "./Image/선교협력/03 김의원 선교사 사진.jpg";
 import 송제임스 from "./Image/선교협력/04 송제임스 총장 사진.jpg";
 import 양성일 from "./Image/선교협력/05 양성일 목사 사진.jpg";
 import 박신욱 from "./Image/선교협력/06 박신욱 선교사 사진.jpg";
 import 이은용 from "./Image/선교협력/07 이은용 선교사 사진.jpg";
+import 허성회 from "./Image/선교협력/허성회.jpg";
 // 시간표
 import 디아스포라 from "./Image/시간표/디아스포라.jpg"
 import 도시선교 from "./Image/시간표/도시선교.jpg"
@@ -195,8 +198,8 @@ const Section = ({history}) => {
           style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "7vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>문화예술 & 미디어</div>
           <div className={section === "교육" && "clickedMenu2"} onClick={() => setSection("교육")}
           style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "7vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>교육</div>
-          <div className={section === "비정부기구" && "clickedMenu2"} onClick={() => setSection("비정부기구")}
-            style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "7vh", wordBreak: "keep-all", borderBottom: "1px solid #E2E2E2", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>비정부 기구</div>
+          <div className={section === "NGO와 국제기구" && "clickedMenu2"} onClick={() => setSection("NGO와 국제기구")}
+            style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "7vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>NGO와 국제기구</div>
           <div className={section === "BAM" && "clickedMenu2"} onClick={() => setSection("BAM")}
           style={{height: "7vh", wordBreak: "keep-all", borderBottom: "1px solid #E2E2E2", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>BAM</div>
           <div className={section === "선교동원" && "clickedMenu2"} onClick={() => setSection("선교동원")}
@@ -312,6 +315,17 @@ const Section = ({history}) => {
 
             </span>,
             "")}
+            
+            {makeProfile(Elly, "Elly Kang (English)", "주제: American Assimilation Helpline – 새로운 교육선교 플랫폼", <span>Session 4 - {<span className="MobImage"><br></br></span>} “Strategy and Platform for Education Mission”</span>, <span>
+            조지아주 애틀랜타에 있는 Marist School의 고등학교 3학년으로 데이터 과학에 열정을 가지고 있다. 그 열정으로 501(c)(3) 글로벌 비영리 조직인 American Assimilation Helpline이 만들었다. nc.(AAH!)는 교육을 거의 또는 전혀 받지 못하는 저소득, 이민자, 난민 및 노숙자 학생에게 개인 교습 및 자원을 제공하고 또한 수십 대의 기기와 학용품을 기부하고 미국 Red Cross 와 함께 헌혈 행사를 주최하는 등의 이니셔티브와 노숙자를 지원하는 등 프로젝트를 진행하고 있다. 2021년 여름, AAH! 한국, 일본, 인도에서 온 약 200명의 저소득층 학생들에게 봉사하기 위해 국제적으로 지역 학생 자원 봉사자를 모집했다. 2017년부터 이 비영리 단체는 13개 지역 지부와 2개의 학습 연구소를 포함하여 10개국과 17개 주로 역량을 확장했으며 650명의 학생 교사와 함께 전 세계적으로 1,000명 이상의 학생들을 가르쳤다. 
+            <br></br><br></br>
+            비영리단체의 사명, 지금까지의 진행 상황, 그리고 앞으로 구상하고 있는 작업에 대해 이야기할 것이다. 그들은 전 세계적으로 평등한 교육적 접근 계획을 추진하는 데 도움이 되도록 고등학생 연령의 어린이들에게 훌륭한 리더십 기회를 제공하고자 한다. 또한 모든 회원이 영어를 배울 수 있도록 교육 지원을 제공하고 있다.
+            <br></br><br></br>
+            Elly will be speaking about her nonprofit’s mission, the progress so far, and the work they are envisioning for the future. They would like to provide great leadership opportunities for high school-aged children to help drive the charge for equal educational access initiatives across the world. They are also offering educational support for all members to learn English.
+
+            </span>,
+            "")}
+
             {makeProfile(이영아, "YoungAh Gloria Lee (이영아 집사) (한국어)", "주제: American Assimilation Helpline – 새로운 교육선교 플랫폼", <span>Session 4 - {<span className="MobImage"><br></br></span>} “Strategy and Platform for Education Mission”</span>, <span>
             가족과 함께 보스턴에서 이민생활을 시작으로 UMass(University of Massachusetts) Boston에서 흩어져있는 대학교를 묶어 주었던 선교단체 (밀알모임)와 보스턴 늘푸른교회를 섬겼다. 2005년 아프리카, 에리트리아에 선교를 다녀왔다. MassArt (Massachusetts College of Art and Design)에서 패션디자인을 공부를 통하여, 장애인을 위한 바지 만드는 일을 했다. 2016년부터 마리에타 루터란 미국교회(Lutheran Church of the Incarnation, Marietta, GA), 행정비서로 일하면서 동네 아이들에게 1대1 공부를 가르쳐주는  American Assimilation Helpline (AAH)를 동역했다. 올해 2022년 부터  Global Department Advocacy Director (Global Department), Developing Director (US Department) and Doraville Georgia Local Chapter Head at AAH 로 섬기고 아틀란타 새교회에서 한글학교 총무랑 도서관을 만들어서 아이들이 서로 책을 빌려주는 사역도 하고 있다.  
             <br></br><br></br>
@@ -320,15 +334,6 @@ const Section = ({history}) => {
             Youngah Lee will be speaking about how American Assimilation Helpline, a non-profit organization devoted for connecting one on one study with the students around the world, and how this education platform can be used in the mission field.
             <br></br><br></br>
             ●	www.americanassimilationhelpline.org
-
-            </span>,
-            "")}
-            {makeProfile(Elly, "Elly Kang (English)", "주제: American Assimilation Helpline – 새로운 교육선교 플랫폼", <span>Session 4 - {<span className="MobImage"><br></br></span>} “Strategy and Platform for Education Mission”</span>, <span>
-            조지아주 애틀랜타에 있는 Marist School의 고등학교 3학년으로 데이터 과학에 열정을 가지고 있다. 그 열정으로 501(c)(3) 글로벌 비영리 조직인 American Assimilation Helpline이 만들었다. nc.(AAH!)는 교육을 거의 또는 전혀 받지 못하는 저소득, 이민자, 난민 및 노숙자 학생에게 개인 교습 및 자원을 제공하고 또한 수십 대의 기기와 학용품을 기부하고 미국 Red Cross 와 함께 헌혈 행사를 주최하는 등의 이니셔티브와 노숙자를 지원하는 등 프로젝트를 진행하고 있다. 2021년 여름, AAH! 한국, 일본, 인도에서 온 약 200명의 저소득층 학생들에게 봉사하기 위해 국제적으로 지역 학생 자원 봉사자를 모집했다. 2017년부터 이 비영리 단체는 13개 지역 지부와 2개의 학습 연구소를 포함하여 10개국과 17개 주로 역량을 확장했으며 650명의 학생 교사와 함께 전 세계적으로 1,000명 이상의 학생들을 가르쳤다. 
-            <br></br><br></br>
-            비영리단체의 사명, 지금까지의 진행 상황, 그리고 앞으로 구상하고 있는 작업에 대해 이야기할 것이다. 그들은 전 세계적으로 평등한 교육적 접근 계획을 추진하는 데 도움이 되도록 고등학생 연령의 어린이들에게 훌륭한 리더십 기회를 제공하고자 한다. 또한 모든 회원이 영어를 배울 수 있도록 교육 지원을 제공하고 있다.
-            <br></br><br></br>
-            Elly will be speaking about her nonprofit’s mission, the progress so far, and the work they are envisioning for the future. They would like to provide great leadership opportunities for high school-aged children to help drive the charge for equal educational access initiatives across the world. They are also offering educational support for all members to learn English.
 
             </span>,
             "", true)}
@@ -448,7 +453,7 @@ const Section = ({history}) => {
               </div>
             </div>
             {makeProfile(김대영, "김대영 목사", "주제: 21세기 선교환경의 변화와 선교적 목회", "", <span>
-              - 휄로쉽교회 담임<br></br><br></br>
+              - MD휄로쉽교회 담임<br></br><br></br>
               1990년대 후반 선교사로 중국의 영혼들을 섬기다 파송한 교회의 담임목사로 부름받아 서울 송파에서 목회했다. 현재는 워싱턴 휄로쉽교회 담임목사로 부름받아 현재까지 섬기고 있다. 선교사로, 한국교회 목회자로, 또 이민교회의 목회자로섬기는 흔치 않은 사역의 경험들이 미셔널처치에 대한 꿈을 이루어가는데 귀하게 사용되어지고 있다.
             </span>,"21세기 포스트모던시대에 선교적 교회가 어떤 변화를 시도해야하는지 나누고자 한다. 동호회 같은 소그룹 사역을 통해 어떻게 공동체적인 복음전도가 가능할 것인지, 교회 바깥을 향한 사역 뿐 아니라, 교회내에서 진행되는 사역들도 어떻게 지역 사회와 연결되어 복음의 통로 역할을 할 수 있을 지를 살펴보려고 한다. 마지막으로 선교현장에 체류조차 하기 힘든 상황에서 해외선교를 교육선교나 난민선교 중심으로 어떻게 이끌어갈 것인지도 살펴볼 것이다.")}
 
@@ -585,7 +590,7 @@ const Section = ({history}) => {
 
             </div>
           }
-          {section === "비정부기구" && <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
+          {section === "NGO와 국제기구" && <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
             <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
               <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh", marginTop: "0.8vw"}} >
                 <img style={{width:"100%"}} src={비정부기구} alt="비정부기구"></img>
@@ -594,11 +599,18 @@ const Section = ({history}) => {
                 <img style={{width:"100%"}} src={비정부기구} alt="비정부기구"></img>
               </div>
             </div>
-            {makeProfile(김휴성, "김휴성 선교사", "", "Session 비정부기구(NGO)", <span>
+            {makeProfile(김휴성, "김휴성 선교사", "", "Session NGO와 국제기구", <span>
             필리핀 선교사로 1994년 파송을 받아 신학교, 기술학교, NGO 및 교회 개척 사역등 다양한 분야에서 사역을 하던 중 2018년부터 KWMA(한국세계선교협의회) 본부 총무, 코로나 긴급대응 본부장을 수행했다. 현재 사단법인 글로벌 호프의 부대표로 전임사역을 하고 있다.
             </span>,"선교의 플렛폼으로서의 NGO의 역할과 창의적 접근이 필요한 선교지에 어떻게 적용될 수 있는지에 대한 구체적인 내용과 사례. 젊은이들에게 막연한 선교사 또는 선교지에 대한 생각이 NGO 활동을 통하여 해외 봉사 및 참여의 기회를 제공함으로써 주께서 어떻게 자신을 사용하실지에 기대하는 시간이 될 것이다.")}
 
-            {makeProfile(신혜경, "신혜경 팀장", "", "Session 비정부기구(NGO)", <span>
+            {makeProfile(박상은, "박상은 대표", "주제: 새로운 선교 패러다임, NGO선교", "Session NGO와 국제기구", <span>
+            - 샘병원 미션원장<br></br>
+            - 아프리카미래재단 대표<br></br>
+            - 국제보건의료학회장
+              </span>,
+            "최근 많은 나라들이 더 이상 선교사비자를 허락하지 않으면서도 NGO문호는 활짝 열고 있다. 회교권과 공산권의 경우 선교단체는 들어갈 수 없지만 NGO는 오히려 환영받는다. 아울러 한국정부는 매년 6조원을 국제개발협력에 사용해야 함에도 마땅히 믿고맡길 NGO가 많지 않다. 지난 20여년간 경험한 NGO선교를 함께돌아보며 향후 무한한 가능성을 지닌 NGO선교의 전략을 생각해보고자 한다.")}
+
+            {makeProfile(신혜경, "신혜경 팀장", "", "Session NGO와 국제기구", <span>
             - 복음의전함 대외협력본부 팀장<br></br>
             -	수원화산교회 집사<br></br><br></br>
 
@@ -606,14 +618,22 @@ const Section = ({history}) => {
             </span>,
             "세대와 시대가 변해감에 따른 전도방법, 콘텐츠 등이 변화해야하는 이유를 설명하고, 광고의 효과를 복음에 접목하여 개발된 다양한 콘텐츠 들을 소개하며 추후 계획을 공유합니다. 복음의전함에서 제작한 콘텐츠의 활용방법을 알리고, 어떠한 상황에서도 전도 할 수 있다는 전도, 쉬운 전도, 마음을 움직이는 전도 방법을 현장에서 활용할 수 있도록 다양한 콘텐츠를 제공하며 적극적으로 지원하여 전도와 선교 사역에 실질적인 적용으로 이어질 수 있도록 방법을 제시합니다.")}
           
-            {makeProfile(박상은, "박상은 대표", "주제: 새로운 선교 패러다임, NGO선교", "Session 비정부기구(NGO)", <span>
-            - 샘병원 미션원장<br></br>
-            - 아프리카미래재단 대표<br></br>
-            - 국제보건의료학회장
+            
+            
+          {makeProfile("", "정연주 센터장", "주제: 전통적 선교와 NGO의 장단점", "Session NGO와 국제기구", <span>
+            - 희망의 마을 센터장
               </span>,
-            "최근 많은 나라들이 더 이상 선교사비자를 허락하지 않으면서도 NGO문호는 활짝 열고 있다. 회교권과 공산권의 경우 선교단체는 들어갈 수 없지만 NGO는 오히려 환영받는다. 아울러 한국정부는 매년 6조원을 국제개발협력에 사용해야 함에도 마땅히 믿고맡길 NGO가 많지 않다. 지난 20여년간 경험한 NGO선교를 함께돌아보며 향후 무한한 가능성을 지닌 NGO선교의 전략을 생각해보고자 한다.")}
+            "")}
 
-            {makeProfile(Thir, "Thir Koirala", "", "Session 비정부기구(NGO)", <span>
+          {makeProfile(박주용, "박주용 장로", "주제: The Sent to the World Bank", "Session NGO와 국제기구", <span>
+          박주용 삶터 선교사는 연세대학교 상경대학 학부과정에서 경제학을 전공하고 KDI(한국개발연구원)에서 5년간 연구원으로 재직후 도미하여 펜실베니아대학교 Wharton School 경영대학원 박사과정에서 경영경제학 Finance를 전공하고 WEFA (세계경제예측연구소) 금융경제학자로 10년간 재직한 후 워싱턴 DC에 소재하고 있는 World Bank (세계은행) 선임금융관으로 25년간 직장 삶터에 파송된 평신도 선교사로서 미션을 마치고 2021년 67세로 정년퇴직하였다.
+          박주용 KCPC 장로는 40년전 1982년 본토 친척 아비 집을 떠나 미국에 유학오면서 3W(Wharton School, WEFA, World Bank)를 꿈꾸고 이루게 됨이 다 하나님의 계획가운데 소명과 사명이며 가장 중요한 네번째 W인 하나님의 뜻 WILL(Washingtonian Influence on Lordship and Leadership)을 후에 발견하고 세계 정치 경제의 중앙 워싱턴 DC에 남아서 세상에 WILL(하나님 나라 로드십과 세상 리더십 영향력)을 선포하는 선교적 사명을 다하기 위해 현재 KCPC(와싱톤중앙장로교회)와 KLS(한국리더십학교)와 연합하여 WGLS(Washington Global Leadership School)을 준비하며 Lead Mentor로 인생2기 사역을 섬기고 있다.
+
+              </span>,
+            `박주용 WGLS 멘토는 강의를 통하여 (1) 그동안 단지 그리스도 팔로워로서 순종하는 미셔널 라이프를 살았지만 주인되시는 로드십의 삶이 어떻게 세상에서 리더십 영향력으로 나타나는지를 국제기구 (세계은행) 직장으로 파송된 평신도 삶터 선교사로서 지냈던 미셔널 라이프 체험을 나누며 (2) 절대 빈곤을 근절하고 공동 번영을 추구하여 빈곤없는 세상(A World Free of Poverty)을 꿈꾸는 세계은행같은 국제기구와 (또 NGO비정부기구와 더불어) 네트워크 선교를 통한 전문성과 체계성을 갖춘 창의적 선교의 가능성을 살펴보고 (3) 특별히 MK들이 다른 문화와 다른 언어와 다른 환경에 익숙함에 목회자 선교사의 세대 계승 뿐만 아니라 국제기구에 직장인으로 파송된 평신도 선교사로서 세상에서 선한 영향력을 미치는 세상의 리더가 되고 세상을 하나님 나라로 부흥시키고 확장하는 미셔널 라이프를 살아내는 총체적 선교의 가능성을 살펴본다.
+            Elder Ju Yong Park, KCPC, will share his testimony and experience of missional life and leadership influence as the called and the sent to the World Bank, an international organization based in Washington, DC.  Working day to day for international organizations and nongovernmental organizations, life as mission and professionals for mission will be included in his Christian leadership mentoring with focus on whole person, whole church, whole gospel, and whole world in the context of network mission and integral mission, particularly for MKs.
+            `)}
+          {makeProfile(Thir, "Thir Koirala", "", "Session NGO와 국제기구", <span>
             Email: thirkc@gmail.com <br></br>
             Nepal: +977-9851100125 USA: +1-6156747790 <br></br>
             Pr. Thir Koirala has been serving in Nepal for more than 2 decades in different roles. He was born in a Hindu family in Nepal and received Christ as a personal savior in his student life through correspondence. He served as a missionary and pastor in east Nepal from 2000-to 2008. Also, he established NGOs in Nepal to serve the community.
@@ -628,12 +648,7 @@ const Section = ({history}) => {
               <br></br>- Integral Mission in practice- Challenges and opportunity 
               <br></br>- Integral Mission in the local context and culture 
               <br></br>- Summary 
-          </span>)}
-
-          {makeProfile("", "정연주 센터장", "주제: 전통적 선교와 NGO의 장단점", "Session 비정부기구(NGO)", <span>
-            - 희망의 마을 센터장
-              </span>,
-            "", true)}
+          </span>, true)}
 
 
             </div>
@@ -901,11 +916,54 @@ const Section = ({history}) => {
                 <img style={{width:"100%"}} src={선교협력} alt="선교협력"></img>
               </div>
             </div> 
-            {makeProfile("", "이근희 사무총장", "", "", ""
-            , "")}
 
-            {makeProfile("", "전철영 사무총장", "", "", ""
-            , "")}
+            {makeProfile(이은무, "이은무 선교사", "", "", <span>
+            이은무 선교사는 1976년 GP 선교회 소속으로 인도네시아 보르네오 섬으로 파송되어 1988년까지 교회설립과 신학교 설립사역을 하다가 1990년부터 싱가폴과 말레이시아에서 바탐 신학교 설립 및 선교 지도자 교육사역으로 도합 30년을 사역하다가 2006년부터는 미국에서 후학들을 가르치면서 AMA 사무총장(2000-2010), 4/14 Window Movement (2008-2010) 사무총장으로 섬겼다. 1983년 윗튼대학 졸업, 2003년 바이올라 대학졸업(PhD).             </span>,
+            ""
+            )}
+
+            {makeProfile(이은용, "이은용 선교사", "주제: 현장 선교사들의 바람직한 협력 모델과 미주 한인교회의 역할", "", <span>
+            아프리카 선교사(1991~2022년 현재)로 31년동안 사역하고 있으며 장신대 대학원과 Grace Theological Seminary에서 선교학 박사 학위를 마쳤고 장신대에서 객원교수로 가르쳤다. 아프리카 케냐에 (사단법인) Holistic Mission for All Nations를 설립하여 한국인 선교사 훈련 사역 및 현지인 목회자 신학 훈련 사역을 하고 있다. Holistic Mission Church를 설립하여 250여개를 개척하여 아프리카 복음 전파 사역을 하고 있다. Holistic Mission Academy 를 중심으로 13개 초등학교와 4개 고등학교를 학교를 건립하여 아프리카 다음 세대 선교 사역에 주력하고 있다. 현재, 대한예수교 장로회 통합(PCK) 세계 선교사회 회장 및 KWMF 회장으로 섬기고 있다. 
+            </span>,
+            "선교 현장의 사역을 극대화하기 위해서 협력 사역을 하는 것은 필수적이다. 이은용 선교사는 아프리카에서 31년 동안 한국인 선교사들과 팀을 구성하여 협력 사역을 진행하고 있다. 바람직한 협력 사역을 위해서는 함께 일하는 선교사들과 공유된 선교 정신(Mission Ethos), 선교 협력 계획(Mission Cooperative Plan), 선교 협력 실행(Mission Cooperative Practice), 그리고 평가(Assessment)가 중요하다. 본 강의를 통해서 아프리카 선교 현장에서 진행되고 있는 바람직한 협력 사역의 모델을 제시하고, 1992년 이래로 미국 일리노이 대학 이세 교회 및 아틀란타 연합 장로교회와 협력 사역을 통한 미주 한인 교회의 해외 선교 역할에 대한 모델을 제시하고자 한다. 더 나아가서 코로나 시기 이후에 멈출 수 없는 하나님의 선교를 어떻게 협력해 나갈 것인가에 대한 방안을 모색할 것이다."
+            )}
+
+            {makeProfile(허성회, "허성회 선교사", "주제: GMS의 전환과 미래방향", "", <span>
+            - AX 선교사<br></br>
+            - GMS 행정원장
+            </span>,
+            "새로운 시대에서는 기존의 많은 방식들을 과감하게 포기하고 새로운 방식으로 전환을 시도해야 한다. 이제 펜데믹의 신속한 변화에 걸맞는 미래 선교방향과 전략을 세워가야 한다."
+            )}
+
+            {makeProfile(양성일, "양성일 목사", "주제: 지역교회와 선교단체 협력의 바람직한 방안", "", <span>
+            목회자의 가정에서 태어나 1970년대 초에 가족과 함께 미국 시카고로 이민하여 청소년기를 보냈고 University of Illinois, Urbana-Champaign 에서 전기공학을 전공하고 (1981 졸업), Trinity 신학교에서 M. Div 를 마쳤다 (1986).  시카고 지역에서 2세 사역을 하다가 동부 Connecticut 주와 중부 Wisconsin 주에서 1세 목회 사역을 감당 하였으며 현재 Arizona 주Chandler에 소재한 십자가의교회를 2014년부터 지금까지 담임하고 있다.  현 Global Partners (GP 선교회) 미주 이사장으로 섬기고 있다.
+            </span>,
+            "지역교회와 선교 단체는 선교사를 연결고리로 하여 서로를 필요로 하는 관계인데도 불구하고 서로 원활한 소통이 잘 안되고 있는 것이 많은 교회와 선교 단체의 현실이다.  지역교회는 선교 단체에 정기적으로 선교헌금을 후원하고, 선교 단체는 정기적으로 기도 편지를 발송하는 단계에 머물러 있는 경우가 많다.  지역교회와 선교 단체가 좀 더 적극적으로 관계를 맺고 서로 가지고 있는 자원을 동원하고 협력해서 synergy 를 극대화 할 수 있는 방안이 무엇인지 함께 고민하고 찾아보는 기회가 되기를 기대한다.")}
+          
+            {makeProfile(송제임스, "Dr. James Song", "", "", 
+            <span>
+              제임스 송 총장은 1970 년 세계선교에 대한 비전을 갖고 세계선교회를 설립하여 활동 하다가 1980 년 미국에 정착한후  1981년 국제 휄로십 교회를 개척하여 현재 41 년을 담임목사로 섬기고 있고  1983 년에는 세계선교를 위한 미국재단법인 국제복음주의협회를 창설 하여 세계선교를 위한 인재 발굴과 양성을 목적으로 1986 년 Midwest University 를 설립하여 미 연방정부로 부터 종합대학교로 인준 받았으며 출신 동문들을 통해 전 세계 70 여곳에서 미래교육을 위한 선교를 위한  초, 중, 고, 대학을 설립하여 혁신 교육개발과 인재 양성에 힘쓰고 있으며 Global Leadership Institute와 IEC 를 통해 세계 각국 정부 공무원을 비롯한  국가 지도자를 위한 리더십 교육과 교장 리더십 교육과정을 하고 있으며 Midwest University  부설 MIRI 연구재단에서 각 정부 공무원, 교수, 기업인, 의사, 법조계 등 각 분야에 연구 프로젝트를 하고 있고 2000 년도에는 선교지 현지 지도자 양성을 위해 Global Gateway University 설립 했다. 현재 국제 복음주의 협회 총재, Midwest University 총장,  국제교육협력기구 IEC 이사장, MIRI 연구재단 이사장, KWMC 공동의장으로 섬기고 있으며 세계 수 많은 국가의교육분야, 경제분야, 정치분야, 교육, 의료분야, 글로벌 리더십 포럼, 세계일주 120 회 이상 세계를 돌며 국제교육과 글로벌 리더십 개발과 인재 양성에 도전하고 있다.  
+            </span>, <span>
+            글로벌 교육 패러다임( Paradigm) 과 세계 선교와 융합은 가능한 것인가 ? 
+            <br></br>하나님의 세계관을 기초로 하는 교육 전문가를  양성하고 교육 프로그램을 현장에 적용하기 위한 기독교 선교전략은 무엇인가? 하는 고민을 어떻게 풀어 나가야 하는가?
+            <br></br>미래 교육의 새로운 패러다임은 무엇인가 ? 
+            <br></br><br></br>
+            교육 리더들은 학교교육에 대한 전문성, 철저한 프로의식, 교육과정 편성과 선진국의 커류큐름의 변화에 대한 빠른 이해, 교수, 학습지도에 대한 전문성, 현장교육에 대한 경험과 전문성, 학사행정에 대한 전문성, 목표달성을 위한 구체적인 제안과 실천력, 업무파악 능력 및 자기개발과 갱신을 위한 꾸준한 노력, 글로벌 이슈와 국제적 교육환경, 패러다임에 대한 적응능력을 키우기 위한  계속교육, 정보 공유등 정보사회, 다변화 하는 사회구조와 욕구에 대한 교육적 대안등이 요구 된다.
+
+            </span>)}
+
+            {/* {makeProfile("", "전철영 사무총장", "", "", ""
+            , "")} */}
+
+            {makeProfile(김의원, "김의원 선교사", "주제: 신학교육의 협력을 통한 세계선교 활성화 방안", "",
+            <span>
+              김의원 선교사/한국에서 30년의 교수사역(총신대학교 구약교수[1984-2006], 총신대학교 총장[2000-2004], 백석대학교 부총장[2007-2014])을 마치고 2016년에 GMS 선교사가 되어, 현재 AETA (Alliance of Educators & Trainers in All tribes)의 대표로 일하다. 그간 수십 편의 구약 관련 논문을 집필하고 수많은 번역서와 창세기, 레위기, 사사기 주석을 출간하였다. 현재 AETA 대표로서 한인선교사들이 세운 신학교 및 각종 학교의 학위과정을 인준(Accreditation)해주면서 학교들을 업그레이드해주고 있다. 
+              </span>,
+            "전 세계에 한인 선교사들이 수많은 신학교, 성경학교 및 각종 학교를 세웠다. 그러나 학교 규모와 운용이 기준에 미치지 못하여 많은 나라에서 신학교와 성경학교의 교육과정이 국가적으로 인정받지 못해 어려움을 겪고 있다. 이는 현지 목회자뿐 아니라 교수 인력을 배양하는 일에 난점으로 이어진다. AETA (Alliance of Educators & Trainers in All-tribes)는 이 문제를 해결하기 위해 2004년에 세워졌다. (1) 이를 위해 AETA는 인준제도(Accredication)를 확립하여 진행하고 있다. AETA는 국제적 기준에 부합한 교과과정을 세우고, 이에 따른 커리큘럼과 인재 육성 시스템을 인준(Accreditation)해 줌으로 각 학교로 학사(Th.B.)와 석사(M.Div.) 학위를 수여하여 현지 목회자와 교수요원을 배양하도록 전문적으로 돕고 있다. (2) AETA는 선교지의 여러 학교를 묶는 ‘학교연합’을 만들려 한다. 선교지에는 여러 종류와 레벨에 따른 수많은 학교가 있다. 아카데믹 기준에 따른 학교도 있지만, 그렇지 못한 학교도 수없이 많다. 동일 지역에서 앞서가는 학교와 풀뿌리와 같은 영세한 학교들을 하나로 묶어 서로 협력하도록 만들려 한다. 정규학교가 주변의 연수학교 혹 단기 학교들을 도와 그들의 필요를 채우도록 한다. 그리함으로 교수요원 교류, 교재 개발 및 목회 현장 교육을 모색하려 한다. (3) AETA는 시니어 선교사들, 평신도 선교사들과 BAM 선교사들의 도움을 받아 각 학교에서 평신도를 위한 기술 교육을 모색하려 한다. 교회가 굳건하게 세워지려면 건실하게 훈련된 평신도들이 많아야 하기 때문이다. ")}
+            
+            {makeProfile(박신욱, "박신욱 선교사", "주제: 선교단체 간의 협력을 통한 세계선교 활성화 방안", "", <span>
+            1983년 Talbot 신학교 재학 중 연례 선교주간을 통해 타문화권 선교에 눈을 뜨고 미주의 한인 교회가 선교사를 배출해야 하며 이를 위해  한인선교단체가 필요한 사실을 깨닫고 이민 교회를 통한 세계 선교에 헌신하였다. 1990년 와싱톤중앙장로교회가 설립한 CMF선교회(SEED선교회 전신) 아르헨티나 선교사로 파송 받아 목회자훈련원을 세우고 중산층을 위한 교회를 개척하여 현지인에게 위임하였다. 1997년 미국으로 돌아와서 CMF 본부 사역을 시작하여  SEED선교회 초대 실행총무(2000년)로 섬기며 밴쿠버에 선교훈련원을 설립하고(2007년) 미주복음방송 사장(2011-2014)으로 방송선교에 헌신했으며 현재 SEED 선교회 국제대표로 섬기고 있다.              </span>,
+            "선교단체는 선교의 협력자로서 선교의 사명자인 교회를 섬겨서 더 많은 선교자원을 동원하고 교회가 배출하여 파송한 선교사들이 선교의 수행자로서 선교지에서 열매를 맺을 수 있도록 실질적으로 돕는 역할을 감당해야 한다. ‘모든 민족을 제자 삼으라’는 예수님의 지상명령은 선교를 위한 교회 연대와 선교사간의 협력을 전제하고 있다고 보아야 한다. 그렇게 볼 때, 오늘 한국 교회 선교의 구조적인 문제로 선교의 개교회 주의와 선교사의 선교의 개인 사역화를 들 수 있다면, 이를 개선하기 위해서 선교의 전문성을 가진 선교단체들의 각성과 협력이 필요할 것이다. 독립성을 가진 선교단체들 간의 협력의 가능성과 방향, 구체적인 방안을 제시해 본다.")}
 
             {makeProfile(강대흥, "강대흥 사무총장", "주제: 한국교회 선교운동과 포괄적 선교협력 현황과 발전 방안", ""
             , <span>
@@ -922,42 +980,7 @@ const Section = ({history}) => {
               나. KWMA 의 사역의 특성<br></br>
               다. KWMF 사역의 특성 <br></br>
               나가는 말
-            </span>)}
-          
-            {makeProfile(김의원, "김의원 선교사", "주제: 신학교육의 협력을 통한 세계선교 활성화 방안", "",
-            <span>
-              김의원 선교사/한국에서 30년의 교수사역(총신대학교 구약교수[1984-2006], 총신대학교 총장[2000-2004], 백석대학교 부총장[2007-2014])을 마치고 2016년에 GMS 선교사가 되어, 현재 AETA (Alliance of Educators & Trainers in All tribes)의 대표로 일하다. 그간 수십 편의 구약 관련 논문을 집필하고 수많은 번역서와 창세기, 레위기, 사사기 주석을 출간하였다. 현재 AETA 대표로서 한인선교사들이 세운 신학교 및 각종 학교의 학위과정을 인준(Accreditation)해주면서 학교들을 업그레이드해주고 있다. 
-              </span>,
-            "전 세계에 한인 선교사들이 수많은 신학교, 성경학교 및 각종 학교를 세웠다. 그러나 학교 규모와 운용이 기준에 미치지 못하여 많은 나라에서 신학교와 성경학교의 교육과정이 국가적으로 인정받지 못해 어려움을 겪고 있다. 이는 현지 목회자뿐 아니라 교수 인력을 배양하는 일에 난점으로 이어진다. AETA (Alliance of Educators & Trainers in All-tribes)는 이 문제를 해결하기 위해 2004년에 세워졌다. (1) 이를 위해 AETA는 인준제도(Accredication)를 확립하여 진행하고 있다. AETA는 국제적 기준에 부합한 교과과정을 세우고, 이에 따른 커리큘럼과 인재 육성 시스템을 인준(Accreditation)해 줌으로 각 학교로 학사(Th.B.)와 석사(M.Div.) 학위를 수여하여 현지 목회자와 교수요원을 배양하도록 전문적으로 돕고 있다. (2) AETA는 선교지의 여러 학교를 묶는 ‘학교연합’을 만들려 한다. 선교지에는 여러 종류와 레벨에 따른 수많은 학교가 있다. 아카데믹 기준에 따른 학교도 있지만, 그렇지 못한 학교도 수없이 많다. 동일 지역에서 앞서가는 학교와 풀뿌리와 같은 영세한 학교들을 하나로 묶어 서로 협력하도록 만들려 한다. 정규학교가 주변의 연수학교 혹 단기 학교들을 도와 그들의 필요를 채우도록 한다. 그리함으로 교수요원 교류, 교재 개발 및 목회 현장 교육을 모색하려 한다. (3) AETA는 시니어 선교사들, 평신도 선교사들과 BAM 선교사들의 도움을 받아 각 학교에서 평신도를 위한 기술 교육을 모색하려 한다. 교회가 굳건하게 세워지려면 건실하게 훈련된 평신도들이 많아야 하기 때문이다. ")}
-            
-            {makeProfile(송제임스, "Dr. James Song", "", "", 
-            <span>
-              제임스 송 총장은 1970 년 세계선교에 대한 비전을 갖고 세계선교회를 설립하여 활동 하다가 1980 년 미국에 정착한후  1981년 국제 휄로십 교회를 개척하여 현재 41 년을 담임목사로 섬기고 있고  1983 년에는 세계선교를 위한 미국재단법인 국제복음주의협회를 창설 하여 세계선교를 위한 인재 발굴과 양성을 목적으로 1986 년 Midwest University 를 설립하여 미 연방정부로 부터 종합대학교로 인준 받았으며 출신 동문들을 통해 전 세계 70 여곳에서 미래교육을 위한 선교를 위한  초, 중, 고, 대학을 설립하여 혁신 교육개발과 인재 양성에 힘쓰고 있으며 Global Leadership Institute와 IEC 를 통해 세계 각국 정부 공무원을 비롯한  국가 지도자를 위한 리더십 교육과 교장 리더십 교육과정을 하고 있으며 Midwest University  부설 MIRI 연구재단에서 각 정부 공무원, 교수, 기업인, 의사, 법조계 등 각 분야에 연구 프로젝트를 하고 있고 2000 년도에는 선교지 현지 지도자 양성을 위해 Global Gateway University 설립 했다. 현재 국제 복음주의 협회 총재, Midwest University 총장,  국제교육협력기구 IEC 이사장, MIRI 연구재단 이사장, KWMC 공동의장으로 섬기고 있으며 세계 수 많은 국가의교육분야, 경제분야, 정치분야, 교육, 의료분야, 글로벌 리더십 포럼, 세계일주 120 회 이상 세계를 돌며 국제교육과 글로벌 리더십 개발과 인재 양성에 도전하고 있다.  
-            </span>, <span>
-            글로벌 교육 패러다임( Paradigm) 과 세계 선교와 융합은 가능한 것인가 ? 
-            <br></br>하나님의 세계관을 기초로 하는 교육 전문가를  양성하고 교육 프로그램을 현장에 적용하기 위한 기독교 선교전략은 무엇인가? 하는 고민을 어떻게 풀어 나가야 하는가?
-            <br></br>미래 교육의 새로운 패러다임은 무엇인가 ? 
-            <br></br><br></br>
-            교육 리더들은 학교교육에 대한 전문성, 철저한 프로의식, 교육과정 편성과 선진국의 커류큐름의 변화에 대한 빠른 이해, 교수, 학습지도에 대한 전문성, 현장교육에 대한 경험과 전문성, 학사행정에 대한 전문성, 목표달성을 위한 구체적인 제안과 실천력, 업무파악 능력 및 자기개발과 갱신을 위한 꾸준한 노력, 글로벌 이슈와 국제적 교육환경, 패러다임에 대한 적응능력을 키우기 위한  계속교육, 정보 공유등 정보사회, 다변화 하는 사회구조와 욕구에 대한 교육적 대안등이 요구 된다.
-
-            </span>)}
-
-            {makeProfile(양성일, "양성일 목사", "주제: 지역교회와 선교단체 협력의 바람직한 방안", "", <span>
-            목회자의 가정에서 태어나 1970년대 초에 가족과 함께 미국 시카고로 이민하여 청소년기를 보냈고 University of Illinois, Urbana-Champaign 에서 전기공학을 전공하고 (1981 졸업), Trinity 신학교에서 M. Div 를 마쳤다 (1986).  시카고 지역에서 2세 사역을 하다가 동부 Connecticut 주와 중부 Wisconsin 주에서 1세 목회 사역을 감당 하였으며 현재 Arizona 주Chandler에 소재한 십자가의교회를 2014년부터 지금까지 담임하고 있다.  현 Global Partners (GP 선교회) 미주 이사장으로 섬기고 있다.
-            </span>,
-            "지역교회와 선교 단체는 선교사를 연결고리로 하여 서로를 필요로 하는 관계인데도 불구하고 서로 원활한 소통이 잘 안되고 있는 것이 많은 교회와 선교 단체의 현실이다.  지역교회는 선교 단체에 정기적으로 선교헌금을 후원하고, 선교 단체는 정기적으로 기도 편지를 발송하는 단계에 머물러 있는 경우가 많다.  지역교회와 선교 단체가 좀 더 적극적으로 관계를 맺고 서로 가지고 있는 자원을 동원하고 협력해서 synergy 를 극대화 할 수 있는 방안이 무엇인지 함께 고민하고 찾아보는 기회가 되기를 기대한다.")}
-          
-            {makeProfile(박신욱, "박신욱 선교사", "주제: 선교단체 간의 협력을 통한 세계선교 활성화 방안", "", <span>
-            1983년 Talbot 신학교 재학 중 연례 선교주간을 통해 타문화권 선교에 눈을 뜨고 미주의 한인 교회가 선교사를 배출해야 하며 이를 위해  한인선교단체가 필요한 사실을 깨닫고 이민 교회를 통한 세계 선교에 헌신하였다. 1990년 와싱톤중앙장로교회가 설립한 CMF선교회(SEED선교회 전신) 아르헨티나 선교사로 파송 받아 목회자훈련원을 세우고 중산층을 위한 교회를 개척하여 현지인에게 위임하였다. 1997년 미국으로 돌아와서 CMF 본부 사역을 시작하여  SEED선교회 초대 실행총무(2000년)로 섬기며 밴쿠버에 선교훈련원을 설립하고(2007년) 미주복음방송 사장(2011-2014)으로 방송선교에 헌신했으며 현재 SEED 선교회 국제대표로 섬기고 있다.              </span>,
-            "선교단체는 선교의 협력자로서 선교의 사명자인 교회를 섬겨서 더 많은 선교자원을 동원하고 교회가 배출하여 파송한 선교사들이 선교의 수행자로서 선교지에서 열매를 맺을 수 있도록 실질적으로 돕는 역할을 감당해야 한다. ‘모든 민족을 제자 삼으라’는 예수님의 지상명령은 선교를 위한 교회 연대와 선교사간의 협력을 전제하고 있다고 보아야 한다. 그렇게 볼 때, 오늘 한국 교회 선교의 구조적인 문제로 선교의 개교회 주의와 선교사의 선교의 개인 사역화를 들 수 있다면, 이를 개선하기 위해서 선교의 전문성을 가진 선교단체들의 각성과 협력이 필요할 것이다. 독립성을 가진 선교단체들 간의 협력의 가능성과 방향, 구체적인 방안을 제시해 본다.")}
-
-            
-            {makeProfile(이은용, "이은용 선교사", "주제: 현장 선교사들의 바람직한 협력 모델과 미주 한인교회의 역할", "", <span>
-            아프리카 선교사(1991~2022년 현재)로 31년동안 사역하고 있으며 장신대 대학원과 Grace Theological Seminary에서 선교학 박사 학위를 마쳤고 장신대에서 객원교수로 가르쳤다. 아프리카 케냐에 (사단법인) Holistic Mission for All Nations를 설립하여 한국인 선교사 훈련 사역 및 현지인 목회자 신학 훈련 사역을 하고 있다. Holistic Mission Church를 설립하여 250여개를 개척하여 아프리카 복음 전파 사역을 하고 있다. Holistic Mission Academy 를 중심으로 13개 초등학교와 4개 고등학교를 학교를 건립하여 아프리카 다음 세대 선교 사역에 주력하고 있다. 현재, 대한예수교 장로회 통합(PCK) 세계 선교사회 회장 및 KWMF 회장으로 섬기고 있다. 
-            </span>,
-            "선교 현장의 사역을 극대화하기 위해서 협력 사역을 하는 것은 필수적이다. 이은용 선교사는 아프리카에서 31년 동안 한국인 선교사들과 팀을 구성하여 협력 사역을 진행하고 있다. 바람직한 협력 사역을 위해서는 함께 일하는 선교사들과 공유된 선교 정신(Mission Ethos), 선교 협력 계획(Mission Cooperative Plan), 선교 협력 실행(Mission Cooperative Practice), 그리고 평가(Assessment)가 중요하다. 본 강의를 통해서 아프리카 선교 현장에서 진행되고 있는 바람직한 협력 사역의 모델을 제시하고, 1992년 이래로 미국 일리노이 대학 이세 교회 및 아틀란타 연합 장로교회와 협력 사역을 통한 미주 한인 교회의 해외 선교 역할에 대한 모델을 제시하고자 한다. 더 나아가서 코로나 시기 이후에 멈출 수 없는 하나님의 선교를 어떻게 협력해 나갈 것인가에 대한 방안을 모색할 것이다."
-            , true)}
-
+            </span>, true)}
             </div>
           }
         </div>

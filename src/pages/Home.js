@@ -3,6 +3,7 @@ import Header from '../components/header';
 import HomeModal from "../HomeModal";
 
 import Poster from "../files/poster.jpg";
+import posterFinal from "../files/posterFinal.jpg";
 import { Button } from 'primereact/button';
 import TopBanner from '../components/topBanner';
 import BottomBanner from '../components/bottomBanner';
@@ -77,18 +78,19 @@ const Home = ({history}) => {
 
       </div>
       <div style={{width: "100%", display: "flex", justifyContent: "center", background: "#ecf6fc", flexDirection: "column", alignItems: "center"}}>
-        <iframe className="videoContainer" src="https://www.youtube.com/embed/sqIKi2SasGM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" modestbranding="1" rel="0" >
-        </iframe>
-        {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/sqIKi2SasGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-          </iframe> */}
+        {/* <iframe className="videoContainer" src="https://www.youtube.com/embed/sqIKi2SasGM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" modestbranding="1" rel="0" >
+        </iframe> */}
+        <div className="formContainer2" style={{display: "flex", justifyContent: "center"}} >
+            <img style={{width: "100%", height: "100%"}} src={posterFinal} alt="posterFinal" />
+        </div>
         <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
           <div className="mobColumn" style={{width: "60vw", display: "flex", justifyContent: "center"}}>
             <Button style={{borderRight: "1px solid #787878", position: "relative", zIndex: "1000", boxShadow: "none"}} onClick={() => window.open("https://forms.gle/nVCRY7tRWsxS4HGN7")} label="대회신청하기 (선교사)" className="p-button-raised p-button-text p-button-plain registerButton" />
             <Button label="대회신청하기 (일반참가자/교회/MK/MZ)" style={{width: "30vw", height: "9vh", boxShadow: "none", border: "1px solid lightgray", background: "#E2EBEE", wordBreak: "keep-all"}} className="p-button-raised p-button-text p-button-plain registerButton2" onClick={() => window.open("https://form.jotform.com/221007600697148")} />
-            {/* <Button label="교회/MK/MZ 신청" className="p-button-raised p-button-text p-button-plain sSize" style={{height: "3rem", background: "#E2EBEE", color: "#003685", width: "100%", boxShadow: "none", border: "1px solid lightgray", margin: ".5rem"}} onClick={() => window.open("https://form.jotform.com/221007600697148")} /> */}
-            {/* <a style={{textDecoration: "none"}} href={Poster} download><Button label="포스터 다운로드" className="p-button-raised p-button-text p-button-plain registerButton" /></a> */}
           </div>
         </div>
+        <iframe className="videoContainer" src="https://www.youtube.com/embed/sqIKi2SasGM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" modestbranding="1" rel="0" >
+        </iframe>
       </div>
       
       {/* <div className="mobBanner">

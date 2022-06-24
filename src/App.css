@@ -42,11 +42,16 @@
 .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:focus {
     box-shadow: none !important;
 }
+.p-menubar-root-list > .p-menuitem > .p-menuitem-link > .p-menuitem-text{
+    text-align: center;
+}
+
 .p-menuitem-text {
     color: black !important;
     font-weight: 700;
     font-family: Noto Sans KR, sans-serif;
     font-size: 1.5vw !important;
+    /* text-align: center; */
 }
 .p-menuitem:hover > .p-menuitem-link {
     background: #002246 !important;
@@ -95,6 +100,7 @@
 .p-submenu-list {
     padding: 0 !important;
     z-index: 10 !important;
+    word-break: keep-all;
 }
 /* .p-menuitem { */
 .p-submenu-list > .p-menuitem {
@@ -146,6 +152,9 @@
     }
     .formContainer {
         width: 60%;
+    }
+    .formContainer2 {
+        width: 59.99vw;
     }
     
     .registerButton {
@@ -239,7 +248,7 @@
         line-height: 1.75;
     }
     .mMenuTextSize {
-        font-size: 3.7vw !important;
+        font-size: 3.2vw !important;
     }
     .mWidth100 {
         width: 100% !important;
@@ -249,6 +258,9 @@
     }
     
     .formContainer {
+        width: 100%;
+    }
+    .formContainer2 {
         width: 100%;
     }
     .mobBanner {
