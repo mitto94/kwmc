@@ -109,19 +109,19 @@ import 박신욱 from "./Image/선교협력/06 박신욱 선교사 사진.jpg";
 import 이은용 from "./Image/선교협력/07 이은용 선교사 사진.jpg";
 import 허성회 from "./Image/선교협력/허성회.jpg";
 // 시간표
-import 디아스포라 from "./Image/시간표/디아스포라.jpg"
-import 도시선교 from "./Image/시간표/도시선교.jpg"
-// import 스페셜세션 from "./Image/시간표/스페셜세션.jpg"
-import 교육 from "./Image/시간표/교육.jpg"
-import 비정부기구 from "./Image/시간표/비정부기구.jpg"
-import BAM from "./Image/시간표/BAM.jpg"
-import 선교동원 from "./Image/시간표/선교동원.jpg"
-import 문화예술 from "./Image/시간표/문화예술.jpg"
-import 전방개척선교 from "./Image/시간표/전방개척.jpg"
-import 선교적공동체성경읽기 from "./Image/시간표/선교적공동체성경읽기.jpg"
-import 선교적교회 from "./Image/시간표/선교적교회.jpg"
-import 선교협력 from "./Image/시간표/선교협력.jpg"
-import MK from "./Image/시간표/MK.jpg"
+import 디아스포라 from "./Image/시간표/디아스포라.jpg";
+import 도시선교 from "./Image/시간표/도시선교.jpg";
+// import 스페셜세션 from "./Image/시간표/스페셜세션.jpg";
+import 교육 from "./Image/시간표/교육.jpg";
+import 비정부기구 from "./Image/시간표/비정부기구.jpg";
+import BAM from "./Image/시간표/BAM.jpg";
+import 선교동원 from "./Image/시간표/선교동원.jpg";
+import 문화예술 from "./Image/시간표/문화예술.jpg";
+import 전방개척선교 from "./Image/시간표/전방개척.jpg";
+import 선교적공동체성경읽기 from "./Image/시간표/선교적공동체성경읽기.jpg";
+import 선교적교회 from "./Image/시간표/선교적교회.jpg";
+import 선교협력 from "./Image/시간표/선교협력.jpg";
+import MK from "./Image/시간표/MK.jpg";
 
 {/* <div className="mWidth100 mTextSize3 mdLRBorder" style={{width: "60%", minHeight: "20px", border: "1px solid #E2E2E2", display: "flex", justifyContent: "space-around", alignItems: "center", cursor: "pointer", fontWeight: 500, fontSize: "1.3vw", color: "rgb(128, 127, 127)", flexWrap: "wrap"}}>
           <div className={section === "디아스포라" && "clickedMenu2"} onClick={() => setSection("디아스포라")}
@@ -191,29 +191,29 @@ const Section = ({history}) => {
         <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
         <div className="mWidth100 mTextSize3 mdLRBorder" style={{width: "60%", minHeight: "20px", border: "1px solid #E2E2E2", display: "flex", justifyContent: "space-around", alignItems: "center", cursor: "pointer", fontWeight: 500, fontSize: "1.3vw", color: "rgb(128, 127, 127)", flexWrap: "wrap"}}>
           <div className={section === "디아스포라" && "clickedMenu2"} onClick={() => setSection("디아스포라")}
-            style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "7vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>디아스포라</div>
+            style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "9vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>디아스포라<br></br>(Diaspora)</div>
           <div className={section === "도시선교" && "clickedMenu2"} onClick={() => setSection("도시선교")}
-          style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "7vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>도시선교</div>
+          style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "9vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>도시선교<br></br>(City Mission)</div>
           <div className={section === "문화예술" && "clickedMenu2"} onClick={() => setSection("문화예술")}
-          style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "7vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>문화예술 & 미디어</div>
+          style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "9vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>문화예술 & 미디어 (Culture,Art &Media)</div>
           <div className={section === "교육" && "clickedMenu2"} onClick={() => setSection("교육")}
-          style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "7vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>교육</div>
+          style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "9vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>교육<br></br>(Education)</div>
           <div className={section === "NGO와 국제기구" && "clickedMenu2"} onClick={() => setSection("NGO와 국제기구")}
-            style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "7vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>NGO와 국제기구</div>
+            style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "9vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>NGO와 국제기구 (NGO & International Organization)</div>
           <div className={section === "BAM" && "clickedMenu2"} onClick={() => setSection("BAM")}
-          style={{height: "7vh", wordBreak: "keep-all", borderBottom: "1px solid #E2E2E2", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>BAM</div>
+          style={{height: "9vh", wordBreak: "keep-all", borderBottom: "1px solid #E2E2E2", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>BAM<br></br>(Business As Mission)</div>
           <div className={section === "선교동원" && "clickedMenu2"} onClick={() => setSection("선교동원")}
-          style={{borderRight: "1px solid #E2E2E2",  height: "7vh", wordBreak: "keep-all", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교동원</div>
+          style={{borderRight: "1px solid #E2E2E2",  height: "9vh", wordBreak: "keep-all", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교동원<br></br>(Mission Mobilzation)</div>
           <div className={section === "선교적교회" && "clickedMenu2"} onClick={() => setSection("선교적교회")}
-          style={{borderRight: "1px solid #E2E2E2",  height: "7vh", wordBreak: "keep-all", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교적 교회</div>
+          style={{borderRight: "1px solid #E2E2E2",  height: "9vh", wordBreak: "keep-all", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교적 교회<br></br>(Missional Church)</div>
           <div className={section === "전방개척선교" && "clickedMenu2"} onClick={() => setSection("전방개척선교")}
-          style={{borderRight: "1px solid #E2E2E2",  height: "7vh", wordBreak: "keep-all", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>전방개척 사역</div>
+          style={{borderRight: "1px solid #E2E2E2",  height: "9vh", wordBreak: "keep-all", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>전방개척 사역<br></br>(Frontier Ministry)</div>
           <div className={section === "선교적공동체성경읽기" && "clickedMenu2"} onClick={() => setSection("선교적공동체성경읽기")}
-          style={{borderRight: "1px solid #E2E2E2",  height: "7vh", wordBreak: "keep-all", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교적 공동체 성경읽기</div>
+          style={{borderRight: "1px solid #E2E2E2",  height: "9vh", wordBreak: "keep-all", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교적 공동체 성경읽기 (Bible Engagement)</div>
           <div className={section === "선교협력" && "clickedMenu2"} onClick={() => setSection("선교협력")}
-          style={{borderRight: "1px solid #E2E2E2", textAlign: "center", height: "7vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교협력</div>
+          style={{borderRight: "1px solid #E2E2E2", textAlign: "center", height: "9vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교협력<br></br>(Mission Cooperation)</div>
           
-          <div className={section === "MK" && "clickedMenu2"} onClick={() => setSection("MK")} style={{ height: "7vh", width: "16.6666666%", textAlign: "center", wordBreak: "keep-all", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>MK (선교사자녀)</div>
+          <div className={section === "MK" && "clickedMenu2"} onClick={() => setSection("MK")} style={{ height: "9vh", width: "16.6666666%", textAlign: "center", wordBreak: "keep-all", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교사자녀<br></br>(Missionary Kids)</div>
         </div>
         </div>
         <div className="mMargin0" style={{width: "100%", display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center", marginTop: ".8vw", fontFamily: "Noto Sans KR, sans-serif"}}>
@@ -407,7 +407,7 @@ const Section = ({history}) => {
                 <img style={{width:"100%"}} src={문화예술} alt="시간표"></img>
               </div>
             </div>
-            {makeProfile(이유정, "이유정 목사", "주제: 예배와 문화운동의 예술적 이해와 그 선교적 가능성", "문화예술 미디어 영역 강의1", "대학생 시절, “오직 주 만이”, “아침에 주의 인자하심을”을 탄생케 한 학생선교단체 IVF 활동과 선교한국의 도전으로 음악선교에 헌신했고, 그 이후 선교적 음악사역(컨티넨탈싱어즈)과 문화적 음악사역(좋은씨앗)을 고루 경험했다. 1999년 도미하여 예배학 공부 후 지역교회 예배사역을 거쳐, 예배사역연구소 소장, 리버티대학 외 몇몇 신학교 겸임교수로 섬기며 교회와 디아스포라, 선교지를 위한 예배와 문화의 르네상스를 꿈꾸고 있다. ",
+            {makeProfile(이유정, "이유정 목사", "주제: 예배와 문화운동의 예술적 이해와 그 선교적 제언", "문화예술 미디어 영역 강의1", "대학생 시절, “오직 주 만이”, “아침에 주의 인자하심을”을 탄생케 한 학생선교단체 IVF 활동과 선교한국의 도전으로 음악선교에 헌신했고, 그 이후 선교적 음악사역(컨티넨탈싱어즈)과 문화적 음악사역(좋은씨앗)을 고루 경험했다. 1999년 도미하여 예배학 공부 후 지역교회 예배사역을 거쳐, 예배사역연구소 소장, 리버티대학 외 몇몇 신학교 겸임교수로 섬기며 교회와 디아스포라, 선교지를 위한 예배와 문화의 르네상스를 꿈꾸고 있다. ",
               "1987년을 기점으로 한반도에 일어난 찬양운동의 물결이 왜 그 이전과 이후를 가르는 예배회복운동인지 살피고, 그 결과로 일어난 음악사역과 문화예술선교의 가치와 현주소를 돌아본다. 나아가 예배와 문화, 예술과 선교의 융합과 동역이 가져다 줄 통전적이고 창의적인 선교의 가능성, 그리고 창의성의 산실이 될 수직적 선교의 시급성을 제언한다.")}
             
             {makeProfile(심도성, "심도성 대표", "주제: 한국 기독교 음악산업 현장과 선교적 가능성", "문화예술 미디어 영역 강의2", "부산 기독교 문화 연합사역의 기획자로서 하나님 문화와 세상문화를 융합한 콘서트와 콘텐츠개발사업에 참여하고 있다. 크리스마스 트리 문화 축제 1,2,3, 10회 연출, 부산CBS60주년 기념 콘서트 연출, Awesome K-CCM 영상 연출 및 제작등의 왕성한 활동을 통해 부산의 문화선교사로 살아가고 있다. 현재, 부산 소리나무미디어 회사의 대표이며, 한국 K-CCM 발대 준비 위원장으로 활동하고 있다.",

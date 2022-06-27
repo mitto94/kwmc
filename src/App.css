@@ -50,7 +50,7 @@
     color: black !important;
     font-weight: 700;
     font-family: Noto Sans KR, sans-serif;
-    font-size: 1.5vw !important;
+    font-size: 1.4vw !important;
     /* text-align: center; */
 }
 .p-menuitem:hover > .p-menuitem-link {
@@ -197,7 +197,7 @@
         z-index: 1000;
     }
     .p-submenu-list > .p-menuitem > .p-menuitem-link > .p-menuitem-text {
-        font-size: 1.1vw !important;
+        font-size: 1vw !important;
         font-weight: 700 !important;
 
     }

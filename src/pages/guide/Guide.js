@@ -18,11 +18,15 @@ const Guide = ({history}) => {
                     <span>
                       <span className="mTextSize2" style={{color: "#143674", fontWeight: "800", lineHeight: "200%"}}>* 숙소(퇴실)</span>
                       <br></br><br></br>
-                      -숙소는대회장인근네곳의호텔로배정됩니다.<br></br><br></br>
-                      a. Hilton Fairfax<br></br>
+                      -선교사와 MK 숙소는 대회장 인근 네 곳의 호텔로 배정됩니다.<br></br><br></br>
+                      {/* a. Hilton Fairfax<br></br>
                       b. Marriott Courtyard<br></br>
                       c. Wyndham Manassas<br></br>
-                      d. Springhill by Marriott Centerville/Chantilly<br></br><br></br>
+                      d. Springhill by Marriott Centerville/Chantilly<br></br><br></br> */}
+                      (1) Hilton Fairfax<br></br>
+                      (2) Courtyard by Marriott Fairfax Fair Oaks<br></br>
+                      (3) Springhill Suites by Marriott Centreville Chantilly<br></br>
+                      (4) Wyndham Garden Manassas<br></br><br></br>
                       - 14일 출국하시는 분들은 오전에 체크아웃을 하시고 대회 장으로 오셔서 짐을 맡기시고 대회 종료 후 공항으로 셔틀 을 이동하시면 됩니다.
                       <br></br><br></br>
                       <span className="mTextSize2" style={{color: "#143674", fontWeight: "800", lineHeight: "200%"}}>* 식사</span>
