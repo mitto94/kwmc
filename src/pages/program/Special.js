@@ -56,9 +56,11 @@ const Special = ({history}) => {
           </div>
         </div>
         <div className="mMargin0" style={{width: "100%", display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center", marginTop: ".8vw", fontFamily: "Noto Sans KR, sans-serif"}}>
+          
           {first ? 
             <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
-            
+            <iframe className="videoContainer4" src="https://stream.streamingchurch.tv/stream.php?churchid=church11053" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" modestbranding="1" rel="0" >
+            </iframe>
             <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
               <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginTop: "0.8vw"}} >
                 <img style={{width:"100%"}} src={스페셜세션} alt="스페셜세션"></img>
@@ -124,6 +126,8 @@ const Special = ({history}) => {
             </div>
         
           :   <div className="mWidth100 mFlexContainer mContainer4p mTextSize" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
+          <iframe className="videoContainer4" src="https://stream.streamingchurch.tv/stream.php?churchid=church11053" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" modestbranding="1" rel="0" >
+            </iframe>
           <span>
           <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
               <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginTop: "0.8vw"}} >

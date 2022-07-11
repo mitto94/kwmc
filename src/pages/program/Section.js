@@ -189,36 +189,38 @@ const Section = ({history}) => {
           <ProgramMenu history={history}/>
         </div>
         <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
-        <div className="mWidth100 mTextSize3 mdLRBorder" style={{width: "60%", minHeight: "20px", border: "1px solid #E2E2E2", display: "flex", justifyContent: "space-around", alignItems: "center", cursor: "pointer", fontWeight: 500, fontSize: "1.3vw", color: "rgb(128, 127, 127)", flexWrap: "wrap"}}>
-          <div className={section === "디아스포라" && "clickedMenu2"} onClick={() => setSection("디아스포라")}
-            style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "9vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>디아스포라<br></br>(Diaspora)</div>
-          <div className={section === "도시선교" && "clickedMenu2"} onClick={() => setSection("도시선교")}
-          style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "9vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>도시선교<br></br>(City Mission)</div>
-          <div className={section === "문화예술" && "clickedMenu2"} onClick={() => setSection("문화예술")}
-          style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "9vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>문화예술 & 미디어 (Culture,Art &Media)</div>
-          <div className={section === "교육" && "clickedMenu2"} onClick={() => setSection("교육")}
-          style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "9vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>교육<br></br>(Education)</div>
-          <div className={section === "NGO와 국제기구" && "clickedMenu2"} onClick={() => setSection("NGO와 국제기구")}
-            style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "9vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>NGO와 국제기구 (NGO & International Organization)</div>
-          <div className={section === "BAM" && "clickedMenu2"} onClick={() => setSection("BAM")}
-          style={{height: "9vh", wordBreak: "keep-all", borderBottom: "1px solid #E2E2E2", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>BAM<br></br>(Business As Mission)</div>
-          <div className={section === "선교동원" && "clickedMenu2"} onClick={() => setSection("선교동원")}
-          style={{borderRight: "1px solid #E2E2E2",  height: "9vh", wordBreak: "keep-all", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교동원<br></br>(Mission Mobilzation)</div>
-          <div className={section === "선교적교회" && "clickedMenu2"} onClick={() => setSection("선교적교회")}
-          style={{borderRight: "1px solid #E2E2E2",  height: "9vh", wordBreak: "keep-all", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교적 교회<br></br>(Missional Church)</div>
-          <div className={section === "전방개척선교" && "clickedMenu2"} onClick={() => setSection("전방개척선교")}
-          style={{borderRight: "1px solid #E2E2E2",  height: "9vh", wordBreak: "keep-all", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>전방개척 사역<br></br>(Frontier Ministry)</div>
-          <div className={section === "선교적공동체성경읽기" && "clickedMenu2"} onClick={() => setSection("선교적공동체성경읽기")}
-          style={{borderRight: "1px solid #E2E2E2",  height: "9vh", wordBreak: "keep-all", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교적 공동체 성경읽기 (Bible Engagement)</div>
-          <div className={section === "선교협력" && "clickedMenu2"} onClick={() => setSection("선교협력")}
-          style={{borderRight: "1px solid #E2E2E2", textAlign: "center", height: "9vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교협력<br></br>(Mission Cooperation)</div>
-          
-          <div className={section === "MK" && "clickedMenu2"} onClick={() => setSection("MK")} style={{ height: "9vh", width: "16.6666666%", textAlign: "center", wordBreak: "keep-all", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교사자녀<br></br>(Missionary Kids)</div>
-        </div>
+          <div className="mWidth100 mTextSize3 mdLRBorder" style={{width: "60%", minHeight: "20px", border: "1px solid #E2E2E2", display: "flex", justifyContent: "space-around", alignItems: "center", cursor: "pointer", fontWeight: 500, fontSize: "1.3vw", color: "rgb(128, 127, 127)", flexWrap: "wrap"}}>
+            <div className={section === "디아스포라" && "clickedMenu2"} onClick={() => setSection("디아스포라")}
+              style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "9vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>디아스포라<br></br>(Diaspora)</div>
+            <div className={section === "도시선교" && "clickedMenu2"} onClick={() => setSection("도시선교")}
+            style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "9vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>도시선교<br></br>(City Mission)</div>
+            <div className={section === "문화예술" && "clickedMenu2"} onClick={() => setSection("문화예술")}
+            style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "9vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>문화예술 & 미디어 (Culture,Art &Media)</div>
+            <div className={section === "교육" && "clickedMenu2"} onClick={() => setSection("교육")}
+            style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "9vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>교육<br></br>(Education)</div>
+            <div className={section === "NGO와 국제기구" && "clickedMenu2"} onClick={() => setSection("NGO와 국제기구")}
+              style={{borderRight: "1px solid #E2E2E2", borderBottom: "1px solid #E2E2E2", textAlign: "center", height: "9vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>NGO와 국제기구 (NGO & International Organization)</div>
+            <div className={section === "BAM" && "clickedMenu2"} onClick={() => setSection("BAM")}
+            style={{height: "9vh", wordBreak: "keep-all", borderBottom: "1px solid #E2E2E2", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>BAM<br></br>(Business As Mission)</div>
+            <div className={section === "선교동원" && "clickedMenu2"} onClick={() => setSection("선교동원")}
+            style={{borderRight: "1px solid #E2E2E2",  height: "9vh", wordBreak: "keep-all", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교동원<br></br>(Mission Mobilzation)</div>
+            <div className={section === "선교적교회" && "clickedMenu2"} onClick={() => setSection("선교적교회")}
+            style={{borderRight: "1px solid #E2E2E2",  height: "9vh", wordBreak: "keep-all", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교적 교회<br></br>(Missional Church)</div>
+            <div className={section === "전방개척선교" && "clickedMenu2"} onClick={() => setSection("전방개척선교")}
+            style={{borderRight: "1px solid #E2E2E2",  height: "9vh", wordBreak: "keep-all", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>전방개척 사역<br></br>(Frontier Ministry)</div>
+            <div className={section === "선교적공동체성경읽기" && "clickedMenu2"} onClick={() => setSection("선교적공동체성경읽기")}
+            style={{borderRight: "1px solid #E2E2E2",  height: "9vh", wordBreak: "keep-all", width: "16.6666666%", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교적 공동체 성경읽기 (Bible Engagement)</div>
+            <div className={section === "선교협력" && "clickedMenu2"} onClick={() => setSection("선교협력")}
+            style={{borderRight: "1px solid #E2E2E2", textAlign: "center", height: "9vh", wordBreak: "keep-all", width: "16.6666666%", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교협력<br></br>(Mission Cooperation)</div>
+            
+            <div className={section === "MK" && "clickedMenu2"} onClick={() => setSection("MK")} style={{ height: "9vh", width: "16.6666666%", textAlign: "center", wordBreak: "keep-all", display: "flex", justifyContent: "center", alignItems: "center", background: "white"}}>선교사자녀<br></br>(Missionary Kids)</div>
+          </div>
         </div>
         <div className="mMargin0" style={{width: "100%", display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center", marginTop: ".8vw", fontFamily: "Noto Sans KR, sans-serif"}}>
           
           {section === "교육" && <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
+          <iframe className="videoContainer4" src="https://stream.streamingchurch.tv/stream.php?churchid=church11054" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" modestbranding="1" rel="0" >
+            </iframe>
             <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
               <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh", marginTop: "0.8vw"}} >
                 <img style={{width:"100%"}} src={교육} alt="시간표"></img>
@@ -317,12 +319,13 @@ const Section = ({history}) => {
             "")}
             
             {makeProfile(Elly, "Elly Kang (English)", "주제: American Assimilation Helpline – 새로운 교육선교 플랫폼", <span>Session 4 - {<span className="MobImage"><br></br></span>} “Strategy and Platform for Education Mission”</span>, <span>
-            조지아주 애틀랜타에 있는 Marist School의 고등학교 3학년으로 데이터 과학에 열정을 가지고 있다. 그 열정으로 501(c)(3) 글로벌 비영리 조직인 American Assimilation Helpline이 만들었다. nc.(AAH!)는 교육을 거의 또는 전혀 받지 못하는 저소득, 이민자, 난민 및 노숙자 학생에게 개인 교습 및 자원을 제공하고 또한 수십 대의 기기와 학용품을 기부하고 미국 Red Cross 와 함께 헌혈 행사를 주최하는 등의 이니셔티브와 노숙자를 지원하는 등 프로젝트를 진행하고 있다. 2021년 여름, AAH! 한국, 일본, 인도에서 온 약 200명의 저소득층 학생들에게 봉사하기 위해 국제적으로 지역 학생 자원 봉사자를 모집했다. 2017년부터 이 비영리 단체는 13개 지역 지부와 2개의 학습 연구소를 포함하여 10개국과 17개 주로 역량을 확장했으며 650명의 학생 교사와 함께 전 세계적으로 1,000명 이상의 학생들을 가르쳤다. 
+            조지아주 애틀랜타에 있는 Marist School의 고등학교 4학년으로 데이터 과학에 열정을 가지고 있다. 그 열정으로 501(c)(3) 글로벌 비영리 조직인 American Assimilation Helpline이 만들었다. nc.(AAH!)는 교육을 거의 또는 전혀 받지 못하는 저소득, 이민자, 난민 및 노숙자 학생에게 개인 교습 및 자원을 제공하고 또한 수십 대의 기기와 학용품을 기부하고 미국 Red Cross 와 함께 헌혈 행사를 주최하는 등의 이니셔티브와 노숙자를 지원하는 등 프로젝트를 진행하고 있다. 2021년 여름, AAH! 한국, 일본, 인도에서 온 약 200명의 저소득층 학생들에게 봉사하기 위해 국제적으로 지역 학생 자원 봉사자를 모집했다. 2017년부터 이 비영리 단체는 13개 지역 지부와 2개의 학습 연구소를 포함하여 10개국과 17개 주로 역량을 확장했으며 650명의 학생 교사와 함께 전 세계적으로 1,000명 이상의 학생들을 가르쳤다. 
             <br></br><br></br>
             비영리단체의 사명, 지금까지의 진행 상황, 그리고 앞으로 구상하고 있는 작업에 대해 이야기할 것이다. 그들은 전 세계적으로 평등한 교육적 접근 계획을 추진하는 데 도움이 되도록 고등학생 연령의 어린이들에게 훌륭한 리더십 기회를 제공하고자 한다. 또한 모든 회원이 영어를 배울 수 있도록 교육 지원을 제공하고 있다.
             <br></br><br></br>
             Elly will be speaking about her nonprofit’s mission, the progress so far, and the work they are envisioning for the future. They would like to provide great leadership opportunities for high school-aged children to help drive the charge for equal educational access initiatives across the world. They are also offering educational support for all members to learn English.
-
+            <br></br>
+            We have been connecting US youth groups(American Assimilation Helpline! Local Chapters) to students in developing countries through missionary and an internship teaching English to those who need educational assistance the most.
             </span>,
             "")}
 
@@ -368,7 +371,7 @@ const Section = ({history}) => {
             {makeProfile(오영섭, "오영섭 목사", "주제: 유학생 선교를 위한 도시선교 플랫폼 1, 2", "", "오영섭목사는 열방의 도시 세대에 초점을 두고, 모든 민족 모든 세대 모든 영역에 복음을 전하기위해 '랜드마커 미니스트리(2005)' 설립, 다민족, 다문화, 다언어 사역을 위한 선교적 국제교회 '생수가흐르는숲교회(2014)' 서울의 캠퍼스타운에 개척, 다민족을 위한 '다문화선교협의회(2015)' 공동 설립, 전세계 러시아어권 공동체를 위한  'RUSTA(2016)'를 공동 설립하며, ‘아릴락 도시선교연구소’소장으로 도시 선교’에 집중하고 있다.",
             "인류 역사상 최초로 등장한 이 시대의 도시세대(Urban Generation)에게 있어서, 또한 교회에게 있어서 도시 속 복음이 의미하는 바는 무엇인가? 복음의 본질을 온전히 경험하기 위해 교회가 이해하고 실천해야 하는 도시를 향한 하나님의 계획은 무엇인가? 이 강의에서는 오늘날 이주민 선교 시대를 이끌어가는 도시선교에 대해 정의하고, 특별히 외국인유학생들을 중심으로, 한국에서 일어나고 있는 도시선교의 흐름을 읽어볼 것이다. 외국인유학생을 위한 도시선교 플랫폼인 랜드마커 미니스트리의 사례를 기반으로 한, 다섯 가지 도시선교 전략을 소개하여 동일한 꿈을 꾸는 동역자들을 돕고자 한다.")}
 
-            {makeProfile(박현욱, "박현욱 선교사 (John Park)", "주제: 남미 도시선교의 사례발표", "", <span>
+            {makeProfile(박현욱, "박현욱 선교사 (John Park)", "주제: LPG를 통한 도시선교 ( City mission through the LPG  /  LPG : Líderes de la próxima generación para Dios, Mexico y America Latina )", "", <span>
             - LPG 대표( leaders for the next generation for God, Mexico y America Latina)<br></br>
             예장 ( 통합) 목사로 한국에서 남대문교회,방주교회와 신암젊은교회를 섬겼으며, 전국기독교직장선교회 (예장통합영락교회 파송)간사로 활동하면서, 청년목회자연합과 학원복음화협회 교회실행위원장과 위원으로 섬기며 청년연합운동을 위해 섬겼고 2008년 멕시코 선교사로 파송되어 현재 멕시코 시티에서 LPG ( 2011창립)를 통해서 대학생과 젊은 기독직장인( 멕시코시티 우남대학, 우암대학 등의 모임과 과달라하라 시의 과달라하라 대학과 달리 기독전문모임- 변호사, 상담사 모임을 섬기며 콜롬비아 ,보고타와 온두라스 테구시갈파의 대학생과 젊은이들을 귀납적  말씀사역을 통해 기독리더들을 훈련하며 섬기고 있다. 2018 년부터 멕시코 시티에서 주이레선교적 교회를 개척하여 함께 섬기며 귀납적 말씀사역을 통해 중남미 하나님나라의 차세대 리더쉽에 집중해서 하나님나라의 제자들을 양육하며 섬기고 있다. 장로회신대학과 신학대학원, 연세대연합신학원(신약), 숭실대사회복지 대학원( 사회복지정책), 아세아연합신학 대학원 ( 선교학 )에서 공부했다.
 
@@ -380,8 +383,12 @@ const Section = ({history}) => {
               1) 하나님을 알기 2) 제자공동체 세우기 3) 세상에 대학 성경적 섬김 을 중심으로 사역하고 있으며, 사역의 전략은 도시와 도시의 얼굴을 보여주는 대학생,젊은이들을 통해 현재와 미래세대의 위한 중남미의 하나님나라를 위한 복음주의적 다음세대의 리더를 세움을  귀납적 말씀사역과 소그룹제자 훈련과 현지교회 젊은목회자들을 섬김의 경험을 함께 나누면서 멕시코와 콜롬비아와 온두라스 모임을 통해 젊은이 제자사역의 구체적방법을 나누며 강의하려합니다
             </span>)}
 
-            {makeProfile(Stephen, "Missionary Stephen Kim(김세반)", "주제:  A Case Study of a Korean American Urban Mission Mindful of Ecclesial Primacy, Multicultural and Intergenerational Character, and Missional Dimension and Intention in the Context of Diverse Multiethnic Urban Ministry Setting", "", "Stephen is bilingual and served Korean American and multiethnic congregations in urban settings, including New York City and Chicago over 15 years. His experience partly includes college ministries and church planting as well. He served in International City Ministry since 2010 to assist indigenous and diaspora churches in urban missional ministries. He holds M.Div. with Cross-Cultural Ministry emphasis from Trinity Evangelical Divinity School and currently working on Ph.D. degree in Intercultural Studies at the same institution.",
-            "The theological and sociological case study will include: (1) the peculiar purpose that led to the founding of our diaspora urban mission agency, (2) the nature of the urban mission field context, and (3) immediate biblical principles that shape and form our urban ministries and practices. Then, the talk will present (4) several forms of its current missional ministries before concluding with (5) future urban ministry challenges and opportunities that seem to be emerging in the horizon for many parts of the world. The short talk will brim with reflections on the ecclesial primacy of mission and the socio contextual issues of migration.")}
+            {makeProfile(Stephen, "스데반김 선교사", "주제: 뉴욕 디아스포라 도시선교의 사례", ""
+            , <span>
+              Missionary Stephen Kim (김세반)<br></br>
+              Stephen is a bilingual and served Korean American and multiethnic congregations in urban settings, including New York City and Chicago over 15 years. His experience partly includes college ministries and church planting as well. He ministered in International City Ministry since 2010 to assist indigenous and diaspora churches in urban missional ministries. He holds M.Div. with Cross-Cultural Ministry emphasis from Trinity Evangelical Divinity School and currently working on Ph.D. degree in Intercultural Studies at the same institution.
+            </span>,
+            "The theological and sociological case study will include: (1) an immigrant story that led to the founding of our diaspora urban mission agency, (2) the sociocultural context of the urban mission field of New York, and (3) immediate biblical and cultural principles that shape and form our urban ministries and practices. Then, the field cases will be provided, focusing on (4) several forms of our current missional ministries shaped by above factors before concluding with (5) some future urban ministry challenges and opportunities that seem to be emerging in the urban missional context. The talk will highlight on the significance of ecclesial primacy of mission and the socio-contextual issues on migration in the urban mission")}
             
             {makeProfile(주상현, "주상현 목사", "주제: 노스캐롤라이나 도시선교 사례발표", "", "미국 노스캐롤라이나 침례교 주총회 아시안 선교 사역 담당, 포인트 국제 교회 담임목사, 21세기 모세 사역 단 체 대표를 맡으며 미국에 있는 이민자들, 국제 학생 및 난민들을 대상으로 복음을 전하며 21세기 모세로 훈련 하여 파송하는 사역을 하고 있다. 한동대에서 국제 어문학을 싸우스이스턴 신학교에서 설교학을 전공하였다.",
             "하나님께서 모세를 광야에서 만나 애굽에 보내신 것처럼 21세기 모세를 디아스포라의 광야에서 만나서 파송하 시는 비전을 나누고 하나님께서 어떻게 실재적으로 21세기 모세들을 사용하시는 지에 대한 사례들을 듣는 시 간이 될 것이다.")}
@@ -399,6 +406,8 @@ const Section = ({history}) => {
           </div>
           }
           {section === "문화예술" && <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
+            <iframe className="videoContainer4" src="https://stream.streamingchurch.tv/stream.php?churchid=church11056" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" modestbranding="1" rel="0" >
+            </iframe>
             <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
               <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh", marginTop: "0.8vw"}} >
                 <img style={{width:"100%"}} src={문화예술} alt="시간표"></img>
@@ -444,6 +453,8 @@ const Section = ({history}) => {
           </div>
           }
           {section === "선교적교회" && <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
+            <iframe className="videoContainer4" src="https://stream.streamingchurch.tv/stream.php?churchid=church10525" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" modestbranding="1" rel="0" >
+            </iframe>
             <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
               <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh", marginTop: "0.8vw"}} >
                 <img style={{width:"100%"}} src={선교적교회} alt="시간표"></img>
@@ -457,8 +468,14 @@ const Section = ({history}) => {
               1990년대 후반 선교사로 중국의 영혼들을 섬기다 파송한 교회의 담임목사로 부름받아 서울 송파에서 목회했다. 현재는 워싱턴 휄로쉽교회 담임목사로 부름받아 현재까지 섬기고 있다. 선교사로, 한국교회 목회자로, 또 이민교회의 목회자로섬기는 흔치 않은 사역의 경험들이 미셔널처치에 대한 꿈을 이루어가는데 귀하게 사용되어지고 있다.
             </span>,"21세기 포스트모던시대에 선교적 교회가 어떤 변화를 시도해야하는지 나누고자 한다. 동호회 같은 소그룹 사역을 통해 어떻게 공동체적인 복음전도가 가능할 것인지, 교회 바깥을 향한 사역 뿐 아니라, 교회내에서 진행되는 사역들도 어떻게 지역 사회와 연결되어 복음의 통로 역할을 할 수 있을 지를 살펴보려고 한다. 마지막으로 선교현장에 체류조차 하기 힘든 상황에서 해외선교를 교육선교나 난민선교 중심으로 어떻게 이끌어갈 것인지도 살펴볼 것이다.")}
 
-            {makeProfile(이문홍, "뉴저지실버선교회 (이문홍 사무총장 외)", "주제: 100세 시대를 살아가는 실버들의 선교적 삶 : 올해로 설립 20주년을 맞이하는 뉴저지실버선교회의 선교 훈련 및 선교사 사역 소개. 은퇴 후의 삶을 “모든 족속을 예수께”, “내 생명 다하기까지”, “새로운 삶을 위한 새로운 도전”으로 선교적 삶을 사는 실버들의 이야기.", ""
-            , "현 뉴저지 실버선교회 사무총장, 1968년에 IT분야에 종사, 1970년에 미국에 건너와 같은 분야에서 정년 퇴직했다.  50대부터 많은 단기선교를 다니면서 선교지에 필요한 사역이 무엇인지 터득하고 개발해 왔다.   2006년에 실버선교 교육을 받고 지금까지 뉴저지 실버선교회의 발전을 위해헌신하고 있다.",
+            {makeProfile(이문홍, "이문홍 장로 ", "주제: 100세 시대를 살아가는 실버들의 선교적 삶", ""
+            , <span>
+              현 뉴저지 실버선교회 사무총장, 1968년에 IT분야에 종사, 1970년에 미국에 건너와 같은 분야에서 정년 퇴직했다.  50대부터 많은 단기선교를 다니면서 선교지에 필요한 사역이 무엇인지 터득하고 개발해 왔다.   2006년에 실버선교 교육을 받고 지금까지 뉴저지 실버선교회의 발전을 위해헌신하고 있다.
+              <br></br>
+              2013년부터 2016년까지 뉴저지 갈보리교회(East Brunswick소재) 시무장로 역임<br></br>
+              2018년부터 2019년까지 뉴저지 교회협의회 부회장 역임.<br></br>
+              2021년부터 현재 – 과테말라 세테까 후띠아빠신학교 이사
+            </span>,
             `“뉴저지실버선교회”는 20년전에 은퇴를 바라보는 또는 이미 은퇴한 주의 자녀들을 위해 세워졌으며 이들에 의해 초 교파적으로 운영되어지고 있다. 각 교회마다 비율적으로 노년층이 점점 불어나가고 있어 “실버”들을 위한 프로그램을 개발하는 와중에, “실버선교”는 마지막 생에까지 “선교적 삶”을 이끌어 주는 좋은 해답이 됨을 의심할 여지가 없겠다. 이 강의를 통해서 은퇴자들이 어떻게 선교적 삶을 살아가며 주안에서 기쁨을 누릴 수 있는지를 소개하려고 한다.`)}
           
             {makeProfile(이홍기, "이홍기 집사", "주제: 지역사회에서 미셔널 라이프를 사는 사람들을 위한 미션센터. 초교파적 미션 허브의 다양한 선교적 플랫폼 소개", "",
@@ -482,7 +499,7 @@ const Section = ({history}) => {
             </span>,
             "북한 난민들과의 만남을 시작으로 지난 2008 년부터 이 땅에 와 있는 난민들을 섬기고 있다. 지금까지 40 여개국에서 온 1600 여명의 난민 및 이주민들을 섬기면서 미국은 열방이 우리의 이웃에 와 있는 선교지임을 다시 한번 경험했다. 선교적 교회는 우리가 세상으로 ‘파송받은’ 하나님의 공동체임을 기억하고 이웃에 와 있는 열방에게 나아가는 교회이며, 선교적 교회를 통해 말씀으로 훈련받은 성도들은 선교적 삶을 살아가게 된다. 선교적 교회의 참 의미와 실제로 이루어진 사역의 모습들, 그리고 선교적 삶을 살아가는 성도들의 실제 이야기를 함께 나누고자 한다. ")}
           
-            {makeProfile(김성국, "김성국 목사 (뉴욕퀸즈장로교회)", "주제: 타민족을 품고 섬기는 선교적 교회", "", <span>
+            {makeProfile(김성국, "김성국 목사 (뉴욕퀸즈장로교회)", "주제: 다민족을 품고 섬기는 선교적 교회", "", <span>
             퀸즈장로교회담임, 동부개혁장로회신학교학장, 미주크리스천신문사 사장, 단비TV이사장,  미주한인예수교장로회 부총회장으로 섬기며 전통적인 미주한인이민자를 위한 목회를 넘어 모든 이민자를 포함한  다민족교회를 지향하는 목회를 한다. 총신대학교, 총신신학대학원(M.Div), 고든콘웰신학교(Th.M/D.Min)에서 공부했다. 저서로는 "천성에 가는 길 험하여도" "그 많던 예배자는 어디로 갔을까" 가 있다.
               </span>,
             "뉴욕에서 오래동안 한인이민자들이 모여 성장해가던 보수적인 장로교회가 어떻게 다민족교회로 그 정체성을 바꾸게 되었는지, 그 과정에서 겪은 아픔과 환희는 무엇인지, 다음 세대와는 어떻게 어울리는지 등의 이야기를 다양한 방식으로 들려줄 것이다. 그리고 이 시대의 모든 지역의 모든교회가 다민족교회를 어떻게 적용할 것인가를 제시하게 된다.")}
@@ -538,9 +555,7 @@ const Section = ({history}) => {
             "나를 진짜 선교사로 부르셨는가? 2세대 선교사가 된다는 것은 어떤 것들을 의미하는가? 내가 어떻게 준비되어야 할 것인가? 다음세대를 이끄는 선교사는 어떤 고민들을 갖고 있어야 할까?선교와 결혼은 어떻게 해야하나? 이러한 다음세대의 여러 실제적인 고민들을 나의 여정을 통해 역사하신 하나님에 대해 이야기하며 진솔하게 나누길 소망한다.")}
 
             
-          
-
-          {makeProfile(이선민, "이선민 (Russia MK), 이준일 (Romania MK)", "주제: Mi Casa Tu Casa MK Ministry Presentation", "", <span>
+          {/* {makeProfile(이선민, "이선민 (Russia MK), 이준일 (Romania MK)", "주제: Mi Casa Tu Casa MK Ministry Presentation", "", <span>
           이선민MK는 러시아에 이준일MK는 루마니아에 1992년도에 나갔습니다. 중학교때 한국 MK NEST 둥지캠프에서 만나 친구관계를 계속 유지하고 미국 대학 생활하면서 더 깊은 관계를 맺고 결혼하게 되었습니다. 이선민MK는 오랜시간 사회생활을 하다 지쳐 기도가운데 MK를 위한 community home이란 꿈을 다시 생각나게 하시고 2017년도에 Mi Casa Tu Casa Community (미까뚜까) 를 비영리 단체로 새우고 지금까지 운영하고 있습니다. 이준일MK는 평생 음악을 전공하여 지금은 교회 찬양인도뿐만 아니라 K-Pop 프로듀서로서 많은 곡을 내고 2022에는 Umsic Music이라는 음악온라인스쿨, 커뮤니티, 그리고 프로덕션팀을 만들었습니다. 미까뚜까 사역을 위해서 김희찬 (캄보디아), 윤주혜 (중국), 함한미 (중국) MK들이 동역하여 리더십팀을 이루고 있습니다. 
             </span>,
             <span>
@@ -550,7 +565,7 @@ const Section = ({history}) => {
               <br></br>3. 남가주 MK 커뮤니티: 남가주 미까뚜까 커뮤니티에 속한 MK들만 80명이 넘는다. 이들을 위한 다양한 커뮤니티 이밴트 (예배, 리트릿, 바닷가, holiday) 를 준비하고 MK들이 주님의 나라를 위한 비전을 갖고 구하는 것이 목적이다. 
               <br></br>4. 대학캠퍼스 MK 아웃리치: 남가주 크리스천 대학으로 유학 오는 MK들을 위해서 매달 집밥을 재공하고 커뮤니티를 만들어주고 다양한 도움을 주고 있다. MK들이 많이 다니는 Biola & Azusa 대학을 주로 섬기고 있고 만날때는 MK가 지내는 아파트에서 만나 함께 교제하고 예배를 드리고 있다.
 
-          </span>)}
+          </span>)} */}
 
           {makeProfile(이훈, "TCK Wave: Gary Lee (이훈) 선교사", "", "", <span>
           중국선교사를 꿈꾸던 시절 군입대 한달 전 선교 동원 컨퍼런스인 ‘선교한국(1996)’에서 강렬한 하나님의 MK사역으로의 부르심을 경험한 후 2001년 한국 최초의 선교사자녀사역기관인 MK NEST에서 전임사역자를 시작하여 모국초청 MK Camp를 통해 수많은 1세대 한인MK들을 만나며 한국에서 MK에 대한 존재와 MK사역에 대한 홍보/동원/교육/훈련 사역을 감당했습니다. 
@@ -654,6 +669,8 @@ const Section = ({history}) => {
             </div>
           }
           {section === "BAM" && <div className="mWidth100 mFlexContainer mContainer4p" style={{width: "60%", display: "flex", padding: "2.5vw", border: "1px solid rgb(226, 226, 226)", fontSize: "1vw", marginBottom: "3.5vw", background: "white", flexDirection: "column"}}>
+            <iframe className="videoContainer4" src="https://stream.streamingchurch.tv/stream.php?churchid=church11055" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" modestbranding="1" rel="0" >
+            </iframe>
             <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
               <div className="WebImage" style={{display: "flex", justifyContent: "center", width: "100%", marginBottom: "5vh", marginTop: "0.8vw"}} >
                 <img style={{width:"100%"}} src={BAM} alt="BAM"></img>
@@ -773,7 +790,7 @@ const Section = ({history}) => {
             업마선교회(UPMA: Unreached People Missions Alliance, 미전도종족선교연대)대표, KWMA(한국세계선교협의회)전방개척 실행위원회 코디네이터, 한국전방개척선교저널(KJFM) 편집위원으로 사역하고 있다. 한국 외국어대학교에서 중국어를 전공했고, ACTS에서 중국 티벳지역학(M.A), 북경 중앙민족대 티베트 불교 박사과정을 수료하였다. 1988년부터 조국 대한민국에서 재한중국인교회 화교들과 함께 중국 복음화와 선교사 훈련, 양성을 위해 연구간사, 훈련원 교수로 섬기며 비거주 중국사역을 해오다, 2002년 중국에 들어가서 사역하였다. 다시 선교사의 여정중 본국에서 업마선교회 내 ‘종족과 도시선교연구소(IMPAC) 총무, 선교회 대표로 섬기면서 동시에 고신교단 지역교회(부천 참빛교회)에서 10년간 선교담당 사역을 해왔다. 현재 주파송교회는 행복한교회이다. PSP, MP 강사이다(남은 과업).
             </span>,"한국의 미전도종족 및 전방개척선교가 2023년이면 30년이 된다. 이러한 중요한 때에 미주 한인교회와 보다 더 협력을 활성화하기 위해, 이 강의는 지난 30년 동안 한국교회와 선교사들의 전방개척선교 현장에서의 사역 현황을 살피고, 미래 과제와 협력 네트워크에 필요한 처음 시작을 여는 의미가 있다. 특별히 90년대 한국에 소개된 10/40창과 그 안의 무슬림권역/힌두권역/소승불교(테라바다불교)권역/공산주의권역/정령숭배권역 등으로 단기사역 및 장기선교사로 헌신하여 사역한 사례를 전방개척선교 12권역+@로 현장 중심적으로 알리고, 각 현장에서의 사역 사례를 소개하는데 강의의 중점을 둔다.")}
 
-            {makeProfile(David, "David Bogosian (데이비드 보고시안)", "주제: 마지막 남은 미전도종족에 복음을 전하기 위해 토착 사역과 협력", "", <span>
+            {makeProfile(David, "David Taylor", "주제: 마지막 남은 미전도종족에 복음을 전하기 위해 토착 사역과 협력", "", <span>
             Bio: David served for ten years as a missionary in the Philippines with the Frontier Mission Fellowship. He is the author of Eternal Vision and senior editor of the Global Mission Database. He serves as president of Christian Aid Mission and chairman of COSIM (Coalition on the Support of Indigenous Ministries)
             <br></br>
             Workshop Title : Partnering with Indigenous Ministries to Reach the Last Frontiers

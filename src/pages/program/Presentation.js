@@ -31,7 +31,7 @@ const Presentation = ({history}) => {
                   <span>- Trinity Evangelical Divinity School, M.Div.,Th.M., Ph.D.</span><br></br>
                   <br></br>
                   <span>- KWMC 사무총장</span><br></br>
-                  <span>- Mission NGO 글로벌호프 대표</span><br></br>
+                  <span>- Missional NGO 글로벌호프 대표</span><br></br>
                   <span>- (前) KWMA 사무총장</span><br></br>
                   <span>- (前) KWMF 사무총장, 대표회장</span>
                 </div>
