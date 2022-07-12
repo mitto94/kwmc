@@ -129,6 +129,13 @@ const Update = ({history}) => {
                   <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/문화예술/09 문화예술&미디어 - 이규성 선교사(Godsends_Presentation).docx">이규성 선교사</a></li>
               </ol>
             }
+            {section === "도시선교" &&
+              <ol style={{display: "inline-flex", flexWrap: "wrap", width: "100%"}}>
+                  <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/도시선교/Stephen Kim 김세반 선교사 2022 KWMC Urban City Track Presentation - Size Reduced.pdf">김세반 선교사</a></li>
+                  <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/도시선교/오영섭 목사 - 외국인유학생을 위한 도시선교 플랫폼(최종).hwp">오영섭 목사</a></li>
+                  <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/도시선교/주상현 목사 워크샵(21세기 모세 이야기).pdf">주상현 목사</a></li>
+              </ol>
+            }
           </div>
       </div>
       <BottomBanner isHome={false}></BottomBanner>

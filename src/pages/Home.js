@@ -85,8 +85,8 @@ const Home = ({history}) => {
         </div>
         <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
           <div className="mobColumn" style={{width: "60vw", display: "flex", justifyContent: "center"}}>
-            <Button style={{borderRight: "1px solid #787878", position: "relative", zIndex: "1000", boxShadow: "none"}} onClick={() => window.open("https://forms.gle/nVCRY7tRWsxS4HGN7")} label="대회신청하기 (선교사)" className="p-button-raised p-button-text p-button-plain registerButton" />
-            <Button label="대회신청하기 (일반참가자/교회/MK/MZ)" style={{width: "30vw", height: "9vh", boxShadow: "none", border: "1px solid lightgray", background: "#E2EBEE", wordBreak: "keep-all"}} className="p-button-raised p-button-text p-button-plain registerButton2" onClick={() => window.open("https://form.jotform.com/221007600697148")} />
+            <Button style={{borderRight: "1px solid #787878", position: "relative", zIndex: "1000", boxShadow: "none"}} onClick={() => window.open("https://www.youtube.com/channel/UCMtWN6GVqhKFDqGo0oksP-w")} label="실시간 YouTube LIVE 시청하기" className="p-button-raised p-button-text p-button-plain registerButton" />
+            {/* <Button label="대회신청하기 (일반참가자/교회/MK/MZ)" style={{width: "30vw", height: "9vh", boxShadow: "none", border: "1px solid lightgray", background: "#E2EBEE", wordBreak: "keep-all"}} className="p-button-raised p-button-text p-button-plain registerButton2" onClick={() => window.open("https://form.jotform.com/221007600697148")} /> */}
           </div>
         </div>
         <iframe className="videoContainer2" src="https://www.youtube.com/embed/cvXGy0cFn08" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" modestbranding="1" rel="0" >

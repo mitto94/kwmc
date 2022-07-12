@@ -383,7 +383,7 @@ const Section = ({history}) => {
               1) 하나님을 알기 2) 제자공동체 세우기 3) 세상에 대학 성경적 섬김 을 중심으로 사역하고 있으며, 사역의 전략은 도시와 도시의 얼굴을 보여주는 대학생,젊은이들을 통해 현재와 미래세대의 위한 중남미의 하나님나라를 위한 복음주의적 다음세대의 리더를 세움을  귀납적 말씀사역과 소그룹제자 훈련과 현지교회 젊은목회자들을 섬김의 경험을 함께 나누면서 멕시코와 콜롬비아와 온두라스 모임을 통해 젊은이 제자사역의 구체적방법을 나누며 강의하려합니다
             </span>)}
 
-            {makeProfile(Stephen, "스데반김 선교사", "주제: 뉴욕 디아스포라 도시선교의 사례", ""
+            {makeProfile(Stephen, "김세반 선교사", "주제: 뉴욕 디아스포라 도시선교의 사례", ""
             , <span>
               Missionary Stephen Kim (김세반)<br></br>
               Stephen is a bilingual and served Korean American and multiethnic congregations in urban settings, including New York City and Chicago over 15 years. His experience partly includes college ministries and church planting as well. He ministered in International City Ministry since 2010 to assist indigenous and diaspora churches in urban missional ministries. He holds M.Div. with Cross-Cultural Ministry emphasis from Trinity Evangelical Divinity School and currently working on Ph.D. degree in Intercultural Studies at the same institution.

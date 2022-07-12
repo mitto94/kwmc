@@ -124,6 +124,13 @@
 .p-button:focus {
     box-shadow: none !important;
 }
+.modalButton {
+    background-color: #1C3871;
+    color: white !important;
+    border: none;
+    padding: .4rem;
+    cursor: pointer;
+}
 @media screen and (min-width: 961px) {
     .p-menuitem {
         height: 100%;
@@ -165,7 +172,7 @@
     
     .registerButton {
         font-size: 1.15vw !important;
-        width: 30vw !important;
+        width: 60vw !important;
         min-width: 10rem !important;
         font-family: Noto Sans KR !important;
         background-color: #003685 !important;

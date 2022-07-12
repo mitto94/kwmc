@@ -28,6 +28,10 @@ import Display from './pages/register/Display';
 import Presentation from './pages/program/Presentation';
 import Bible from './pages/program/Bible';
 import Special from './pages/program/Special';
+
+import 김휴성이창진 from './pages/data/김휴성이창진';
+import 박상은대표 from './pages/data/박상은대표';
+
 const App = () => {
   return (
     <div style={{height: "100%", width: "100%", paddingBottom: "8vh", background: "rgb(236, 246, 252)"}}>
@@ -54,7 +58,6 @@ const App = () => {
 					<Route path="/guide_around" component={Around}/>
 					<Route path="/guide_etc" component={Etc}/>
 
-
 					<Route path="/register" component={Register}/>
 					<Route path="/register_missionary" component={Missionary}/>
 					<Route path="/register_mkmz" component={MkMz}/>
@@ -66,6 +69,11 @@ const App = () => {
 					<Route path="/data_update" component={Update}/>
 
 					<Route path="/planning" component={Plan}/>
+
+					<Route path="/김휴성이창진" component={김휴성이창진}/>
+					<Route path="/박상은대표" component={박상은대표}/>
+					<Route path="/planning" component={Plan}/>
+
 					<Route path="/" component={Home}></Route>
 
 					<Redirect path="*" to="/" />
