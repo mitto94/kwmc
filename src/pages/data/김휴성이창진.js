@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 
-
 const 김휴성이창진 = ({history}) => {
   const [section, setSection] = useState("디아스포라");
   return (

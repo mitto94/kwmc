@@ -7,7 +7,7 @@ import BottomBanner from '../../components/bottomBanner';
 const Update = ({history}) => {
   const [section, setSection] = useState("디아스포라");
   return (
-    <div style={{width: "100%", height: "100%", display: "flex", flexDirection: "column", alignItems: "center"}}>
+    <div style={{width: "100%", height: "100%", display: "flex", flexDirection: "column", background: "#ecf6fc"}}>
       <Header history={history}></Header>
       <TopBanner></TopBanner>
       <div style={{width: "100%", display: "flex", justifyContent: "center"}}>
@@ -113,18 +113,23 @@ const Update = ({history}) => {
             }
             {section === "NGO와 국제기구" &&
               <ol style={{display: "inline-flex", flexWrap: "wrap", width: "100%"}}>
-                  <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/문화예술/김휴성이창진.Zip">김휴성 선교사</a></li>
-                  <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/비정부기구/박상은 대표.zip">박상은(샘병원 미션원장)</a></li>
+                  <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/문화예술/01 김휴성 선교사 - 글로벌호프 기관소개.pdf">김휴성 선교사</a></li>
+                  <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/비정부기구/박상은대표/02 박상은(샘병원 미션원장) - NGO와 의료선교.hwp">박상은(샘병원 미션원장)</a></li>
+                  {/* <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org//#/박상은대표">박상은(샘병원 미션원장)</a></li> */}
+                  {/* <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org//#/박상은대표">박상은(아프리카미래재단 대표)</a></li> */}
+                  <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/비정부기구/박상은대표/06 박상은(아프리카미래재단 대표) - NGO와 아프리카.hwp">박상은(아프리카미래재단 대표)</a></li>
                   <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/비정부기구/03 신혜경 팀장 - 사역사례 발표.docx">신혜경 팀장</a></li>
-                  <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/비정부기구/박상은 대표.zip">박상은(아프리카미래재단 대표)</a></li>
+                  
               </ol>
             }
             {section === "문화예술" &&
               <ol style={{display: "inline-flex", flexWrap: "wrap", width: "100%"}}>
+                  {/* <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/문화예술/01 김휴성 선교사 - 글로벌호프 기관소개.pdf">김휴성 선교사</a></li> */}
+                  <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/문화예술/01 문화예술&미디어 - 이유정 목사(예배와 문화운동의 예술적 이해와 선교적 제언).docx">이유정 목사</a></li>
                   <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/문화예술/02 문화예술&미디어 - 강중현 전도사(한국 찬양사역자들의 사역 현장 이야기).hwp">강중현 전도사</a></li>
                   <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/문화예술/03 문화예술&미디어 - 심도성 대표(한국 기독교 음악 현장과 선교적 가능성).pdf">심도성 대표</a></li>
                   <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/문화예술/05 문화예술&미디어 - 박종암 선교사 (베트남 문화예술선교).hwp">박종암 선교사</a></li>
-                  <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/문화예술/김휴성이창진.Zip">이창진 선교사</a></li>
+                  <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/문화예술/06 문화예술&미디어 - 이창진 선교사(청년미디어 인턴십을 통한 거점미디어센터 파트너십).pdf">이창진 선교사</a></li>
                   <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/문화예술/07 문화예술&미디어 - 김인호 선교사(거점 미디어선교센터 태국 운영).pdf">김인호 선교사</a></li>
                   <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/문화예술/09 문화예술&미디어 - 이규성 선교사(Godsends_Presentation).docx">이규성 선교사</a></li>
               </ol>
@@ -134,6 +139,18 @@ const Update = ({history}) => {
                   <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/도시선교/Stephen Kim 김세반 선교사 2022 KWMC Urban City Track Presentation - Size Reduced.pdf">김세반 선교사</a></li>
                   <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/도시선교/오영섭 목사 - 외국인유학생을 위한 도시선교 플랫폼(최종).hwp">오영섭 목사</a></li>
                   <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/도시선교/주상현 목사 워크샵(21세기 모세 이야기).pdf">주상현 목사</a></li>
+              </ol>
+            }
+            {section === "MK" &&
+              <ol style={{display: "inline-flex", flexWrap: "wrap", width: "100%"}}>
+                  <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/MK/03 이훈 선교사_TCKWAVE동역가이드.pdf">이훈 선교사</a></li>
+                  <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/MK/05 오규원_2022.07.13_MK Track.pdf">오규원</a></li>
+                  <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/MK/04 탁영준 선교사_MK.zip">탁영준 선교사</a></li>
+              </ol>
+            }
+            {section === "선교적공동체성경읽기" &&
+              <ol style={{display: "inline-flex", flexWrap: "wrap", width: "100%"}}>
+                  <li className="mWidth100" style={{width: "46%", marginBottom: "2vh", margin: "2%" }}><a target="_blank" rel="noreferrer" style={{textDecoration: "none"}} href="http://kwmc2022.org/files/영역별모임/선교적공동체성경읽기/선교적공동체성경읽기(Charles Kim 목사 & 김응식 대표).pptx">Charles Kim 목사 & 김응식 대표</a></li>
               </ol>
             }
           </div>

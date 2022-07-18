@@ -18,12 +18,12 @@ const DataMenu = ({history}) => {
               })}}
               style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center", background: "white", textAlign: "center", wordBreak: "keep-all"}}>홍보자료 (Promo Video & Articles)</div>
             <div className={history?.location.pathname === "/data_update" ? "clickedMenu" : ""} onClick={() => {history.push({
-              // pathname: "/data_update",
+              pathname: "/data_update",
               state: {
                 from: "data_update"
               }
               })}}
-              style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center", textAlign: "center", wordBreak: "keep-all"}}>영역별모임 강의안 (Track Summaries)</div>
+              style={{borderRight: "1px solid #E2E2E2", width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center", textAlign: "center", wordBreak: "keep-all", background: "white"}}>영역별모임 강의안 (Track Summaries)</div>
           </div>
   );
 }

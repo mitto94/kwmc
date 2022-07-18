@@ -76,7 +76,7 @@ const App = () => {
 
 					<Route path="/" component={Home}></Route>
 
-					<Redirect path="*" to="/" />
+					{/* <Redirect path="*" to="/" /> */}
 				</Switch>
 			</div>
   );

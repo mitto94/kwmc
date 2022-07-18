@@ -486,12 +486,13 @@ const Header = ({history}) => {
 			   {
 				  label:'영역별모임 강의안 (Track Summaries)',
 				  command: () => history.push({
-					pathname: "/planning",
-					// pathname: "/data_update",
+					// pathname: "/planning",
+					pathname: "/data_update",
 					state: {
 						from: "update"
 					}
-				})
+				}),
+				className: "made"
 			   },
 			]
 		 },
