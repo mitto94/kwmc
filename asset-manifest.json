@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kwmc/static/css/main.9b6c33c8.chunk.css",
-    "main.js": "/kwmc/static/js/main.4d01d00b.chunk.js",
-    "main.js.map": "/kwmc/static/js/main.4d01d00b.chunk.js.map",
+    "main.js": "/kwmc/static/js/main.8305feba.chunk.js",
+    "main.js.map": "/kwmc/static/js/main.8305feba.chunk.js.map",
     "runtime-main.js": "/kwmc/static/js/runtime-main.0a38eb68.js",
     "runtime-main.js.map": "/kwmc/static/js/runtime-main.0a38eb68.js.map",
     "static/css/2.78c5b121.chunk.css": "/kwmc/static/css/2.78c5b121.chunk.css",
@@ -161,6 +161,6 @@
     "static/css/2.78c5b121.chunk.css",
     "static/js/2.1d7b2960.chunk.js",
     "static/css/main.9b6c33c8.chunk.css",
-    "static/js/main.4d01d00b.chunk.js"
+    "static/js/main.8305feba.chunk.js"
   ]
 }
